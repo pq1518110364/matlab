@@ -1,0 +1,73 @@
+% clear all
+% mex cec17_func.cpp -DWINDOWS
+func_num=1;
+D=10;
+Xmin=-100;
+Xmax=100;
+pop_size=100;
+iter_max=5000;
+runs=1;
+fhd=str2func('cec17_func');
+for i=1:29
+    func_num=i;
+    % 跳过F2（func_num=2）
+    if func_num == 2
+        continue; % 直接跳到下一次循环
+    end
+    for j=1:runs
+        fprintf('正在运行函数F%d，第%d次重复\n', func_num, j);
+        % 调用PSO，获取收敛曲线
+        i,j,
+        [gbest,gbestval,FES]= PSO_func(fhd,D,pop_size,iter_max,Xmin,Xmax,func_num);
+        xbest(j,:)=gbest;
+        fbest(i,j)=gbestval;
+        fbest(i,j)
+    end
+    f_mean(i)=mean(fbest(i,:));
+end
+
+
+% 主程序：运行PSO并绘制收敛曲线
+clear all;
+D = 10;  % 问题维度（若要绘制函数图像，需改为2）
+pop_size = 100;
+iter_max = 5000;
+Xmin = -100;
+Xmax = 100;
+runs = 1;
+fhd = str2func('cec17_func');
+
+% 初始化存储结果的变量
+fbest = zeros(29, runs);
+f_mean = zeros(29, 1);
+
+for i = 1:29
+    func_num = i;
+    if func_num == 2  % 跳过F2
+        continue;
+    end
+    for j = 1:runs
+        fprintf('正在运行函数F%d，第%d次重复\n', func_num, j);
+        % 调用PSO，获取收敛曲线 PSO_func(fhd,D,pop_size,iter_max,Xmin,Xmax,func_num)
+        [gbest, gbestval, FES, conv_curve] = PSO_func(fhd, D, pop_size, iter_max, Xmin, Xmax, func_num);
+        xbest(j,:) = gbest;
+        fbest(i,j) = gbestval;
+        
+        % 绘制收敛曲线
+        figure;
+        plot(1:iter_max, conv_curve, 'b-', 'LineWidth', 1.5);
+        xlabel('迭代次数');
+        ylabel('全局最优适应度值');
+        title(['F', num2str(func_num), ' 收敛曲线（第', num2str(j), '次）']);
+        grid on;
+        saveas(gcf, ['F', num2str(func_num), '_run', num2str(j), '.png'], 'png');
+        close;
+    end
+    f_mean(i) = mean(fbest(i,:));
+end
+
+% for i=1:29
+% eval(['load input_data/shift_data_' num2str(i) '.txt']);
+% eval(['O=shift_data_' num2str(i) '(1:10);']);
+% f(i)=cec14_func(O',i);i,f(i)
+% end
