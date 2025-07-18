@@ -2,99 +2,201 @@ clear all
 close all
 clc
 addpath(genpath(pwd)); %将当前工作目录以及其子目录添加到 MATLAB 搜索路径中，以便可以找到相关函数和文件。
-%% 启动日志和diary
+%% 启动日志，diary以及计时
+tic %时间计时器启动
 start_logging();
 
 %% 数据读取与处理，测试cec函数时这一操作没必要
 
 %% 设置参数
-PD_no = 50; % Number of sand cat 沙猫优化算法
-Max_iter = 1000; % 最大迭代次数
+PD_no = 30; % Number of sand cat 沙猫优化算法
+Max_iter = 500; % 最大迭代次数
 CEC_f = 05;
-F_no = 10;
+% F_no = 10;
 
-% log_message(sprintf('参数设置: PD_no=%d, Max_iter=%d', PD_no, Max_iter), 'INFO');
+%% 调用函数，获得参数
 
-% [Function_name,F_num] = get_CECname(b);
+[Function_name,F_num] = get_CECname(CEC_f);
 % Best = zeros(F_num,MaxA);  %存储最优适应度值
 % Mean = zeros(F_num,MaxA);  %存储平均适应度值
 % Std = zeros(F_num,MaxA);   %存储适应度方差
 % F_sum = zeros(F_num*3,MaxA); %最优值，平均值和方差过渡
 % next_sum = zeros(F_num*3,MaxA); %存储最优值，平均值和方差
+for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排查，先跑1-3吧
+    f_name = get_F_name(a);  %获得函数的序号
+    [LB,UB,Dim,F_obj] = Function_name(f_name); %获得函数的边界
+    % 白鲸优化算法(BWO)
+    [BWOBest_pos,BWOBest_score, BWO_cg_curve ] = BWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
+    % 鲸鱼优化算法（WOA）
+    [WOABest_pos,WOABest_score, WOA_cg_curve ] = WOA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call WOA
+    % 正余弦优化算法（SCA）   
+    [Alpha_score,Alpha_pos,SCA_cg_curve] = SCA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SCA
+    % 哈里斯鹰优化算法(HHO)
+    [HHO_Score,HHO_pos,HHO_cg_curve]=HHO(PD_no,Max_iter,LB,UB,Dim,F_obj);% Call HHO
+    % 沙猫群优化算法(SCSO)    
+    [SCSOBest_pos,SCSOBest_score, SCSO_cg_curve ] = SCSO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SSA
+    % 蜣螂优化算法(DBO)
+    [DBOBest_pos,DBOBest_score, DBO_cg_curve ] = DBO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call DBO
+
+    %% 绘制进化曲线
+    CNT=20;
+    k=round(linspace(1,Max_iter,CNT)); %随机选CNT个点
+    iter=1:1:Max_iter;
+    figure('Position',[154   145   894   357]);
+    subplot(1,2,1);
+    func_plot_2005(f_name);     % Function plot 需要替换原来的func_plot
+    
+    %拼接标题
+    f_namestr = f_name;
+    title(f_namestr + '函数图');
+    xlabel('x_1');
+    ylabel('x_2');
+    zlabel([f_namestr,'( x_1 , x_2 )'])
+    subplot(1,2,2);       % Convergence plot
+    
+        semilogy(iter(k),BWO_cg_curve(k),'Color', [1 0.5 0], 'Marker','+','LineStyle','-.', 'linewidth', 1);
+        hold on
+        semilogy(iter(k),WOA_cg_curve(k),'r-+','linewidth',1);
+        hold on
+        semilogy(iter(k),SCA_cg_curve(k),'y-+','linewidth',1);
+        hold on
+        semilogy(iter(k),HHO_cg_curve(k),'k-s','linewidth',1);
+        hold on
+        semilogy(iter(k),SCSO_cg_curve(k),'m-^','linewidth',1);
+        hold on
+        semilogy(iter(k),DBO_cg_curve(k),'b-*','linewidth',1);
+        hold on
+        % semilogy(iter(k),PTWDBO_cg_curve(k),'g-o','linewidth',1);
+        % hold on
+        
+    grid on;
+    
+    title('各算法在'+f_namestr+'函数的迭代图'); % 添加标题
+    xlabel('Iteration');
+    ylabel('Best fitness so far');
+    % box on
+    % legend('BWO','WOA','SCA','HHO','SCSO','DBO','PTWDBO')
+    legend('BWO','WOA','SCA','HHO','SCSO','DBO')
+    % set (gcf,'position', [300,300,600,330])
+    
+    %% 寻求BWO的最佳适应度的Best、Mean、STD、Time
+    BWO_best_pos_list = zeros(30, 1);
+    for i = 1:30
+        [BWOBest_pos,BWOBest_score, BWO_cg_curve ] = BWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
+         % 保存每次循环的结果
+        BWO_best_pos_list(i) = BWOBest_pos;
+    end
+    % 计算 best、mean、STD、time
+    best = min(BWO_best_pos_list);
+    mean_val = mean(BWO_best_pos_list);
+    std_val = std(BWO_best_pos_list);
+    
+    % 打印结果
+    fprintf('以下为BWO的数据展示：\n')
+    fprintf('BWO_Best: %.2e  ', best);
+    fprintf('BWO_Mean: %.2e  ', mean_val);
+    fprintf('BWO_STD: %.2e  \n', std_val);
+
+    %% 寻求WOA的最佳适应度的Best、Mean、STD、Time
+    WOA_best_pos_list = zeros(30, 1);
+    for i = 1:30
+        [WOABest_pos,WOABest_score, WOA_cg_curve ] = WOA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call WOA
+         % 保存每次循环的结果
+        WOA_best_pos_list(i) = WOABest_pos;
+    end
+    % 计算 best、mean、STD、time
+    best = min(WOA_best_pos_list);
+    mean_val = mean(WOA_best_pos_list);
+    std_val = std(WOA_best_pos_list);
+    
+    % 打印结果
+    fprintf('以下为WOA的数据展示：\n')
+    fprintf('WOA_Best: %.2e  ', best);
+    fprintf('WOA_Mean: %.2e  ', mean_val);
+    fprintf('WOA_STD: %.2e  \n', std_val);
+    
+    %% 寻求SCA的最佳适应度的Best、Mean、STD、Time
+    SCA_best_pos_list = zeros(30, 1);
+    for i = 1:30
+        [Alpha_score,Alpha_pos,SCA_cg_curve] = SCA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call GWO
+         % 保存每次循环的结果
+        SCA_best_pos_list(i) = Alpha_score;
+    end
+    % 计算 best、mean、STD、time
+    best = min(SCA_best_pos_list);
+    mean_val = mean(SCA_best_pos_list);
+    std_val = std(SCA_best_pos_list);
+    
+    % 打印结果
+    fprintf('以下为SCA的数据展示：\n')
+    fprintf('SCA_Best: %.2e  ', best);
+    fprintf('SCA_Mean: %.2e  ', mean_val);
+    fprintf('SCA_STD: %.2e  \n', std_val);
+    
+    %% 寻求HHO的最佳适应度的Best、Mean、STD、Time
+    HHO_best_pos_list = zeros(30, 1);
+    for i = 1:30
+        [HHO_Score,HHO_pos,HHO_cg_curve]=HHO(PD_no,Max_iter,LB,UB,Dim,F_obj);
+         % 保存每次循环的结果
+        HHO_best_pos_list(i) = HHO_Score;
+    end
+    % 计算 best、mean、STD、time
+    best = min(HHO_best_pos_list);
+    mean_val = mean(HHO_best_pos_list);
+    std_val = std(HHO_best_pos_list);
+    
+    % 打印结果
+    fprintf('以下为HHO的数据展示：\n')
+    fprintf('HHO_Best: %.2e  ', best);
+    fprintf('HHO_Mean: %.2e  ', mean_val);
+    fprintf('HHO_STD: %.2e  \n', std_val);
+    
+    %% 寻求SCSO的最佳适应度的Best、Mean、STD、Time
+    SCSO_best_pos_list = zeros(30, 1);
+    for i = 1:30
+       [SCSOBest_pos,SCSOBest_score, SCSO_cg_curve ] = SCSO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SCSO
+         % 保存每次循环的结果
+        SCSO_best_pos_list(i) = SCSOBest_pos;
+    end
+    % 计算 best、mean、STD、time
+    best = min(SCSO_best_pos_list);
+    mean_val = mean(SCSO_best_pos_list);
+    std_val = std(SCSO_best_pos_list);
+    
+    % 打印结果
+    fprintf('以下为SCSO的数据展示：\n')
+    fprintf('SCSO_Best: %.2e  ', best);
+    fprintf('SCSO_Mean: %.2e  ', mean_val);
+    fprintf('SCSO_STD: %.2e  \n', std_val);
+    
+    %% 寻求DBO的最佳适应度的Best、Mean、STD、Time
+    DBO_best_pos_list = zeros(30, 1);
+    for i = 1:30
+        [DBOBest_pos,DBOBest_score, DBO_cg_curve ] = DBO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call DBO
+         % 保存每次循环的结果
+       DBO_best_pos_list(i) = DBOBest_pos;
+    end
+    % 计算 best、mean、STD、time
+    best = min(DBO_best_pos_list);
+    mean_val = mean(DBO_best_pos_list);
+    std_val = std(DBO_best_pos_list);
+    
+    % 打印结果
+    fprintf('以下为DBO的数据展示：\n')
+    fprintf('DBO_Best: %.2e  ', best);
+    fprintf('DBO_Mean: %.2e  ', mean_val);
+    fprintf('DBO_STD: %.2e  \n', std_val);
 
 
-% try
-%% 调用函数，获得参数
-% 运行算法
-
-[Function_name,F_num] = get_CECname(CEC_f);
-F_name = get_F_name(F_no); %获得函数的序号
-[LB,UB,Dim,F_obj] = Function_name(F_name); %获得函数的边界
-
-[Best_score,Best_pos,GWO_cg_curve] = GWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
-fprintf ('Best solution obtained by GWO: %s\n', num2str(Best_score,'%e  '));
-display(['The best optimal value of the objective funciton found by BWO  for ' [num2str(F_name)],'  is : ', num2str(Best_pos)]);
-
-%% BWO    
-[Best_pos,Best_score, BWO_cg_curve ] = BWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
-fprintf ('Best solution obtained by BWO: %s\n', num2str(Best_score,'%e  '));
-display(['The best optimal value of the objective funciton found by BWO  for ' [num2str(F_name)],'  is : ', num2str(Best_pos)]);
-
-%% SSA    
-[Best_pos,Best_score, SSA_cg_curve ] = SSA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SSA
-fprintf ('Best solution obtained by SSA: %s\n', num2str(Best_score,'%e  '));
-display(['The best optimal value of the objective funciton found by SSA  for ' [num2str(F_name)],'  is : ', num2str(Best_pos)]);
-
-%% SCSO
-[BsSCSO,BpSCSO,SCSO_cg_curve]=SCSO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call MSCSO
-fprintf ('Best solution obtained by SCSO: %s\n', num2str(BsSCSO,'%e  '));
-display(['The best optimal value of the objective funciton found by SCSO  for ' [num2str(F_name)],'  is : ', num2str(BpSCSO)]);
-
-%% DBO    
-[Best_pos,Best_score, DBO_cg_curve ] = DBO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call DBO
-fprintf ('Best solution obtained by DBO: %s\n', num2str(Best_score,'%e  '));
-display(['The best optimal value of the objective funciton found by DBO  for ' [num2str(F_name)],'  is : ', num2str(Best_pos)]);
-
-% catch ME
-%     % 记录错误信息
-%     log_message(ME.message, 'ERROR');
-%     log_message(sprintf('堆栈信息: %s at line %d', ME.stack(1).name, ME.stack(1).line), 'ERROR');
-% 
-% end
-
+end
 
 %% MaxA运行的算法，F_num*runs是独立运行得出的数据
 
 
-%% 绘制进化曲线
-CNT=20;
-k=round(linspace(1,Max_iter,CNT)); %随机选CNT个点
-% 注意：如果收敛曲线画出来的点很少，随机点很稀疏，说明点取少了，这时应增加取点的数量，100、200、300等，逐渐增加
-% 相反，如果收敛曲线上的随机点非常密集，说明点取多了，此时要减少取点数量
-iter=1:1:Max_iter;
-figure('Position',[154   145   894   357]);
-subplot(1,2,1);
-func_plot_2005(F_name);     % Function plot
-title('Parameter space')
-xlabel('x_1');
-ylabel('x_2');
-zlabel([F_name,'( x_1 , x_2 )'])
-subplot(1,2,2);       % Convergence plot
-h1 = semilogy(iter(k),BWO_cg_curve(k),'y-+','linewidth',1);
-hold on
-h2 = semilogy(iter(k),SSA_cg_curve(k),'k-s','linewidth',1);
-hold on
-h3 = semilogy(iter(k),SCSO_cg_curve(k),'m-^','linewidth',1);
-hold on
-h4 = semilogy(iter(k),DBO_cg_curve(k),'b-*','linewidth',1);
-hold on
-h5 = semilogy(iter(k),GWO_cg_curve(k),'g-o','linewidth',1);
-xlabel('Iteration#');
-ylabel('Best fitness so far');
-legend('BWO','SSA','SCSO','DBO','GWO');
-
 
 %% 打印出评价指标
 
-%% 结束日志
+
+%% 结束日志以及计时
 stop_logging();
+toc

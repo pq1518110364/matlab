@@ -31,7 +31,7 @@ F_no = 10;
 F_name = get_F_name(F_no); %获得函数的序号
 [LB,UB,Dim,F_obj] = Function_name(F_name); %获得函数的边界
 
-[Best_score,Best_pos,GWO_cg_curve] = GWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
+[Best_pos,Best_score,GWO_cg_curve] = GWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
 fprintf ('Best solution obtained by GWO: %s\n', num2str(Best_score,'%e  '));
 display(['The best optimal value of the objective funciton found by BWO  for ' [num2str(F_name)],'  is : ', num2str(Best_pos)]);
 

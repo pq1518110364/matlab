@@ -15,7 +15,7 @@ habitat.Cost=[];
 pop=repmat(habitat,N,1);
 
 for i=1:N
-    pop(i).Position=unifrnd(lb,ub,VarSize);
+    pop(i).Position=unifrnd(lb,ub,VarSize); %使用unifrnd函数生成N个随机的决策变量向量，范围在lb和ub之间
     pop(i).Cost=objective(pop(i).Position);
 end
 
@@ -25,7 +25,6 @@ pop=pop(sortOrder);
 
 % 用来保存每代的最优值
 BestCost=zeros(T,1);
-
 %% BWO 主循环
 
 for it=1:T
@@ -70,6 +69,7 @@ for it=1:T
         newpop(i).Cost=objective(newpop(i).Position);
 
 
+       %这里就可以看作是利用莱维飞行使其跳出局部，增强了全局的开发程度。
         if Bf<Wf
             C2=2*Wf*N;
             Xstep=(ub-lb)*exp(-C2*it/T); % Eq.(9)
@@ -113,10 +113,10 @@ for it=1:T
 
 end
 %% 输出最终结果
-curve = BestCost;
+curve = BestCost;   
 format long e;
-Best_score =min(BestCost);
-Best_pos = Bestsol;
+Best_pos =min(BestCost);
+Best_score = Bestsol;
 end
 
 % Levy飞行函数

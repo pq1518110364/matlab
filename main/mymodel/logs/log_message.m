@@ -10,6 +10,11 @@ function log_message(message, level, display_on_screen, use_diary)
         use_diary = true;  % 默认启用diary集成
     end
     
+    % 完全过滤以"Error:"开头的消息
+    if strncmpi(message, 'Error:', 6)
+        return;  % 直接返回，不记录
+    end
+    
     % 确保log文件夹存在
     log_dir = 'logs';
     if ~exist(log_dir, 'dir')
