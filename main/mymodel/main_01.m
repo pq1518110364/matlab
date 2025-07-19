@@ -1,7 +1,9 @@
 clear all 
 close all
 clc
-addpath(genpath(pwd)); %将当前工作目录以及其子目录添加到 MATLAB 搜索路径中，以便可以找到相关函数和文件。
+%% 将当前工作目录以及其子目录添加到 MATLAB 搜索路径中，以便可以找到相关函数和文件
+setup_paths();
+
 %% 启动日志和diary
 start_logging();
 

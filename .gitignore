@@ -1,4 +1,6 @@
-.idea/
+*.log
+*.mat
+*.txt
 
 logs/
 result/
