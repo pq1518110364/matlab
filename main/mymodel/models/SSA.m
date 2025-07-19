@@ -1,3 +1,4 @@
+%% 麻雀优化算法 
 function [fMin , bestX,Convergence_curve ] = SSA(pop, M,c,d,dim,fobj  )
 
 P_percent = 0.2;    % The population size of producers accounts for "P_percent" percent of the total population size

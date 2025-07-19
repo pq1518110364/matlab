@@ -28,7 +28,7 @@ VRmax=repmat(VRmax,ps,1);
 Vmin=repmat(-mv,ps,1);
 Vmax=-Vmin;
 pos=VRmin+(VRmax-VRmin).*rand(ps,D);
-
+% 通过函数句柄 fhd 调用目标函数，传入参数 pos'（转置后的 pos）以及 varargin 中的所有参数
 e=feval(fhd,pos',varargin{:});
 
 fitcount=ps;

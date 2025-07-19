@@ -1,6 +1,4 @@
 %%%  白鲸优化(BWO)算法  %%%
-
-
 function [Best_pos,Best_score,curve] = BWO(N,T,lb,ub,D,y)
 %% 问题设定
 

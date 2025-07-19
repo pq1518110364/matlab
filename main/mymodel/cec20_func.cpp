@@ -162,7 +162,7 @@ void cec20_test_func(double *x, double *f, int nx, int mx,int func_num0)
 		}
 
 		/* Load Matrix M*/
-		sprintf(FileName, "input_data_20/M_%d_D%d.txt", func_num,nx);
+		sprintf(FileName, "input_data20/M_%d_D%d.txt", func_num,nx);
 		fpt = fopen(FileName,"r");
 		if (fpt==NULL)
 		{
@@ -191,7 +191,7 @@ void cec20_test_func(double *x, double *f, int nx, int mx,int func_num0)
 		fclose(fpt);
 		
 		/* Load shift_data */
-		sprintf(FileName, "input_data_20/shift_data_%d.txt", func_num);
+		sprintf(FileName, "input_data20/shift_data_%d.txt", func_num);
 		fpt = fopen(FileName,"r");
 		if (fpt==NULL)
 		{
@@ -234,7 +234,7 @@ void cec20_test_func(double *x, double *f, int nx, int mx,int func_num0)
 		
 		if (func_num==4||func_num==6||(func_num>=11&&func_num<=20))//4 hf01 6 hf03 in cec2020**
 		{
-			sprintf(FileName, "input_data_20/shuffle_data_%d_D%d.txt", func_num, nx);
+			sprintf(FileName, "input_data20/shuffle_data_%d_D%d.txt", func_num, nx);
 			fpt = fopen(FileName,"r");
 			if (fpt==NULL)
 			{
@@ -251,7 +251,7 @@ void cec20_test_func(double *x, double *f, int nx, int mx,int func_num0)
 		}
 		else if (func_num==29||func_num==30)
 		{
-			sprintf(FileName, "input_data_20/shuffle_data_%d_D%d.txt", func_num, nx);
+			sprintf(FileName, "input_data20/shuffle_data_%d_D%d.txt", func_num, nx);
 			fpt = fopen(FileName,"r");
 			if (fpt==NULL)
 			{

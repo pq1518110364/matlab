@@ -1,6 +1,6 @@
 %%
 
-% Grey Wolf Optimizer
+% Grey Wolf Optimizer 灰狼算法
 function [Alpha_score,Alpha_pos,Convergence_curve]=GWO(SearchAgents_no,Max_iter,lb,ub,dim,fobj)
 
 % initialize alpha, beta, and delta_pos

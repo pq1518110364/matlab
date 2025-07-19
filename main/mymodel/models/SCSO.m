@@ -1,4 +1,4 @@
-
+% 2022 年，A Seyyedabbasi 等人受到自然界中沙猫生存行为启发，提出了沙猫群优化算法（Sand Cat Swarm Optimization, SCSO）。
 function [Best_Score,BestFit,Convergence_curve]=SCSO(SearchAgents_no,Max_iter,lb,ub,dim,fobj)
 BestFit=zeros(1,dim);
 Best_Score=inf;

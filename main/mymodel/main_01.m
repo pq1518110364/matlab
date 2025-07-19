@@ -15,7 +15,7 @@ F_no = 10;
 
 % log_message(sprintf('参数设置: PD_no=%d, Max_iter=%d', PD_no, Max_iter), 'INFO');
 
-% [Function_name,F_num] = get_CECname(b);
+% [Function_name,F_num] = get_CEC_name(b);
 % Best = zeros(F_num,MaxA);  %存储最优适应度值
 % Mean = zeros(F_num,MaxA);  %存储平均适应度值
 % Std = zeros(F_num,MaxA);   %存储适应度方差
@@ -27,7 +27,7 @@ F_no = 10;
 %% 调用函数，获得参数
 % 运行算法
 
-[Function_name,F_num] = get_CECname(CEC_f);
+[Function_name,F_num] = get_CEC_name(CEC_f);
 F_name = get_F_name(F_no); %获得函数的序号
 [LB,UB,Dim,F_obj] = Function_name(F_name); %获得函数的边界
 
