@@ -49,7 +49,7 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     iter=1:1:Max_iter;
     figure('Position',[154   145   894   357]);
     subplot(1,2,1);
-    func_plot_2005(f_name);     % Function plot 需要替换原来的func_plot
+    func_plot_cec2005(f_name);     % Function plot 需要替换原来的func_plot
     
     title(f_name + '函数图');
     xlabel('x_1');

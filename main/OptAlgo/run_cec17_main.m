@@ -69,15 +69,16 @@ for a = 1:F_num    %运行函数 F_num 8 18-23 好像显示不了，需要具体
     CNT=30;
     k=round(linspace(1,Max_iter,CNT)); %随机选CNT个点
     iter=1:1:Max_iter;
-    figure('Position',[300,300,800,330]);
-    % subplot(1,2,1);
-    % func_plot_2005(f_name);     % Function plot 需要替换原来的func_plot
-    
-    % title(f_name + '函数图');
-    % xlabel('x_1');
-    % ylabel('x_2');
-    % zlabel([f_name,'( x_1 , x_2 )'])
-    % subplot(1,2,2);       % Convergence plot
+    % 300,300,800,330
+    figure('Position',[154   145   894   357]);
+    subplot(1,2,1);
+    func_plot_cec2017(f_name);     % Function plot 需要替换原来的func_plot
+
+    title(f_name + '函数图');
+    xlabel('x_1');
+    ylabel('x_2');
+    zlabel([f_name,'( x_1 , x_2 )'])
+    subplot(1,2,2);       % Convergence plot
     
         semilogy(iter(k),BAEO_cg_curve(k),'Color', [1 0.5 0], 'Marker','+','LineStyle','-.', 'linewidth', 1);
         hold on
