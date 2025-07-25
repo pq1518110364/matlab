@@ -1,0 +1,11 @@
+% PIMO算法样式推荐（共10种，不重复）
+semilogy(iter(k), PIMO_cg_curve(k), 'c--d', 'linewidth', 1, 'MarkerSize', 6);  % 青色虚线+菱形标记
+semilogy(iter(k), PIMO_cg_curve(k), 'Color', [0.2, 0.2, 0.8], 'Marker', 'p', 'LineStyle', ':', 'LineWidth', 1, 'MarkerSize', 6);  % 靛蓝色点线+五边形标记
+semilogy(iter(k), PIMO_cg_curve(k), 'Color', [0.9, 0.3, 0.1], 'Marker', '*', 'LineStyle', '--', 'LineWidth', 1, 'MarkerSize', 7);  % 橙红色虚线+星形标记
+semilogy(iter(k), PIMO_cg_curve(k), 'Color', [0.2, 0.8, 0.6], 'Marker', 'd', 'LineStyle', '-.-', 'LineWidth', 1, 'MarkerSize', 6);  % 薄荷绿双点划线+菱形标记
+semilogy(iter(k), PIMO_cg_curve(k), 'Color', [0.6, 0.1, 0.8], 'Marker', 'h', 'LineStyle', '-', 'LineWidth', 1, 'MarkerSize', 6);  % 深紫色实线+六边形标记
+semilogy(iter(k), PIMO_cg_curve(k), 'Color', [0.5, 0.5, 0], 'Marker', 'v', 'LineStyle', ':', 'LineWidth', 1, 'MarkerSize', 6);  % 橄榄绿点线+倒三角形标记
+semilogy(iter(k), PIMO_cg_curve(k), 'Color', [0.9, 0.6, 0.6], 'Marker', 'x', 'LineStyle', '--', 'LineWidth', 1, 'MarkerSize', 6);  % 珊瑚粉虚线+十字标记
+semilogy(iter(k), PIMO_cg_curve(k), 'Color', [0.2, 0.4, 0.6], 'Marker', '<', 'LineStyle', '-', 'LineWidth', 1, 'MarkerSize', 6);  % 钢蓝色实线+左三角形标记
+semilogy(iter(k), PIMO_cg_curve(k), 'Color', [0.6, 0.3, 0.1], 'Marker', '>', 'LineStyle', '-.', 'LineWidth', 1, 'MarkerSize', 6);  % 巧克力棕色点划线+右三角形标记
+semilogy(iter(k), PIMO_cg_curve(k), 'Color', [0.7, 0.5, 0.8], 'Marker', 'o', 'LineStyle', '--', 'LineWidth', 1, 'MarkerSize', 6, 'MarkerFaceColor', [0.7, 0.5, 0.8]);  % 薰衣草紫虚线+实心圆标记
