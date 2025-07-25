@@ -1,5 +1,5 @@
-%%%  白鲸优化(BWO)算法  %%%
-function [Best_pos,Best_score,curve] = BWO(N,T,lb,ub,D,y)
+%%%  白鲸优化(BWO)算法 
+function [Best_score,Best_pos,curve] = BWO(N,T,lb,ub,D,y)
 %% 问题设定
 
 objective=y;        % 评价函数
@@ -113,8 +113,8 @@ end
 %% 输出最终结果
 curve = BestCost;   
 format long e;
-Best_pos =min(BestCost);
-Best_score = Bestsol;
+Best_score =min(BestCost);
+Best_pos= Bestsol;
 end
 
 % Levy飞行函数

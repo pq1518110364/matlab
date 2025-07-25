@@ -1,4 +1,4 @@
-clear all 
+clear all
 close all
 clc
 %% 将当前工作目录以及其子目录添加到 MATLAB 搜索路径中，以便可以找到相关函数和文件
@@ -33,27 +33,27 @@ F_no = 10;
 F_name = get_F_name(F_no); %获得函数的序号
 [LB,UB,Dim,F_obj] = Function_name(F_name); %获得函数的边界
 
-[Best_pos,Best_score,GWO_cg_curve] = GWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
+[Best_score,Best_pos,GWO_cg_curve] = GWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
 fprintf ('Best solution obtained by GWO: %s\n', num2str(Best_score,'%e  '));
 display(['The best optimal value of the objective funciton found by BWO  for ' [num2str(F_name)],'  is : ', num2str(Best_pos)]);
 
-%% BWO    
-[Best_pos,Best_score, BWO_cg_curve ] = BWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
+%% BWO
+[Best_score,Best_pos, BWO_cg_curve ] = BWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
 fprintf ('Best solution obtained by BWO: %s\n', num2str(Best_score,'%e  '));
 display(['The best optimal value of the objective funciton found by BWO  for ' [num2str(F_name)],'  is : ', num2str(Best_pos)]);
 
-%% SSA    
-[Best_pos,Best_score, SSA_cg_curve ] = SSA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SSA
+%% SSA
+[Best_score,Best_pos, SSA_cg_curve ] = SSA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SSA
 fprintf ('Best solution obtained by SSA: %s\n', num2str(Best_score,'%e  '));
 display(['The best optimal value of the objective funciton found by SSA  for ' [num2str(F_name)],'  is : ', num2str(Best_pos)]);
 
 %% SCSO
-[BsSCSO,BpSCSO,SCSO_cg_curve]=SCSO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call MSCSO
+[BpSCSO,BsSCSO,SCSO_cg_curve]=SCSO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call MSCSO
 fprintf ('Best solution obtained by SCSO: %s\n', num2str(BsSCSO,'%e  '));
 display(['The best optimal value of the objective funciton found by SCSO  for ' [num2str(F_name)],'  is : ', num2str(BpSCSO)]);
 
-%% DBO    
-[Best_pos,Best_score, DBO_cg_curve ] = DBO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call DBO
+%% DBO
+[Best_score,Best_pos, DBO_cg_curve ] = DBO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call DBO
 fprintf ('Best solution obtained by DBO: %s\n', num2str(Best_score,'%e  '));
 display(['The best optimal value of the objective funciton found by DBO  for ' [num2str(F_name)],'  is : ', num2str(Best_pos)]);
 
@@ -61,7 +61,7 @@ display(['The best optimal value of the objective funciton found by DBO  for ' [
 %     % 记录错误信息
 %     log_message(ME.message, 'ERROR');
 %     log_message(sprintf('堆栈信息: %s at line %d', ME.stack(1).name, ME.stack(1).line), 'ERROR');
-% 
+%
 % end
 
 
@@ -76,7 +76,7 @@ k=round(linspace(1,Max_iter,CNT)); %随机选CNT个点
 iter=1:1:Max_iter;
 figure('Position',[154   145   894   357]);
 subplot(1,2,1);
-func_plot_2005(F_name);     % Function plot
+func_plot_cec2005(F_name);     % Function plot
 title('Parameter space')
 xlabel('x_1');
 ylabel('x_2');

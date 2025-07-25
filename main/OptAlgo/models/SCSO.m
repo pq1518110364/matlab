@@ -1,6 +1,6 @@
 % 2022 年，A Seyyedabbasi 等人受到自然界中沙猫生存行为启发，提出了沙猫群优化算法（Sand Cat Swarm Optimization, SCSO）。
-function [Best_Score,BestFit,Convergence_curve]=SCSO(SearchAgents_no,Max_iter,lb,ub,dim,fobj)
-BestFit=zeros(1,dim);
+function [Best_Score, Best_pos, Convergence_curve]=SCSO(SearchAgents_no,Max_iter,lb,ub,dim,fobj)
+Best_pos=zeros(1,dim);
 Best_Score=inf;
 Positions=initialization(SearchAgents_no,dim,ub,lb);
 Convergence_curve=zeros(1,Max_iter);
@@ -14,7 +14,7 @@ while t<Max_iter
         fitness=fobj(Positions(i,:));
         if fitness<Best_Score
             Best_Score=fitness;
-            BestFit=Positions(i,:);
+            Best_pos=Positions(i,:);
         end
     end
     S=2;                                    %%% S is maximum Sensitivity range 
@@ -26,8 +26,8 @@ while t<Max_iter
         for j=1:size(Positions,2)
         teta=RouletteWheelSelection(p);
            if((-1<=R)&&(R<=1))              %%%% R value is between -1 and 1
-                Rand_position=abs(rand*BestFit(j)-Positions(i,j));
-                Positions(i,j)=BestFit(j)-r*Rand_position*cos(teta);
+                Rand_position=abs(rand*Best_pos(j)-Positions(i,j));
+                Positions(i,j)=Best_pos(j)-r*Rand_position*cos(teta);
            else                 
                 cp=floor(SearchAgents_no*rand()+1);
                 CandidatePosition =Positions(cp,:);

@@ -1,5 +1,5 @@
 
-function X=init_SFOA(N,Dim,UB,LB)
+function X=initialization(N,Dim,UB,LB)
 
 B_no= size(UB,2); % numnber of boundaries
 

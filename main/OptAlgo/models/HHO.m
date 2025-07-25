@@ -1,6 +1,6 @@
 function [Rabbit_Energy,Rabbit_Location,CNVG]=HHO(N,T,lb,ub,dim,fobj)
-
-% 哈里斯鹰
+% Rabbit_Energy = Best_Score, Rabbit_Location = Best_Pos 
+% 哈里斯鹰 
 % initialize the location and Energy of the rabbit
 Rabbit_Location=zeros(1,dim);
 Rabbit_Energy=inf;

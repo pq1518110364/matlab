@@ -1,4 +1,4 @@
-%%Animated Oat Optimization Algorithm
+%%Animated Oat Optimization Algorithm 不实野燕麦优化算法
 function [Best_Score,Best_X,convergence_curve]= AOO(fhd,dim,pop_size,iter_max,lb,ub,varargin)
 %% initialize
 Best_Score=inf; 
