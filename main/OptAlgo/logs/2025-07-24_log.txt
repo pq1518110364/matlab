@@ -1,0 +1,1105 @@
+Diary started: logs\2025-07-24_log.txt
+[00:40:19] [INFO] ===== 日志记录已启动 =====
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 2.80e-04  BWO_Mean: 6.38e-03  BWO_STD: 6.58e-03  
+以下为WOA的数据展示：
+WOA_Best: 3.76e-85  WOA_Mean: 1.79e-72  WOA_STD: 9.41e-72  
+以下为SCA的数据展示：
+SCA_Best: 2.79e-02  SCA_Mean: 4.50e+00  SCA_STD: 8.15e+00  
+以下为HHO的数据展示：
+HHO_Best: 9.24e-113  HHO_Mean: 6.02e-94  HHO_STD: 2.92e-93  
+以下为SCSO的数据展示：
+SCSO_Best: 1.38e-124  SCSO_Mean: 1.45e-112  SCSO_STD: 6.59e-112  
+以下为DBO的数据展示：
+DBO_Best: 4.46e-180  DBO_Mean: 7.46e-110  DBO_STD: 4.09e-109  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 7.99e-03  BWO_Mean: 3.76e-02  BWO_STD: 1.99e-02  
+以下为WOA的数据展示：
+WOA_Best: 2.59e-58  WOA_Mean: 3.07e-51  WOA_STD: 1.20e-50  
+以下为SCA的数据展示：
+SCA_Best: 1.72e-04  SCA_Mean: 1.43e-02  SCA_STD: 1.73e-02  
+以下为HHO的数据展示：
+HHO_Best: 1.40e-58  HHO_Mean: 1.51e-50  HHO_STD: 6.27e-50  
+以下为SCSO的数据展示：
+SCSO_Best: 9.16e-66  SCSO_Mean: 6.52e-60  SCSO_STD: 3.46e-59  
+以下为DBO的数据展示：
+DBO_Best: 3.99e-79  DBO_Mean: 1.01e-49  DBO_STD: 5.52e-49  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 8.33e-02  BWO_Mean: 1.98e+00  BWO_STD: 1.91e+00  
+以下为WOA的数据展示：
+WOA_Best: 5.31e+03  WOA_Mean: 4.34e+04  WOA_STD: 1.71e+04  
+以下为SCA的数据展示：
+SCA_Best: 4.49e+02  SCA_Mean: 8.99e+03  SCA_STD: 6.71e+03  
+以下为HHO的数据展示：
+HHO_Best: 9.56e-96  HHO_Mean: 2.31e-74  HHO_STD: 1.27e-73  
+以下为SCSO的数据展示：
+SCSO_Best: 1.60e-112  SCSO_Mean: 6.93e-93  SCSO_STD: 3.80e-92  
+以下为DBO的数据展示：
+DBO_Best: 8.65e-147  DBO_Mean: 2.14e-52  DBO_STD: 1.17e-51  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 3.95e-03  BWO_Mean: 1.45e-02  BWO_STD: 6.10e-03  
+以下为WOA的数据展示：
+WOA_Best: 3.90e-03  WOA_Mean: 5.66e+01  WOA_STD: 2.70e+01  
+以下为SCA的数据展示：
+SCA_Best: 8.52e+00  SCA_Mean: 3.71e+01  SCA_STD: 1.45e+01  
+以下为HHO的数据展示：
+HHO_Best: 1.56e-59  HHO_Mean: 1.29e-47  HHO_STD: 6.41e-47  
+以下为SCSO的数据展示：
+SCSO_Best: 2.24e-56  SCSO_Mean: 9.69e-52  SCSO_STD: 1.81e-51  
+以下为DBO的数据展示：
+DBO_Best: 4.52e-74  DBO_Mean: 1.52e-50  DBO_STD: 8.34e-50  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 5.40e-04  BWO_Mean: 1.53e-02  BWO_STD: 1.32e-02  
+以下为WOA的数据展示：
+WOA_Best: 2.72e+01  WOA_Mean: 2.80e+01  WOA_STD: 4.49e-01  
+以下为SCA的数据展示：
+SCA_Best: 7.22e+01  SCA_Mean: 1.20e+05  SCA_STD: 4.89e+05  
+以下为HHO的数据展示：
+HHO_Best: 5.01e-06  HHO_Mean: 1.09e-02  HHO_STD: 1.79e-02  
+以下为SCSO的数据展示：
+SCSO_Best: 2.70e+01  SCSO_Mean: 2.81e+01  SCSO_STD: 7.12e-01  
+以下为DBO的数据展示：
+DBO_Best: 2.52e+01  DBO_Mean: 2.58e+01  DBO_STD: 2.66e-01  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 6.00e-02  BWO_Mean: 4.50e-01  BWO_STD: 3.36e-01  
+以下为WOA的数据展示：
+WOA_Best: 7.01e-02  WOA_Mean: 3.85e-01  WOA_STD: 2.45e-01  
+以下为SCA的数据展示：
+SCA_Best: 4.38e+00  SCA_Mean: 1.66e+01  SCA_STD: 1.60e+01  
+以下为HHO的数据展示：
+HHO_Best: 7.03e-08  HHO_Mean: 1.17e-04  HHO_STD: 1.71e-04  
+以下为SCSO的数据展示：
+SCSO_Best: 1.00e+00  SCSO_Mean: 1.96e+00  SCSO_STD: 4.63e-01  
+以下为DBO的数据展示：
+DBO_Best: 1.18e-05  DBO_Mean: 9.32e-03  DBO_STD: 4.56e-02  
+
+y =
+
+  列 1 至 5
+
+    -1.000000000000000e+00    -9.700000000000000e-01    -9.399999999999999e-01    -9.100000000000000e-01    -8.800000000000000e-01
+
+  列 6 至 10
+
+    -8.500000000000000e-01    -8.200000000000001e-01    -7.900000000000000e-01    -7.600000000000000e-01    -7.300000000000000e-01
+
+  列 11 至 15
+
+    -7.000000000000000e-01    -6.700000000000000e-01    -6.400000000000000e-01    -6.100000000000000e-01    -5.800000000000001e-01
+
+  列 16 至 20
+
+    -5.500000000000000e-01    -5.200000000000000e-01    -4.900000000000000e-01    -4.600000000000000e-01    -4.300000000000000e-01
+
+  列 21 至 25
+
+    -4.000000000000000e-01    -3.700000000000000e-01    -3.400000000000001e-01    -3.100000000000001e-01    -2.800000000000000e-01
+
+  列 26 至 30
+
+    -2.500000000000000e-01    -2.200000000000000e-01    -1.900000000000001e-01    -1.600000000000000e-01    -1.300000000000000e-01
+
+  列 31 至 35
+
+    -1.000000000000001e-01    -7.000000000000006e-02    -4.000000000000004e-02    -1.000000000000001e-02     2.000000000000002e-02
+
+  列 36 至 40
+
+     5.000000000000004e-02     8.000000000000007e-02     1.100000000000000e-01     1.400000000000000e-01     1.700000000000000e-01
+
+  列 41 至 45
+
+     2.000000000000000e-01     2.300000000000000e-01     2.600000000000000e-01     2.900000000000000e-01     3.200000000000001e-01
+
+  列 46 至 50
+
+     3.500000000000000e-01     3.800000000000000e-01     4.100000000000000e-01     4.399999999999999e-01     4.700000000000000e-01
+
+  列 51 至 55
+
+     5.000000000000000e-01     5.300000000000000e-01     5.600000000000001e-01     5.900000000000000e-01     6.200000000000000e-01
+
+  列 56 至 60
+
+     6.500000000000000e-01     6.799999999999999e-01     7.100000000000000e-01     7.400000000000000e-01     7.700000000000000e-01
+
+  列 61 至 65
+
+     8.000000000000000e-01     8.300000000000000e-01     8.600000000000000e-01     8.900000000000000e-01     9.199999999999999e-01
+
+  列 66 至 67
+
+     9.500000000000000e-01     9.800000000000000e-01
+
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 1.69e-04  BWO_Mean: 7.83e-04  BWO_STD: 5.85e-04  
+以下为WOA的数据展示：
+WOA_Best: 9.91e-05  WOA_Mean: 1.30e-03  WOA_STD: 1.27e-03  
+以下为SCA的数据展示：
+SCA_Best: 9.94e-03  SCA_Mean: 1.04e-01  SCA_STD: 1.24e-01  
+以下为HHO的数据展示：
+HHO_Best: 4.84e-06  HHO_Mean: 1.05e-04  HHO_STD: 8.10e-05  
+以下为SCSO的数据展示：
+SCSO_Best: 1.45e-05  SCSO_Mean: 1.62e-04  SCSO_STD: 1.57e-04  
+以下为DBO的数据展示：
+DBO_Best: 2.28e-04  DBO_Mean: 1.15e-03  DBO_STD: 9.04e-04  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: -1.26e+04  BWO_Mean: -1.26e+04  BWO_STD: 7.84e+00  
+以下为WOA的数据展示：
+WOA_Best: -1.26e+04  WOA_Mean: -1.03e+04  WOA_STD: 1.59e+03  
+以下为SCA的数据展示：
+SCA_Best: -4.89e+03  SCA_Mean: -3.81e+03  SCA_STD: 3.46e+02  
+以下为HHO的数据展示：
+HHO_Best: -1.26e+04  HHO_Mean: -1.26e+04  HHO_STD: 1.01e+00  
+以下为SCSO的数据展示：
+SCSO_Best: -8.42e+03  SCSO_Mean: -7.03e+03  SCSO_STD: 7.68e+02  
+以下为DBO的数据展示：
+DBO_Best: -1.23e+04  DBO_Mean: -8.73e+03  DBO_STD: 1.66e+03  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 2.22e-05  BWO_Mean: 3.56e-03  BWO_STD: 2.60e-03  
+以下为WOA的数据展示：
+WOA_Best: 0.00e+00  WOA_Mean: 1.89e-15  WOA_STD: 1.04e-14  
+以下为SCA的数据展示：
+SCA_Best: 2.44e-01  SCA_Mean: 3.84e+01  SCA_STD: 2.76e+01  
+以下为HHO的数据展示：
+HHO_Best: 0.00e+00  HHO_Mean: 0.00e+00  HHO_STD: 0.00e+00  
+以下为SCSO的数据展示：
+SCSO_Best: 0.00e+00  SCSO_Mean: 0.00e+00  SCSO_STD: 0.00e+00  
+以下为DBO的数据展示：
+DBO_Best: 0.00e+00  DBO_Mean: 1.76e+00  DBO_STD: 5.58e+00  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 2.81e-03  BWO_Mean: 1.63e-02  BWO_STD: 7.43e-03  
+以下为WOA的数据展示：
+WOA_Best: 4.44e-16  WOA_Mean: 3.29e-15  WOA_STD: 2.36e-15  
+以下为SCA的数据展示：
+SCA_Best: 4.19e-02  SCA_Mean: 1.43e+01  SCA_STD: 9.10e+00  
+以下为HHO的数据展示：
+HHO_Best: 4.44e-16  HHO_Mean: 4.44e-16  HHO_STD: 0.00e+00  
+以下为SCSO的数据展示：
+SCSO_Best: 4.44e-16  SCSO_Mean: 4.44e-16  SCSO_STD: 0.00e+00  
+以下为DBO的数据展示：
+DBO_Best: 4.44e-16  DBO_Mean: 4.44e-16  DBO_STD: 0.00e+00  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 1.83e-03  BWO_Mean: 1.70e-02  BWO_STD: 1.27e-02  
+以下为WOA的数据展示：
+WOA_Best: 0.00e+00  WOA_Mean: 0.00e+00  WOA_STD: 0.00e+00  
+以下为SCA的数据展示：
+SCA_Best: 3.46e-01  SCA_Mean: 9.74e-01  SCA_STD: 2.58e-01  
+以下为HHO的数据展示：
+HHO_Best: 0.00e+00  HHO_Mean: 0.00e+00  HHO_STD: 0.00e+00  
+以下为SCSO的数据展示：
+SCSO_Best: 0.00e+00  SCSO_Mean: 0.00e+00  SCSO_STD: 0.00e+00  
+以下为DBO的数据展示：
+DBO_Best: 0.00e+00  DBO_Mean: 0.00e+00  DBO_STD: 0.00e+00  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 4.03e-05  BWO_Mean: 9.17e-04  BWO_STD: 9.48e-04  
+以下为WOA的数据展示：
+WOA_Best: 4.41e-03  WOA_Mean: 2.09e-02  WOA_STD: 1.49e-02  
+以下为SCA的数据展示：
+SCA_Best: 1.05e+00  SCA_Mean: 8.43e+04  SCA_STD: 2.63e+05  
+以下为HHO的数据展示：
+HHO_Best: 8.13e-08  HHO_Mean: 1.02e-05  HHO_STD: 1.37e-05  
+以下为SCSO的数据展示：
+SCSO_Best: 4.55e-02  SCSO_Mean: 1.06e-01  SCSO_STD: 4.28e-02  
+以下为DBO的数据展示：
+DBO_Best: 2.32e-07  DBO_Mean: 2.53e-04  DBO_STD: 1.31e-03  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 2.87e-06  BWO_Mean: 1.86e-04  BWO_STD: 1.52e-04  
+以下为WOA的数据展示：
+WOA_Best: 6.62e-02  WOA_Mean: 5.44e-01  WOA_STD: 2.68e-01  
+以下为SCA的数据展示：
+SCA_Best: 2.89e+00  SCA_Mean: 1.04e+06  SCA_STD: 3.69e+06  
+以下为HHO的数据展示：
+HHO_Best: 9.87e-08  HHO_Mean: 1.02e-04  HHO_STD: 1.59e-04  
+以下为SCSO的数据展示：
+SCSO_Best: 1.09e+00  SCSO_Mean: 2.32e+00  SCSO_STD: 5.10e-01  
+以下为DBO的数据展示：
+DBO_Best: 4.44e-02  DBO_Mean: 7.22e-01  DBO_STD: 5.70e-01  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 9.98e-01  BWO_Mean: 5.60e+00  BWO_STD: 2.18e+00  
+以下为WOA的数据展示：
+WOA_Best: 9.98e-01  WOA_Mean: 2.37e+00  WOA_STD: 2.93e+00  
+以下为SCA的数据展示：
+SCA_Best: 9.98e-01  SCA_Mean: 1.59e+00  SCA_STD: 9.24e-01  
+以下为HHO的数据展示：
+HHO_Best: 9.98e-01  HHO_Mean: 1.16e+00  HHO_STD: 3.77e-01  
+以下为SCSO的数据展示：
+SCSO_Best: 9.98e-01  SCSO_Mean: 3.62e+00  SCSO_STD: 3.56e+00  
+以下为DBO的数据展示：
+DBO_Best: 9.98e-01  DBO_Mean: 1.13e+00  DBO_STD: 4.31e-01  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 3.24e-04  BWO_Mean: 4.32e-04  BWO_STD: 7.58e-05  
+以下为WOA的数据展示：
+WOA_Best: 3.09e-04  WOA_Mean: 6.13e-04  WOA_STD: 3.10e-04  
+以下为SCA的数据展示：
+SCA_Best: 3.46e-04  SCA_Mean: 9.93e-04  SCA_STD: 3.29e-04  
+以下为HHO的数据展示：
+HHO_Best: 3.08e-04  HHO_Mean: 3.44e-04  HHO_STD: 4.24e-05  
+以下为SCSO的数据展示：
+SCSO_Best: 3.07e-04  SCSO_Mean: 4.54e-04  SCSO_STD: 3.11e-04  
+以下为DBO的数据展示：
+DBO_Best: 3.07e-04  DBO_Mean: 8.20e-04  DBO_STD: 4.21e-04  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: -1.03e+00  BWO_Mean: -1.03e+00  BWO_STD: 4.52e-04  
+以下为WOA的数据展示：
+WOA_Best: -1.03e+00  WOA_Mean: -1.03e+00  WOA_STD: 8.66e-10  
+以下为SCA的数据展示：
+SCA_Best: -1.03e+00  SCA_Mean: -1.03e+00  SCA_STD: 5.52e-05  
+以下为HHO的数据展示：
+HHO_Best: -1.03e+00  HHO_Mean: -1.03e+00  HHO_STD: 1.97e-09  
+以下为SCSO的数据展示：
+SCSO_Best: -1.03e+00  SCSO_Mean: -1.03e+00  SCSO_STD: 4.75e-10  
+以下为DBO的数据展示：
+DBO_Best: -1.03e+00  DBO_Mean: -1.03e+00  DBO_STD: 5.98e-16  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 3.98e-01  BWO_Mean: 4.03e-01  BWO_STD: 4.85e-03  
+以下为WOA的数据展示：
+WOA_Best: 3.98e-01  WOA_Mean: 3.98e-01  WOA_STD: 9.48e-06  
+以下为SCA的数据展示：
+SCA_Best: 3.98e-01  SCA_Mean: 4.00e-01  SCA_STD: 3.47e-03  
+以下为HHO的数据展示：
+HHO_Best: 3.98e-01  HHO_Mean: 3.98e-01  HHO_STD: 3.63e-05  
+以下为SCSO的数据展示：
+SCSO_Best: 3.98e-01  SCSO_Mean: 3.98e-01  SCSO_STD: 4.09e-08  
+以下为DBO的数据展示：
+DBO_Best: 3.98e-01  DBO_Mean: 3.98e-01  DBO_STD: 3.24e-16  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: 3.02e+00  BWO_Mean: 1.55e+01  BWO_STD: 1.02e+01  
+以下为WOA的数据展示：
+WOA_Best: 3.00e+00  WOA_Mean: 3.00e+00  WOA_STD: 1.52e-04  
+以下为SCA的数据展示：
+SCA_Best: 3.00e+00  SCA_Mean: 3.00e+00  SCA_STD: 6.03e-05  
+以下为HHO的数据展示：
+HHO_Best: 3.00e+00  HHO_Mean: 3.00e+00  HHO_STD: 1.01e-06  
+以下为SCSO的数据展示：
+SCSO_Best: 3.00e+00  SCSO_Mean: 3.00e+00  SCSO_STD: 9.36e-06  
+以下为DBO的数据展示：
+DBO_Best: 3.00e+00  DBO_Mean: 3.00e+00  DBO_STD: 2.92e-15  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: -3.82e+00  BWO_Mean: -3.70e+00  BWO_STD: 8.22e-02  
+以下为WOA的数据展示：
+WOA_Best: -3.86e+00  WOA_Mean: -3.86e+00  WOA_STD: 4.40e-03  
+以下为SCA的数据展示：
+SCA_Best: -3.86e+00  SCA_Mean: -3.85e+00  SCA_STD: 3.17e-03  
+以下为HHO的数据展示：
+HHO_Best: -3.86e+00  HHO_Mean: -3.86e+00  HHO_STD: 4.94e-03  
+以下为SCSO的数据展示：
+SCSO_Best: -3.86e+00  SCSO_Mean: -3.86e+00  SCSO_STD: 3.71e-03  
+以下为DBO的数据展示：
+DBO_Best: -3.86e+00  DBO_Mean: -3.86e+00  DBO_STD: 2.00e-03  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: -3.20e+00  BWO_Mean: -2.79e+00  BWO_STD: 3.52e-01  
+以下为WOA的数据展示：
+WOA_Best: -3.32e+00  WOA_Mean: -3.25e+00  WOA_STD: 9.58e-02  
+以下为SCA的数据展示：
+SCA_Best: -3.18e+00  SCA_Mean: -2.92e+00  SCA_STD: 3.28e-01  
+以下为HHO的数据展示：
+HHO_Best: -3.26e+00  HHO_Mean: -3.08e+00  HHO_STD: 1.19e-01  
+以下为SCSO的数据展示：
+SCSO_Best: -3.32e+00  SCSO_Mean: -3.20e+00  SCSO_STD: 1.13e-01  
+以下为DBO的数据展示：
+DBO_Best: -3.32e+00  DBO_Mean: -3.25e+00  DBO_STD: 9.00e-02  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: -1.02e+01  BWO_Mean: -1.01e+01  BWO_STD: 1.69e-02  
+以下为WOA的数据展示：
+WOA_Best: -1.02e+01  WOA_Mean: -8.36e+00  WOA_STD: 2.59e+00  
+以下为SCA的数据展示：
+SCA_Best: -5.38e+00  SCA_Mean: -2.14e+00  SCA_STD: 1.80e+00  
+以下为HHO的数据展示：
+HHO_Best: -1.01e+01  HHO_Mean: -5.22e+00  HHO_STD: 9.14e-01  
+以下为SCSO的数据展示：
+SCSO_Best: -1.02e+01  SCSO_Mean: -6.76e+00  SCSO_STD: 2.44e+00  
+以下为DBO的数据展示：
+DBO_Best: -1.02e+01  DBO_Mean: -5.98e+00  DBO_STD: 2.45e+00  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: -1.04e+01  BWO_Mean: -1.04e+01  BWO_STD: 1.90e-02  
+以下为WOA的数据展示：
+WOA_Best: -1.04e+01  WOA_Mean: -6.69e+00  WOA_STD: 3.25e+00  
+以下为SCA的数据展示：
+SCA_Best: -9.45e+00  SCA_Mean: -4.07e+00  SCA_STD: 2.19e+00  
+以下为HHO的数据展示：
+HHO_Best: -1.03e+01  HHO_Mean: -5.25e+00  HHO_STD: 9.52e-01  
+以下为SCSO的数据展示：
+SCSO_Best: -1.04e+01  SCSO_Mean: -6.71e+00  SCSO_STD: 2.73e+00  
+以下为DBO的数据展示：
+DBO_Best: -1.04e+01  DBO_Mean: -8.38e+00  DBO_STD: 2.73e+00  
+[警告: 忽略额外的图例条目。] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>process_inputs', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 567)" style="font-weight:bold">legend>process_inputs</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',567,0)">第 567 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend>make_legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 294)" style="font-weight:bold">legend>make_legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',294,0)">第 294 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('legend', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m', 245)" style="font-weight:bold">legend</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\scribe\legend.m',245,0)">第 245 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec05_main', 'E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m', 82)" style="font-weight:bold">run_cec05_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec05_main.m',82,0)">第 82 行</a>)] 
+以下为BWO的数据展示：
+BWO_Best: -1.05e+01  BWO_Mean: -1.05e+01  BWO_STD: 9.42e-03  
+以下为WOA的数据展示：
+WOA_Best: -1.05e+01  WOA_Mean: -6.82e+00  WOA_STD: 3.60e+00  
+以下为SCA的数据展示：
+SCA_Best: -6.69e+00  SCA_Mean: -3.77e+00  SCA_STD: 1.69e+00  
+以下为HHO的数据展示：
+HHO_Best: -1.04e+01  HHO_Mean: -5.30e+00  HHO_STD: 9.69e-01  
+以下为SCSO的数据展示：
+SCSO_Best: -1.05e+01  SCSO_Mean: -6.54e+00  SCSO_STD: 2.74e+00  
+以下为DBO的数据展示：
+DBO_Best: -1.05e+01  DBO_Mean: -9.09e+00  DBO_STD: 2.75e+00  
+[00:53:42] [INFO] ===== 日志记录已停止 =====
+
+Diary started: logs\2025-07-24_log.txt
+[00:59:37] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 6.06e+04  BAEO_Mean: 7.48e+07  BAEO_STD: 2.87e+08  
+以下为TOC的数据展示：
+TOC_Best: 1.04e+05  TOC_Mean: 1.70e+07  TOC_STD: 4.36e+07  
+以下为SBO的数据展示：
+SBO_Best: 2.98e+08  SBO_Mean: 1.77e+09  SBO_STD: 9.37e+08  
+以下为HHO的数据展示：
+HHO_Best: 9.91e+04  HHO_Mean: 5.07e+05  HHO_STD: 2.66e+05  
+以下为SCSO的数据展示：
+SCSO_Best: 5.87e+03  SCSO_Mean: 5.56e+07  SCSO_STD: 1.43e+08  
+以下为AOO的数据展示：
+AOO_Best: 2.89e+02  AOO_Mean: 3.10e+03  AOO_STD: 3.23e+03  
+以下为SFOA的数据展示：
+SFOA_Best: 7.54e+08  SFOA_Mean: 9.79e+09  SFOA_STD: 4.68e+09  
+
+[01:00:04] [INFO] ===== 日志记录已停止 =====
+
+Diary started: logs\2025-07-24_log.txt
+[13:28:27] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 6.06e+04  BAEO_Mean: 7.48e+07  BAEO_STD: 2.87e+08  
+以下为TOC的数据展示：
+TOC_Best: 1.04e+05  TOC_Mean: 1.70e+07  TOC_STD: 4.36e+07  
+以下为SBO的数据展示：
+SBO_Best: 2.98e+08  SBO_Mean: 1.77e+09  SBO_STD: 9.37e+08  
+以下为HHO的数据展示：
+HHO_Best: 9.91e+04  HHO_Mean: 5.07e+05  HHO_STD: 2.66e+05  
+以下为SCSO的数据展示：
+SCSO_Best: 5.87e+03  SCSO_Mean: 5.56e+07  SCSO_STD: 1.43e+08  
+以下为AOO的数据展示：
+AOO_Best: 2.89e+02  AOO_Mean: 3.10e+03  AOO_STD: 3.23e+03  
+以下为SFOA的数据展示：
+SFOA_Best: 7.54e+08  SFOA_Mean: 9.79e+09  SFOA_STD: 4.68e+09  
+
+以下为F2函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.61e+03  BAEO_Mean: 2.19e+03  BAEO_STD: 3.12e+02  
+以下为TOC的数据展示：
+TOC_Best: 1.59e+03  TOC_Mean: 2.20e+03  TOC_STD: 3.73e+02  
+以下为SBO的数据展示：
+SBO_Best: 2.60e+03  SBO_Mean: 3.02e+03  SBO_STD: 2.02e+02  
+以下为HHO的数据展示：
+HHO_Best: 1.48e+03  HHO_Mean: 1.99e+03  HHO_STD: 2.54e+02  
+以下为SCSO的数据展示：
+SCSO_Best: 1.58e+03  SCSO_Mean: 2.16e+03  SCSO_STD: 3.54e+02  
+以下为AOO的数据展示：
+AOO_Best: 1.12e+03  AOO_Mean: 1.73e+03  AOO_STD: 2.86e+02  
+以下为SFOA的数据展示：
+SFOA_Best: 2.81e+03  SFOA_Mean: 3.22e+03  SFOA_STD: 2.49e+02  
+
+以下为F3函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 7.20e+02  BAEO_Mean: 7.45e+02  BAEO_STD: 2.03e+01  
+以下为TOC的数据展示：
+TOC_Best: 7.21e+02  TOC_Mean: 7.44e+02  TOC_STD: 1.55e+01  
+以下为SBO的数据展示：
+SBO_Best: 7.85e+02  SBO_Mean: 8.11e+02  SBO_STD: 1.68e+01  
+以下为HHO的数据展示：
+HHO_Best: 7.45e+02  HHO_Mean: 7.93e+02  HHO_STD: 2.04e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 7.31e+02  SCSO_Mean: 7.65e+02  SCSO_STD: 1.94e+01  
+以下为AOO的数据展示：
+AOO_Best: 7.13e+02  AOO_Mean: 7.29e+02  AOO_STD: 8.43e+00  
+以下为SFOA的数据展示：
+SFOA_Best: 8.23e+02  SFOA_Mean: 1.01e+03  SFOA_STD: 1.33e+02  
+
+以下为F4函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.90e+03  BAEO_Mean: 1.90e+03  BAEO_STD: 9.92e-01  
+以下为TOC的数据展示：
+TOC_Best: 1.90e+03  TOC_Mean: 1.90e+03  TOC_STD: 1.24e+00  
+以下为SBO的数据展示：
+SBO_Best: 1.90e+03  SBO_Mean: 1.90e+03  SBO_STD: 1.22e+00  
+以下为HHO的数据展示：
+HHO_Best: 1.90e+03  HHO_Mean: 1.90e+03  HHO_STD: 0.00e+00  
+以下为SCSO的数据展示：
+SCSO_Best: 1.90e+03  SCSO_Mean: 1.90e+03  SCSO_STD: 0.00e+00  
+以下为AOO的数据展示：
+AOO_Best: 1.90e+03  AOO_Mean: 1.90e+03  AOO_STD: 4.96e-01  
+以下为SFOA的数据展示：
+SFOA_Best: 1.92e+03  SFOA_Mean: 2.10e+04  SFOA_STD: 3.38e+04  
+
+以下为F5函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 2.12e+03  BAEO_Mean: 6.55e+03  BAEO_STD: 9.04e+03  
+以下为TOC的数据展示：
+TOC_Best: 1.89e+03  TOC_Mean: 7.45e+03  TOC_STD: 1.11e+04  
+以下为SBO的数据展示：
+SBO_Best: 3.16e+04  SBO_Mean: 4.13e+05  SBO_STD: 2.52e+05  
+以下为HHO的数据展示：
+HHO_Best: 3.96e+03  HHO_Mean: 3.49e+04  HHO_STD: 4.15e+04  
+以下为SCSO的数据展示：
+SCSO_Best: 2.73e+03  SCSO_Mean: 1.74e+04  SCSO_STD: 6.28e+04  
+以下为AOO的数据展示：
+AOO_Best: 2.39e+03  AOO_Mean: 5.67e+03  AOO_STD: 4.09e+03  
+以下为SFOA的数据展示：
+SFOA_Best: 7.08e+04  SFOA_Mean: 7.45e+06  SFOA_STD: 1.04e+07  
+
+以下为F6函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.63e+03  BAEO_Mean: 1.78e+03  BAEO_STD: 1.09e+02  
+以下为TOC的数据展示：
+TOC_Best: 1.64e+03  TOC_Mean: 1.82e+03  TOC_STD: 9.87e+01  
+以下为SBO的数据展示：
+SBO_Best: 1.72e+03  SBO_Mean: 2.04e+03  SBO_STD: 1.54e+02  
+以下为HHO的数据展示：
+HHO_Best: 1.64e+03  HHO_Mean: 1.87e+03  HHO_STD: 1.11e+02  
+以下为SCSO的数据展示：
+SCSO_Best: 1.61e+03  SCSO_Mean: 1.76e+03  SCSO_STD: 9.18e+01  
+以下为AOO的数据展示：
+AOO_Best: 1.60e+03  AOO_Mean: 1.73e+03  AOO_STD: 7.83e+01  
+以下为SFOA的数据展示：
+SFOA_Best: 1.78e+03  SFOA_Mean: 2.19e+03  SFOA_STD: 2.33e+02  
+
+以下为F7函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 2.16e+03  BAEO_Mean: 5.09e+03  BAEO_STD: 7.60e+03  
+以下为TOC的数据展示：
+TOC_Best: 2.23e+03  TOC_Mean: 4.82e+03  TOC_STD: 7.57e+03  
+以下为SBO的数据展示：
+SBO_Best: 4.54e+03  SBO_Mean: 7.60e+04  SBO_STD: 9.69e+04  
+以下为HHO的数据展示：
+HHO_Best: 2.58e+03  HHO_Mean: 1.02e+04  HHO_STD: 9.01e+03  
+以下为SCSO的数据展示：
+SCSO_Best: 2.74e+03  SCSO_Mean: 9.30e+03  SCSO_STD: 5.51e+03  
+以下为AOO的数据展示：
+AOO_Best: 2.32e+03  AOO_Mean: 7.16e+03  AOO_STD: 4.36e+03  
+以下为SFOA的数据展示：
+SFOA_Best: 3.89e+04  SFOA_Mean: 1.59e+06  SFOA_STD: 1.33e+06  
+
+以下为F8函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 2.31e+03  BAEO_Mean: 2.32e+03  BAEO_STD: 1.51e+01  
+以下为TOC的数据展示：
+TOC_Best: 2.24e+03  TOC_Mean: 2.36e+03  TOC_STD: 2.50e+02  
+以下为SBO的数据展示：
+SBO_Best: 2.32e+03  SBO_Mean: 2.48e+03  SBO_STD: 1.23e+02  
+以下为HHO的数据展示：
+HHO_Best: 2.27e+03  HHO_Mean: 2.31e+03  HHO_STD: 9.81e+00  
+以下为SCSO的数据展示：
+SCSO_Best: 2.30e+03  SCSO_Mean: 2.34e+03  SCSO_STD: 6.09e+01  
+以下为AOO的数据展示：
+AOO_Best: 2.30e+03  AOO_Mean: 2.30e+03  AOO_STD: 1.74e+00  
+以下为SFOA的数据展示：
+SFOA_Best: 2.44e+03  SFOA_Mean: 3.55e+03  SFOA_STD: 7.38e+02  
+
+以下为F9函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 2.75e+03  BAEO_Mean: 2.78e+03  BAEO_STD: 2.87e+01  
+以下为TOC的数据展示：
+TOC_Best: 2.75e+03  TOC_Mean: 2.79e+03  TOC_STD: 3.59e+01  
+以下为SBO的数据展示：
+SBO_Best: 2.61e+03  SBO_Mean: 2.79e+03  SBO_STD: 5.46e+01  
+以下为HHO的数据展示：
+HHO_Best: 2.50e+03  HHO_Mean: 2.78e+03  HHO_STD: 1.15e+02  
+以下为SCSO的数据展示：
+SCSO_Best: 2.55e+03  SCSO_Mean: 2.77e+03  SCSO_STD: 4.34e+01  
+以下为AOO的数据展示：
+AOO_Best: 2.50e+03  AOO_Mean: 2.74e+03  AOO_STD: 4.68e+01  
+以下为SFOA的数据展示：
+SFOA_Best: 2.70e+03  SFOA_Mean: 2.86e+03  SFOA_STD: 4.85e+01  
+
+以下为F10函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 2.61e+03  BAEO_Mean: 2.93e+03  BAEO_STD: 7.24e+01  
+以下为TOC的数据展示：
+TOC_Best: 2.90e+03  TOC_Mean: 2.94e+03  TOC_STD: 2.89e+01  
+以下为SBO的数据展示：
+SBO_Best: 2.96e+03  SBO_Mean: 3.04e+03  SBO_STD: 5.38e+01  
+以下为HHO的数据展示：
+HHO_Best: 2.90e+03  HHO_Mean: 2.93e+03  HHO_STD: 3.22e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 2.90e+03  SCSO_Mean: 2.94e+03  SCSO_STD: 3.10e+01  
+以下为AOO的数据展示：
+AOO_Best: 2.60e+03  AOO_Mean: 2.91e+03  AOO_STD: 6.19e+01  
+以下为SFOA的数据展示：
+SFOA_Best: 3.02e+03  SFOA_Mean: 3.71e+03  SFOA_STD: 6.02e+02  
+
+[13:34:27] [INFO] ===== 日志记录已停止 =====
+
+Diary started: logs\2025-07-24_log.txt
+[13:39:31] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 7.13e+04  BAEO_Mean: 1.78e+07  BAEO_STD: 2.52e+07  
+以下为TOC的数据展示：
+TOC_Best: 2.61e+04  TOC_Mean: 1.04e+07  TOC_STD: 2.46e+07  
+以下为SBO的数据展示：
+SBO_Best: 2.86e+08  SBO_Mean: 2.20e+09  SBO_STD: 1.11e+09  
+以下为HHO的数据展示：
+HHO_Best: 1.88e+05  HHO_Mean: 6.00e+05  HHO_STD: 5.62e+05  
+以下为SCSO的数据展示：
+SCSO_Best: 2.93e+03  SCSO_Mean: 1.42e+08  SCSO_STD: 2.22e+08  
+以下为AOO的数据展示：
+AOO_Best: 1.00e+02  AOO_Mean: 2.82e+03  AOO_STD: 3.32e+03  
+以下为SFOA的数据展示：
+SFOA_Best: 2.71e+09  SFOA_Mean: 1.23e+10  SFOA_STD: 6.05e+09  
+
+以下为F3函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 3.04e+02  BAEO_Mean: 1.67e+03  BAEO_STD: 3.53e+03  
+以下为TOC的数据展示：
+TOC_Best: 3.02e+02  TOC_Mean: 3.66e+03  TOC_STD: 7.87e+03  
+以下为SBO的数据展示：
+SBO_Best: 4.62e+03  SBO_Mean: 1.10e+04  SBO_STD: 3.97e+03  
+以下为HHO的数据展示：
+HHO_Best: 3.01e+02  HHO_Mean: 3.06e+02  HHO_STD: 7.11e+00  
+以下为SCSO的数据展示：
+SCSO_Best: 3.03e+02  SCSO_Mean: 1.45e+03  SCSO_STD: 1.41e+03  
+以下为AOO的数据展示：
+AOO_Best: 3.00e+02  AOO_Mean: 3.00e+02  AOO_STD: 1.39e-04  
+以下为SFOA的数据展示：
+SFOA_Best: 1.05e+04  SFOA_Mean: 7.15e+04  SFOA_STD: 5.63e+04  
+
+以下为F4函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 4.02e+02  BAEO_Mean: 4.38e+02  BAEO_STD: 4.95e+01  
+以下为TOC的数据展示：
+TOC_Best: 4.02e+02  TOC_Mean: 4.22e+02  TOC_STD: 4.70e+01  
+以下为SBO的数据展示：
+SBO_Best: 4.47e+02  SBO_Mean: 5.56e+02  SBO_STD: 6.77e+01  
+以下为HHO的数据展示：
+HHO_Best: 4.00e+02  HHO_Mean: 4.17e+02  HHO_STD: 2.44e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 4.03e+02  SCSO_Mean: 4.39e+02  SCSO_STD: 3.57e+01  
+以下为AOO的数据展示：
+AOO_Best: 4.00e+02  AOO_Mean: 4.05e+02  AOO_STD: 1.38e+00  
+以下为SFOA的数据展示：
+SFOA_Best: 5.13e+02  SFOA_Mean: 1.76e+03  SFOA_STD: 1.10e+03  
+
+以下为F5函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 5.04e+02  BAEO_Mean: 5.32e+02  BAEO_STD: 1.15e+01  
+以下为TOC的数据展示：
+TOC_Best: 5.06e+02  TOC_Mean: 5.35e+02  TOC_STD: 1.59e+01  
+以下为SBO的数据展示：
+SBO_Best: 5.38e+02  SBO_Mean: 5.69e+02  SBO_STD: 1.47e+01  
+以下为HHO的数据展示：
+HHO_Best: 5.16e+02  HHO_Mean: 5.54e+02  HHO_STD: 1.81e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 5.16e+02  SCSO_Mean: 5.39e+02  SCSO_STD: 1.60e+01  
+以下为AOO的数据展示：
+AOO_Best: 5.04e+02  AOO_Mean: 5.21e+02  AOO_STD: 9.05e+00  
+以下为SFOA的数据展示：
+SFOA_Best: 5.58e+02  SFOA_Mean: 6.11e+02  SFOA_STD: 2.99e+01  
+
+以下为F6函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 6.03e+02  BAEO_Mean: 6.19e+02  BAEO_STD: 1.02e+01  
+以下为TOC的数据展示：
+TOC_Best: 6.02e+02  TOC_Mean: 6.15e+02  TOC_STD: 7.79e+00  
+以下为SBO的数据展示：
+SBO_Best: 6.19e+02  SBO_Mean: 6.37e+02  SBO_STD: 8.30e+00  
+以下为HHO的数据展示：
+HHO_Best: 6.18e+02  HHO_Mean: 6.37e+02  HHO_STD: 1.11e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 6.02e+02  SCSO_Mean: 6.17e+02  SCSO_STD: 9.57e+00  
+以下为AOO的数据展示：
+AOO_Best: 6.00e+02  AOO_Mean: 6.01e+02  AOO_STD: 1.16e+00  
+以下为SFOA的数据展示：
+SFOA_Best: 6.37e+02  SFOA_Mean: 6.80e+02  SFOA_STD: 1.98e+01  
+
+以下为F7函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 7.25e+02  BAEO_Mean: 7.49e+02  BAEO_STD: 1.62e+01  
+以下为TOC的数据展示：
+TOC_Best: 7.22e+02  TOC_Mean: 7.48e+02  TOC_STD: 1.63e+01  
+以下为SBO的数据展示：
+SBO_Best: 7.85e+02  SBO_Mean: 8.13e+02  SBO_STD: 2.04e+01  
+以下为HHO的数据展示：
+HHO_Best: 7.46e+02  HHO_Mean: 7.87e+02  HHO_STD: 2.25e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 7.25e+02  SCSO_Mean: 7.59e+02  SCSO_STD: 1.49e+01  
+以下为AOO的数据展示：
+AOO_Best: 7.15e+02  AOO_Mean: 7.28e+02  AOO_STD: 9.98e+00  
+以下为SFOA的数据展示：
+SFOA_Best: 8.64e+02  SFOA_Mean: 1.03e+03  SFOA_STD: 1.16e+02  
+
+以下为F8函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 8.10e+02  BAEO_Mean: 8.26e+02  BAEO_STD: 8.39e+00  
+以下为TOC的数据展示：
+TOC_Best: 8.10e+02  TOC_Mean: 8.27e+02  TOC_STD: 1.17e+01  
+以下为SBO的数据展示：
+SBO_Best: 8.47e+02  SBO_Mean: 8.64e+02  SBO_STD: 9.48e+00  
+以下为HHO的数据展示：
+HHO_Best: 8.16e+02  HHO_Mean: 8.35e+02  HHO_STD: 8.53e+00  
+以下为SCSO的数据展示：
+SCSO_Best: 8.13e+02  SCSO_Mean: 8.30e+02  SCSO_STD: 9.05e+00  
+以下为AOO的数据展示：
+AOO_Best: 8.07e+02  AOO_Mean: 8.20e+02  AOO_STD: 8.33e+00  
+以下为SFOA的数据展示：
+SFOA_Best: 8.76e+02  SFOA_Mean: 9.13e+02  SFOA_STD: 2.10e+01  
+
+以下为F9函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 9.09e+02  BAEO_Mean: 1.00e+03  BAEO_STD: 1.28e+02  
+以下为TOC的数据展示：
+TOC_Best: 9.02e+02  TOC_Mean: 9.64e+02  TOC_STD: 7.09e+01  
+以下为SBO的数据展示：
+SBO_Best: 1.07e+03  SBO_Mean: 1.44e+03  SBO_STD: 2.47e+02  
+以下为HHO的数据展示：
+HHO_Best: 1.19e+03  HHO_Mean: 1.51e+03  HHO_STD: 1.82e+02  
+以下为SCSO的数据展示：
+SCSO_Best: 9.27e+02  SCSO_Mean: 1.09e+03  SCSO_STD: 1.39e+02  
+以下为AOO的数据展示：
+AOO_Best: 9.00e+02  AOO_Mean: 9.00e+02  AOO_STD: 1.02e+00  
+以下为SFOA的数据展示：
+SFOA_Best: 1.59e+03  SFOA_Mean: 3.81e+03  SFOA_STD: 1.41e+03  
+
+以下为F10函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.69e+03  BAEO_Mean: 2.10e+03  BAEO_STD: 2.76e+02  
+以下为TOC的数据展示：
+TOC_Best: 1.33e+03  TOC_Mean: 2.22e+03  TOC_STD: 4.17e+02  
+以下为SBO的数据展示：
+SBO_Best: 2.39e+03  SBO_Mean: 2.94e+03  SBO_STD: 2.56e+02  
+以下为HHO的数据展示：
+HHO_Best: 1.38e+03  HHO_Mean: 2.04e+03  HHO_STD: 2.91e+02  
+以下为SCSO的数据展示：
+SCSO_Best: 1.26e+03  SCSO_Mean: 2.05e+03  SCSO_STD: 3.06e+02  
+以下为AOO的数据展示：
+AOO_Best: 1.15e+03  AOO_Mean: 1.77e+03  AOO_STD: 2.81e+02  
+以下为SFOA的数据展示：
+SFOA_Best: 2.55e+03  SFOA_Mean: 3.05e+03  SFOA_STD: 2.04e+02  
+
+以下为F11函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.12e+03  BAEO_Mean: 1.25e+03  BAEO_STD: 1.24e+02  
+以下为TOC的数据展示：
+TOC_Best: 1.11e+03  TOC_Mean: 1.26e+03  TOC_STD: 1.46e+02  
+以下为SBO的数据展示：
+SBO_Best: 1.21e+03  SBO_Mean: 1.61e+03  SBO_STD: 6.24e+02  
+以下为HHO的数据展示：
+HHO_Best: 1.11e+03  HHO_Mean: 1.19e+03  HHO_STD: 8.31e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 1.10e+03  SCSO_Mean: 1.17e+03  SCSO_STD: 6.04e+01  
+以下为AOO的数据展示：
+AOO_Best: 1.10e+03  AOO_Mean: 1.13e+03  AOO_STD: 1.55e+01  
+以下为SFOA的数据展示：
+SFOA_Best: 1.38e+03  SFOA_Mean: 1.43e+04  SFOA_STD: 2.06e+04  
+
+以下为F12函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.73e+03  BAEO_Mean: 1.14e+06  BAEO_STD: 3.28e+06  
+以下为TOC的数据展示：
+TOC_Best: 3.61e+03  TOC_Mean: 1.53e+06  TOC_STD: 4.74e+06  
+以下为SBO的数据展示：
+SBO_Best: 7.36e+06  SBO_Mean: 3.67e+07  SBO_STD: 3.14e+07  
+以下为HHO的数据展示：
+HHO_Best: 1.22e+05  HHO_Mean: 2.94e+06  HHO_STD: 2.56e+06  
+以下为SCSO的数据展示：
+SCSO_Best: 1.35e+04  SCSO_Mean: 1.21e+06  SCSO_STD: 1.66e+06  
+以下为AOO的数据展示：
+AOO_Best: 6.59e+03  AOO_Mean: 8.71e+05  AOO_STD: 1.20e+06  
+以下为SFOA的数据展示：
+SFOA_Best: 5.14e+07  SFOA_Mean: 7.01e+08  SFOA_STD: 6.04e+08  
+
+以下为F13函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.48e+03  BAEO_Mean: 2.15e+03  BAEO_STD: 6.67e+02  
+以下为TOC的数据展示：
+TOC_Best: 1.53e+03  TOC_Mean: 3.83e+03  TOC_STD: 7.97e+03  
+以下为SBO的数据展示：
+SBO_Best: 1.36e+04  SBO_Mean: 4.46e+05  SBO_STD: 3.85e+05  
+以下为HHO的数据展示：
+HHO_Best: 2.43e+03  HHO_Mean: 1.61e+04  HHO_STD: 1.06e+04  
+以下为SCSO的数据展示：
+SCSO_Best: 2.68e+03  SCSO_Mean: 1.31e+04  SCSO_STD: 8.35e+03  
+以下为AOO的数据展示：
+AOO_Best: 3.29e+03  AOO_Mean: 1.70e+04  AOO_STD: 1.07e+04  
+以下为SFOA的数据展示：
+SFOA_Best: 2.60e+04  SFOA_Mean: 6.39e+07  SFOA_STD: 9.59e+07  
+
+以下为F14函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.43e+03  BAEO_Mean: 1.57e+03  BAEO_STD: 3.84e+02  
+以下为TOC的数据展示：
+TOC_Best: 1.43e+03  TOC_Mean: 1.50e+03  TOC_STD: 4.33e+01  
+以下为SBO的数据展示：
+SBO_Best: 1.54e+03  SBO_Mean: 8.18e+03  SBO_STD: 7.01e+03  
+以下为HHO的数据展示：
+HHO_Best: 1.48e+03  HHO_Mean: 1.83e+03  HHO_STD: 6.08e+02  
+以下为SCSO的数据展示：
+SCSO_Best: 1.45e+03  SCSO_Mean: 3.24e+03  SCSO_STD: 1.82e+03  
+以下为AOO的数据展示：
+AOO_Best: 1.45e+03  AOO_Mean: 1.51e+03  AOO_STD: 3.27e+01  
+以下为SFOA的数据展示：
+SFOA_Best: 1.60e+03  SFOA_Mean: 2.57e+06  SFOA_STD: 1.01e+07  
+
+以下为F15函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.54e+03  BAEO_Mean: 4.37e+03  BAEO_STD: 1.29e+04  
+以下为TOC的数据展示：
+TOC_Best: 1.54e+03  TOC_Mean: 3.25e+03  TOC_STD: 5.77e+03  
+以下为SBO的数据展示：
+SBO_Best: 5.47e+03  SBO_Mean: 2.08e+04  SBO_STD: 1.57e+04  
+以下为HHO的数据展示：
+HHO_Best: 1.90e+03  HHO_Mean: 5.82e+03  HHO_STD: 2.72e+03  
+以下为SCSO的数据展示：
+SCSO_Best: 1.57e+03  SCSO_Mean: 3.50e+03  SCSO_STD: 1.90e+03  
+以下为AOO的数据展示：
+AOO_Best: 1.53e+03  AOO_Mean: 1.95e+03  AOO_STD: 3.97e+02  
+以下为SFOA的数据展示：
+SFOA_Best: 1.25e+04  SFOA_Mean: 3.53e+06  SFOA_STD: 1.11e+07  
+
+以下为F16函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.60e+03  BAEO_Mean: 1.78e+03  BAEO_STD: 1.44e+02  
+以下为TOC的数据展示：
+TOC_Best: 1.60e+03  TOC_Mean: 1.75e+03  TOC_STD: 1.20e+02  
+以下为SBO的数据展示：
+SBO_Best: 1.80e+03  SBO_Mean: 2.09e+03  SBO_STD: 1.43e+02  
+以下为HHO的数据展示：
+HHO_Best: 1.62e+03  HHO_Mean: 1.93e+03  HHO_STD: 1.52e+02  
+以下为SCSO的数据展示：
+SCSO_Best: 1.63e+03  SCSO_Mean: 1.76e+03  SCSO_STD: 9.66e+01  
+以下为AOO的数据展示：
+AOO_Best: 1.61e+03  AOO_Mean: 1.77e+03  AOO_STD: 1.24e+02  
+以下为SFOA的数据展示：
+SFOA_Best: 1.93e+03  SFOA_Mean: 2.37e+03  SFOA_STD: 2.07e+02  
+
+以下为F17函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.72e+03  BAEO_Mean: 1.80e+03  BAEO_STD: 6.57e+01  
+以下为TOC的数据展示：
+TOC_Best: 1.74e+03  TOC_Mean: 1.82e+03  TOC_STD: 6.89e+01  
+以下为SBO的数据展示：
+SBO_Best: 1.80e+03  SBO_Mean: 1.89e+03  SBO_STD: 6.17e+01  
+以下为HHO的数据展示：
+HHO_Best: 1.73e+03  HHO_Mean: 1.78e+03  HHO_STD: 5.59e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 1.75e+03  SCSO_Mean: 1.77e+03  SCSO_STD: 1.64e+01  
+以下为AOO的数据展示：
+AOO_Best: 1.72e+03  AOO_Mean: 1.75e+03  AOO_STD: 2.40e+01  
+以下为SFOA的数据展示：
+SFOA_Best: 1.82e+03  SFOA_Mean: 2.13e+03  SFOA_STD: 1.98e+02  
+
+以下为F18函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.83e+03  BAEO_Mean: 6.44e+03  BAEO_STD: 1.08e+04  
+以下为TOC的数据展示：
+TOC_Best: 1.85e+03  TOC_Mean: 7.95e+03  TOC_STD: 1.03e+04  
+以下为SBO的数据展示：
+SBO_Best: 8.86e+03  SBO_Mean: 1.11e+06  SBO_STD: 1.88e+06  
+以下为HHO的数据展示：
+HHO_Best: 3.58e+03  HHO_Mean: 1.94e+04  HHO_STD: 1.16e+04  
+以下为SCSO的数据展示：
+SCSO_Best: 2.93e+03  SCSO_Mean: 2.24e+04  SCSO_STD: 1.31e+04  
+以下为AOO的数据展示：
+AOO_Best: 3.35e+03  AOO_Mean: 2.49e+04  AOO_STD: 1.41e+04  
+以下为SFOA的数据展示：
+SFOA_Best: 9.22e+04  SFOA_Mean: 1.23e+08  SFOA_STD: 2.00e+08  
+
+以下为F19函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.91e+03  BAEO_Mean: 2.76e+03  BAEO_STD: 3.90e+03  
+以下为TOC的数据展示：
+TOC_Best: 1.94e+03  TOC_Mean: 1.96e+04  TOC_STD: 5.65e+04  
+以下为SBO的数据展示：
+SBO_Best: 2.68e+03  SBO_Mean: 3.30e+04  SBO_STD: 2.93e+04  
+以下为HHO的数据展示：
+HHO_Best: 1.93e+03  HHO_Mean: 9.39e+03  HHO_STD: 8.81e+03  
+以下为SCSO的数据展示：
+SCSO_Best: 1.93e+03  SCSO_Mean: 1.57e+04  SCSO_STD: 5.06e+04  
+以下为AOO的数据展示：
+AOO_Best: 1.94e+03  AOO_Mean: 3.19e+03  AOO_STD: 2.79e+03  
+以下为SFOA的数据展示：
+SFOA_Best: 3.22e+04  SFOA_Mean: 1.75e+06  SFOA_STD: 2.71e+06  
+
+以下为F20函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 2.03e+03  BAEO_Mean: 2.14e+03  BAEO_STD: 8.05e+01  
+以下为TOC的数据展示：
+TOC_Best: 2.05e+03  TOC_Mean: 2.15e+03  TOC_STD: 8.47e+01  
+以下为SBO的数据展示：
+SBO_Best: 2.10e+03  SBO_Mean: 2.28e+03  SBO_STD: 7.82e+01  
+以下为HHO的数据展示：
+HHO_Best: 2.05e+03  HHO_Mean: 2.18e+03  HHO_STD: 7.42e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 2.06e+03  SCSO_Mean: 2.13e+03  SCSO_STD: 4.42e+01  
+以下为AOO的数据展示：
+AOO_Best: 2.02e+03  AOO_Mean: 2.09e+03  AOO_STD: 5.66e+01  
+以下为SFOA的数据展示：
+SFOA_Best: 2.14e+03  SFOA_Mean: 2.41e+03  SFOA_STD: 1.53e+02  
+
+以下为F21函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 2.20e+03  BAEO_Mean: 2.31e+03  BAEO_STD: 5.00e+01  
+以下为TOC的数据展示：
+TOC_Best: 2.20e+03  TOC_Mean: 2.32e+03  TOC_STD: 5.37e+01  
+以下为SBO的数据展示：
+SBO_Best: 2.22e+03  SBO_Mean: 2.33e+03  SBO_STD: 5.74e+01  
+以下为HHO的数据展示：
+HHO_Best: 2.21e+03  HHO_Mean: 2.34e+03  HHO_STD: 4.68e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 2.20e+03  SCSO_Mean: 2.29e+03  SCSO_STD: 5.82e+01  
+以下为AOO的数据展示：
+AOO_Best: 2.20e+03  AOO_Mean: 2.29e+03  AOO_STD: 5.51e+01  
+以下为SFOA的数据展示：
+SFOA_Best: 2.23e+03  SFOA_Mean: 2.35e+03  SFOA_STD: 5.89e+01  
+
+以下为F22函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 2.28e+03  BAEO_Mean: 2.38e+03  BAEO_STD: 3.30e+02  
+以下为TOC的数据展示：
+TOC_Best: 2.31e+03  TOC_Mean: 2.36e+03  TOC_STD: 2.38e+02  
+以下为SBO的数据展示：
+SBO_Best: 2.31e+03  SBO_Mean: 2.44e+03  SBO_STD: 7.71e+01  
+以下为HHO的数据展示：
+HHO_Best: 2.27e+03  HHO_Mean: 2.37e+03  HHO_STD: 3.27e+02  
+以下为SCSO的数据展示：
+SCSO_Best: 2.30e+03  SCSO_Mean: 2.34e+03  SCSO_STD: 7.82e+01  
+以下为AOO的数据展示：
+AOO_Best: 2.30e+03  AOO_Mean: 2.30e+03  AOO_STD: 8.61e-01  
+以下为SFOA的数据展示：
+SFOA_Best: 2.53e+03  SFOA_Mean: 3.65e+03  SFOA_STD: 7.60e+02  
+
+以下为F23函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 2.61e+03  BAEO_Mean: 2.65e+03  BAEO_STD: 2.07e+01  
+以下为TOC的数据展示：
+TOC_Best: 2.61e+03  TOC_Mean: 2.65e+03  TOC_STD: 2.78e+01  
+以下为SBO的数据展示：
+SBO_Best: 2.65e+03  SBO_Mean: 2.68e+03  SBO_STD: 1.45e+01  
+以下为HHO的数据展示：
+HHO_Best: 2.61e+03  HHO_Mean: 2.67e+03  HHO_STD: 3.70e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 2.62e+03  SCSO_Mean: 2.64e+03  SCSO_STD: 1.54e+01  
+以下为AOO的数据展示：
+AOO_Best: 2.61e+03  AOO_Mean: 2.62e+03  AOO_STD: 1.03e+01  
+以下为SFOA的数据展示：
+SFOA_Best: 2.65e+03  SFOA_Mean: 2.72e+03  SFOA_STD: 3.77e+01  
+
+以下为F24函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 2.50e+03  BAEO_Mean: 2.76e+03  BAEO_STD: 5.39e+01  
+以下为TOC的数据展示：
+TOC_Best: 2.74e+03  TOC_Mean: 2.79e+03  TOC_STD: 2.99e+01  
+以下为SBO的数据展示：
+SBO_Best: 2.60e+03  SBO_Mean: 2.79e+03  SBO_STD: 6.45e+01  
+以下为HHO的数据展示：
+HHO_Best: 2.50e+03  HHO_Mean: 2.80e+03  HHO_STD: 9.06e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 2.51e+03  SCSO_Mean: 2.75e+03  SCSO_STD: 6.83e+01  
+以下为AOO的数据展示：
+AOO_Best: 2.50e+03  AOO_Mean: 2.73e+03  AOO_STD: 6.47e+01  
+以下为SFOA的数据展示：
+SFOA_Best: 2.79e+03  SFOA_Mean: 2.85e+03  SFOA_STD: 4.16e+01  
+
+以下为F25函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 2.90e+03  BAEO_Mean: 2.94e+03  BAEO_STD: 2.52e+01  
+以下为TOC的数据展示：
+TOC_Best: 2.90e+03  TOC_Mean: 2.95e+03  TOC_STD: 3.17e+01  
+以下为SBO的数据展示：
+SBO_Best: 2.97e+03  SBO_Mean: 3.04e+03  SBO_STD: 6.64e+01  
+以下为HHO的数据展示：
+HHO_Best: 2.90e+03  HHO_Mean: 2.94e+03  HHO_STD: 2.74e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 2.90e+03  SCSO_Mean: 2.93e+03  SCSO_STD: 2.81e+01  
+以下为AOO的数据展示：
+AOO_Best: 2.90e+03  AOO_Mean: 2.92e+03  AOO_STD: 2.28e+01  
+以下为SFOA的数据展示：
+SFOA_Best: 3.05e+03  SFOA_Mean: 3.71e+03  SFOA_STD: 4.11e+02  
+
+以下为F26函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 2.90e+03  BAEO_Mean: 3.33e+03  BAEO_STD: 4.46e+02  
+以下为TOC的数据展示：
+TOC_Best: 2.82e+03  TOC_Mean: 3.51e+03  TOC_STD: 6.17e+02  
+以下为SBO的数据展示：
+SBO_Best: 3.10e+03  SBO_Mean: 3.39e+03  SBO_STD: 2.20e+02  
+以下为HHO的数据展示：
+HHO_Best: 2.60e+03  HHO_Mean: 3.58e+03  HHO_STD: 6.50e+02  
+以下为SCSO的数据展示：
+SCSO_Best: 2.85e+03  SCSO_Mean: 3.08e+03  SCSO_STD: 2.01e+02  
+以下为AOO的数据展示：
+AOO_Best: 2.80e+03  AOO_Mean: 2.92e+03  AOO_STD: 1.71e+02  
+以下为SFOA的数据展示：
+SFOA_Best: 3.23e+03  SFOA_Mean: 4.35e+03  SFOA_STD: 7.42e+02  
+
+以下为F27函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 3.09e+03  BAEO_Mean: 3.12e+03  BAEO_STD: 2.77e+01  
+以下为TOC的数据展示：
+TOC_Best: 3.09e+03  TOC_Mean: 3.12e+03  TOC_STD: 3.18e+01  
+以下为SBO的数据展示：
+SBO_Best: 3.11e+03  SBO_Mean: 3.14e+03  SBO_STD: 2.66e+01  
+以下为HHO的数据展示：
+HHO_Best: 3.11e+03  HHO_Mean: 3.17e+03  HHO_STD: 5.62e+01  
+以下为SCSO的数据展示：
+SCSO_Best: 3.09e+03  SCSO_Mean: 3.11e+03  SCSO_STD: 1.64e+01  
+以下为AOO的数据展示：
+AOO_Best: 3.09e+03  AOO_Mean: 3.10e+03  AOO_STD: 2.14e+01  
+以下为SFOA的数据展示：
+SFOA_Best: 3.11e+03  SFOA_Mean: 3.14e+03  SFOA_STD: 2.55e+01  
+
+以下为F28函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 3.16e+03  BAEO_Mean: 3.47e+03  BAEO_STD: 1.80e+02  
+以下为TOC的数据展示：
+TOC_Best: 3.18e+03  TOC_Mean: 3.39e+03  TOC_STD: 1.80e+02  
+以下为SBO的数据展示：
+SBO_Best: 3.26e+03  SBO_Mean: 3.44e+03  SBO_STD: 1.01e+02  
+以下为HHO的数据展示：
+HHO_Best: 3.10e+03  HHO_Mean: 3.41e+03  HHO_STD: 1.33e+02  
+以下为SCSO的数据展示：
+SCSO_Best: 3.10e+03  SCSO_Mean: 3.30e+03  SCSO_STD: 1.17e+02  
+以下为AOO的数据展示：
+AOO_Best: 3.10e+03  AOO_Mean: 3.28e+03  AOO_STD: 1.42e+02  
+以下为SFOA的数据展示：
+SFOA_Best: 3.41e+03  SFOA_Mean: 3.65e+03  SFOA_STD: 1.41e+02  
+
+以下为F29函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 3.19e+03  BAEO_Mean: 3.28e+03  BAEO_STD: 5.94e+01  
+以下为TOC的数据展示：
+TOC_Best: 3.16e+03  TOC_Mean: 3.29e+03  TOC_STD: 9.46e+01  
+以下为SBO的数据展示：
+SBO_Best: 3.27e+03  SBO_Mean: 3.39e+03  SBO_STD: 8.27e+01  
+以下为HHO的数据展示：
+HHO_Best: 3.22e+03  HHO_Mean: 3.37e+03  HHO_STD: 1.04e+02  
+以下为SCSO的数据展示：
+SCSO_Best: 3.17e+03  SCSO_Mean: 3.25e+03  SCSO_STD: 7.21e+01  
+以下为AOO的数据展示：
+AOO_Best: 3.14e+03  AOO_Mean: 3.19e+03  AOO_STD: 3.70e+01  
+以下为SFOA的数据展示：
+SFOA_Best: 3.28e+03  SFOA_Mean: 3.60e+03  SFOA_STD: 1.78e+02  
+
+以下为F30函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 4.39e+03  BAEO_Mean: 8.28e+05  BAEO_STD: 1.04e+06  
+以下为TOC的数据展示：
+TOC_Best: 4.98e+03  TOC_Mean: 8.88e+05  TOC_STD: 1.28e+06  
+以下为SBO的数据展示：
+SBO_Best: 1.50e+06  SBO_Mean: 7.14e+06  SBO_STD: 5.70e+06  
+以下为HHO的数据展示：
+HHO_Best: 4.14e+04  HHO_Mean: 1.21e+06  HHO_STD: 1.52e+06  
+以下为SCSO的数据展示：
+SCSO_Best: 5.10e+03  SCSO_Mean: 7.10e+05  SCSO_STD: 8.78e+05  
+以下为AOO的数据展示：
+AOO_Best: 5.94e+03  AOO_Mean: 3.90e+05  AOO_STD: 5.58e+05  
+以下为SFOA的数据展示：
+SFOA_Best: 8.74e+05  SFOA_Mean: 4.72e+06  SFOA_STD: 5.76e+06  
+
+[13:58:54] [INFO] ===== 日志记录已停止 =====

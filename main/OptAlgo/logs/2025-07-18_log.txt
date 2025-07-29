@@ -1,0 +1,140 @@
+Diary started: logs\2025-07-18_log.txt
+[16:44:07] [INFO] ===== 日志记录已启动 =====
+以下为BWO的数据展示：
+BWO_Best: 2.77e-04  BWO_Mean: 6.66e-03  BWO_STD: 6.54e-03  
+{函数或变量 'max_iter' 无法识别。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main', 'E:\matlabProjects\demo\main\mymodel\main.m', 103)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\mymodel\main.m',103,0)">第 103 行</a>)
+        [WOABest_pos,WOABest_score, WOA_cg_curve ] = WOA(PD_no,max_iter,LB,UB,Dim,F_obj); % Call WOA
+                                                               ^^^^^^^^
+} 
+main
+Diary started: logs\2025-07-18_log.txt
+[16:44:55] [INFO] ===== 日志记录已启动 =====
+以下为BWO的数据展示：
+BWO_Best: 1.50e-04  BWO_Mean: 7.53e-03  BWO_STD: 9.17e-03  
+以下为WOA的数据展示：
+WOA_Best: 6.92e-90  WOA_Mean: 2.90e-74  WOA_STD: 7.85e-74  
+以下为SCA的数据展示：
+SCA_Best: 1.33e-01  SCA_Mean: 2.29e+01  SCA_STD: 3.48e+01  
+以下为HHO的数据展示：
+HHO_Best: 5.74e-116  HHO_Mean: 3.41e-95  HHO_STD: 1.76e-94  
+以下为SCSO的数据展示：
+SCSO_Best: 1.03e-123  SCSO_Mean: 2.71e-113  SCSO_STD: 1.41e-112  
+以下为DBO的数据展示：
+DBO_Best: 9.45e-160  DBO_Mean: 1.51e-113  DBO_STD: 8.24e-113  
+[16:45:27] [INFO] ===== 日志记录已停止 =====
+
+Diary started: logs\2025-07-18_log.txt
+[17:16:46] [INFO] ===== 日志记录已启动 =====
+以下为BWO的数据展示：
+BWO_Best: 7.37e-04  BWO_Mean: 6.74e-03  BWO_STD: 5.33e-03  
+以下为WOA的数据展示：
+WOA_Best: 1.85e-83  WOA_Mean: 6.05e-71  WOA_STD: 3.31e-70  
+以下为SCA的数据展示：
+SCA_Best: 3.30e-02  SCA_Mean: 8.28e+00  SCA_STD: 1.14e+01  
+以下为HHO的数据展示：
+HHO_Best: 1.57e-114  HHO_Mean: 8.99e-95  HHO_STD: 4.90e-94  
+以下为SCSO的数据展示：
+SCSO_Best: 4.36e-126  SCSO_Mean: 1.71e-113  SCSO_STD: 9.19e-113  
+以下为DBO的数据展示：
+DBO_Best: 1.41e-160  DBO_Mean: 1.64e-108  DBO_STD: 8.36e-108  
+[17:17:18] [INFO] ===== 日志记录已停止 =====
+
+Diary started: logs\2025-07-18_log.txt
+[19:04:40] [INFO] ===== 日志记录已启动 =====
+以下为BWO的数据展示：
+BWO_Best: 6.95e-04  BWO_Mean: 7.04e-03  BWO_STD: 6.60e-03  
+以下为WOA的数据展示：
+WOA_Best: 7.13e-87  WOA_Mean: 5.18e-72  WOA_STD: 2.26e-71  
+以下为SCA的数据展示：
+SCA_Best: 1.02e-01  SCA_Mean: 1.12e+01  SCA_STD: 1.87e+01  
+以下为HHO的数据展示：
+HHO_Best: 1.06e-111  HHO_Mean: 2.31e-95  HHO_STD: 1.26e-94  
+以下为SCSO的数据展示：
+SCSO_Best: 1.46e-122  SCSO_Mean: 7.78e-113  SCSO_STD: 3.42e-112  
+以下为DBO的数据展示：
+DBO_Best: 1.76e-163  DBO_Mean: 9.35e-99  DBO_STD: 5.12e-98  
+[19:05:12] [INFO] ===== 日志记录已停止 =====
+
+Diary started: logs\2025-07-18_log.txt
+[20:38:37] [INFO] ===== 日志记录已启动 =====
+{函数或变量 'PTWDBO_cg_curve' 无法识别。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main', 'E:\matlabProjects\demo\main\mymodel\main.m', 70)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\mymodel\main.m',70,0)">第 70 行</a>)
+        semilogy(iter(k),PTWDBO_cg_curve(k),'g-o','linewidth',1);
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main
+Diary started: logs\2025-07-18_log.txt
+[20:39:39] [INFO] ===== 日志记录已启动 =====
+以下为BWO的数据展示：
+BWO_Best: 3.34e-04  BWO_Mean: 8.22e-03  BWO_STD: 8.20e-03  
+以下为WOA的数据展示：
+WOA_Best: 1.27e-85  WOA_Mean: 1.79e-72  WOA_STD: 9.76e-72  
+以下为SCA的数据展示：
+SCA_Best: 3.82e-02  SCA_Mean: 1.72e+01  SCA_STD: 4.37e+01  
+以下为HHO的数据展示：
+HHO_Best: 3.10e-115  HHO_Mean: 2.98e-98  HHO_STD: 1.24e-97  
+以下为SCSO的数据展示：
+SCSO_Best: 4.77e-127  SCSO_Mean: 6.47e-114  SCSO_STD: 2.50e-113  
+以下为DBO的数据展示：
+DBO_Best: 2.62e-164  DBO_Mean: 5.38e-95  DBO_STD: 2.95e-94  
+[20:40:11] [INFO] ===== 日志记录已停止 =====
+
+Diary started: logs\2025-07-18_log.txt
+[20:43:10] [INFO] ===== 日志记录已启动 =====
+以下为BWO的数据展示：
+BWO_Best: 9.42e-05  BWO_Mean: 7.66e-03  BWO_STD: 5.55e-03  
+以下为WOA的数据展示：
+WOA_Best: 8.65e-86  WOA_Mean: 2.20e-71  WOA_STD: 1.20e-70  
+以下为SCA的数据展示：
+SCA_Best: 3.26e-03  SCA_Mean: 1.51e+01  SCA_STD: 4.98e+01  
+以下为HHO的数据展示：
+HHO_Best: 2.65e-115  HHO_Mean: 4.33e-96  HHO_STD: 1.98e-95  
+以下为SCSO的数据展示：
+SCSO_Best: 3.66e-126  SCSO_Mean: 1.66e-113  SCSO_STD: 9.03e-113  
+以下为DBO的数据展示：
+DBO_Best: 5.50e-161  DBO_Mean: 7.98e-110  DBO_STD: 4.34e-109  
+{无法执行赋值，因为左侧和右侧的元素数目不同。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main', 'E:\matlabProjects\demo\main\mymodel\main.m', 202)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\mymodel\main.m',202,0)">第 202 行</a>)
+        SFOA_best_pos_list(i) = SFOABest_pos;
+        ^^^^^^^^^^^^^^^^^^^^^
+} 
+main
+Diary started: logs\2025-07-18_log.txt
+[20:44:26] [INFO] ===== 日志记录已启动 =====
+以下为BWO的数据展示：
+BWO_Best: 9.61e-05  BWO_Mean: 7.68e-03  BWO_STD: 8.88e-03  
+以下为WOA的数据展示：
+WOA_Best: 3.73e-85  WOA_Mean: 1.20e-71  WOA_STD: 6.57e-71  
+以下为SCA的数据展示：
+SCA_Best: 1.22e-02  SCA_Mean: 1.52e+01  SCA_STD: 2.93e+01  
+以下为HHO的数据展示：
+HHO_Best: 1.68e-113  HHO_Mean: 3.01e-93  HHO_STD: 1.64e-92  
+以下为SCSO的数据展示：
+SCSO_Best: 2.45e-124  SCSO_Mean: 1.86e-112  SCSO_STD: 9.42e-112  
+以下为DBO的数据展示：
+DBO_Best: 1.91e-156  DBO_Mean: 1.98e-99  DBO_STD: 1.09e-98  
+以下为SFOA的数据展示：
+SFOA_Best: 1.40e+04  SFOA_Mean: 4.74e+04  SFOA_STD: 1.68e+04  
+[20:44:58] [INFO] ===== 日志记录已停止 =====
+
+Diary started: logs\2025-07-18_log.txt
+[20:48:07] [INFO] ===== 日志记录已启动 =====
+以下为BWO的数据展示：
+BWO_Best: 8.04e-04  BWO_Mean: 7.23e-03  BWO_STD: 6.16e-03  
+以下为WOA的数据展示：
+WOA_Best: 1.48e-91  WOA_Mean: 1.66e-72  WOA_STD: 8.75e-72  
+以下为SCA的数据展示：
+SCA_Best: 5.71e-03  SCA_Mean: 1.44e+01  SCA_STD: 2.71e+01  
+以下为HHO的数据展示：
+HHO_Best: 2.10e-113  HHO_Mean: 3.34e-93  HHO_STD: 1.83e-92  
+以下为SCSO的数据展示：
+SCSO_Best: 9.03e-126  SCSO_Mean: 2.02e-112  SCSO_STD: 1.10e-111  
+以下为DBO的数据展示：
+DBO_Best: 2.58e-172  DBO_Mean: 7.71e-100  DBO_STD: 4.22e-99  
+以下为SFOA的数据展示：
+SFOA_Best: 2.20e+04  SFOA_Mean: 4.89e+04  SFOA_STD: 1.63e+04  
+[20:48:39] [INFO] ===== 日志记录已停止 =====

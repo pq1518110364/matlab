@@ -1,0 +1,331 @@
+[00:59:48] [INFO] Diary started: logsЕ-07-30_log.txt
+[00:59:48] [INFO] ===== 日志记录已启动 =====
+以下为F3函数的数据展示效果：
+{函数或变量 'grad_learning_rate' 无法识别。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 194)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',194,0)">第 194 行</a>)
+                    X(i,:) = Best_X - grad_learning_rate * grad_norm + 0.1 * R_base_random + c * P(i,:) .* Best_X; % 减少R的影响
+                                      ^^^^^^^^^^^^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 56)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',56,0)">第 56 行</a>)
+    [AOOBest_score_v2, ~, AOO_cg_curve_v2, AOO_v2_diversity, AOO_v2_threshold, AOO_v2_c_curve] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 194)
+opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',194,0)
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-30 01:02:09 ---
+
+[01:02:09] [INFO] Diary started: logsЕ-07-30_log.txt
+[01:02:09] [INFO] ===== 日志记录已启动 =====
+以下为F3函数的数据展示效果：
+{函数或变量 'grad_learning_rate' 无法识别。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 210)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',210,0)">第 210 行</a>)
+                    X(i, :) = Best_X - grad_learning_rate * grad_norm + 0.1 * J + c * P(i, :) .* Best_X;
+                                       ^^^^^^^^^^^^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 56)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',56,0)">第 56 行</a>)
+    [AOOBest_score_v2, ~, AOO_cg_curve_v2, AOO_v2_diversity, AOO_v2_threshold, AOO_v2_c_curve] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-30 01:03:21 ---
+
+[01:03:21] [INFO] Diary started: logsЕ-07-30_log.txt
+[01:03:21] [INFO] ===== 日志记录已启动 =====
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 3.00e+02  BAEO_Mean: 3.00e+02  BAEO_STD: 1.26e-08  BAEO_AvgTime: 0.17秒
+以下为AOO的数据展示：
+AOO_Best: 3.00e+02  AOO_Mean: 3.00e+02  AOO_STD: 4.30e-04  AOO_AvgTime: 0.13秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.00e+02  AOO_Mean_v2: 3.00e+02  AOO_STD_v2: 1.22e-03  AOO_AvgTime_v2: 0.27秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.00e+02  PIMO_Mean: 3.00e+02  PIMO_STD: 2.48e-03  PIMO_AvgTime: 0.76秒
+
+以下为F8函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 8.10e+02  BAEO_Mean: 8.23e+02  BAEO_STD: 8.03e+00  BAEO_AvgTime: 0.22秒
+以下为AOO的数据展示：
+AOO_Best: 8.07e+02  AOO_Mean: 8.24e+02  AOO_STD: 9.33e+00  AOO_AvgTime: 0.16秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 8.04e+02  AOO_Mean_v2: 8.12e+02  AOO_STD_v2: 5.64e+00  AOO_AvgTime_v2: 0.63秒
+以下为PIMO的数据展示：
+PIMO_Best: 8.07e+02  PIMO_Mean: 8.18e+02  PIMO_STD: 6.03e+00  PIMO_AvgTime: 1.07秒
+
+以下为F28函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 3.10e+03  BAEO_Mean: 3.30e+03  BAEO_STD: 1.63e+02  BAEO_AvgTime: 0.27秒
+以下为AOO的数据展示：
+AOO_Best: 3.10e+03  AOO_Mean: 3.29e+03  AOO_STD: 1.45e+02  AOO_AvgTime: 0.27秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.10e+03  AOO_Mean_v2: 3.35e+03  AOO_STD_v2: 1.36e+02  AOO_AvgTime_v2: 2.25秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.10e+03  PIMO_Mean: 3.14e+03  PIMO_STD: 3.83e+01  PIMO_AvgTime: 2.36秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 8.11e+03  BAEO_Mean: 7.80e+05  BAEO_STD: 1.28e+06  BAEO_AvgTime: 0.72秒
+以下为AOO的数据展示：
+AOO_Best: 7.07e+03  AOO_Mean: 3.38e+05  AOO_STD: 5.29e+05  AOO_AvgTime: 0.53秒
+<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',179,1)">179 </a>             apply_gradient_guidance = false;
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.50e+03  AOO_Mean_v2: 2.93e+05  AOO_STD_v2: 5.19e+05  AOO_AvgTime_v2: 7.70秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.48e+03  PIMO_Mean: 5.67e+03  PIMO_STD: 5.95e+03  PIMO_AvgTime: 5.33秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F3: BAEO=0.25s, AOO=0.20s, PIMO=0.99s
+F8: BAEO=0.26s, AOO=0.18s, PIMO=1.16s
+F28: BAEO=0.20s, AOO=0.29s, PIMO=2.47s
+F30: BAEO=0.76s, AOO=0.54s, PIMO=5.48s
+[01:15:20] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-30 01:15:36 ---
+
+[01:15:36] [INFO] Diary started: logsЕ-07-30_log.txt
+[01:15:36] [INFO] ===== 日志记录已启动 =====
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CEC2017>F3', 'E:\matlabProjects\demo\main\OptAlgo\CEC2017.m', 230)" style="font-weight:bold">CEC2017>F3</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\CEC2017.m',230,0)">第 230 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('BAEO', 'E:\matlabProjects\demo\main\OptAlgo\models\BAEO.m', 103)" style="font-weight:bold">BAEO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\BAEO.m',103,0)">第 103 行</a>)
+        new_pointfit=Fobj(rd_point);
+                     ^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 151)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',151,0)">第 151 行</a>)
+        [BAEOBest_score, BAEOBest_pos, BAEO_cg_curve] = BAEO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-30 01:16:00 ---
+
+[01:16:00] [INFO] Diary started: logsЕ-07-30_log.txt
+[01:16:00] [INFO] ===== 日志记录已启动 =====
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 3.00e+02  BAEO_Mean: 3.00e+02  BAEO_STD: 1.20e-08  BAEO_AvgTime: 0.17秒
+以下为AOO的数据展示：
+AOO_Best: 3.00e+02  AOO_Mean: 3.00e+02  AOO_STD: 4.90e-04  AOO_AvgTime: 0.14秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.00e+02  AOO_Mean_v2: 3.00e+02  AOO_STD_v2: 6.38e-04  AOO_AvgTime_v2: 0.30秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.00e+02  PIMO_Mean: 3.00e+02  PIMO_STD: 3.60e-04  PIMO_AvgTime: 0.76秒
+
+以下为F8函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 8.10e+02  BAEO_Mean: 8.26e+02  BAEO_STD: 7.30e+00  BAEO_AvgTime: 0.21秒
+以下为AOO的数据展示：
+AOO_Best: 8.11e+02  AOO_Mean: 8.21e+02  AOO_STD: 7.95e+00  AOO_AvgTime: 0.16秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 8.02e+02  AOO_Mean_v2: 8.12e+02  AOO_STD_v2: 6.64e+00  AOO_AvgTime_v2: 0.67秒
+以下为PIMO的数据展示：
+PIMO_Best: 8.07e+02  PIMO_Mean: 8.20e+02  PIMO_STD: 5.79e+00  PIMO_AvgTime: 1.08秒
+
+以下为F28函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 2.80e+03  BAEO_Mean: 3.31e+03  BAEO_STD: 1.59e+02  BAEO_AvgTime: 0.24秒
+以下为AOO的数据展示：
+AOO_Best: 3.10e+03  AOO_Mean: 3.28e+03  AOO_STD: 1.40e+02  AOO_AvgTime: 0.27秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.10e+03  AOO_Mean_v2: 3.29e+03  AOO_STD_v2: 1.40e+02  AOO_AvgTime_v2: 2.36秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.94e+03  PIMO_Mean: 3.14e+03  PIMO_STD: 5.03e+01  PIMO_AvgTime: 2.36秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 4.57e+03  BAEO_Mean: 8.19e+05  BAEO_STD: 1.17e+06  BAEO_AvgTime: 0.70秒
+以下为AOO的数据展示：
+AOO_Best: 4.70e+03  AOO_Mean: 4.26e+05  AOO_STD: 6.71e+05  AOO_AvgTime: 0.53秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.47e+03  AOO_Mean_v2: 2.02e+05  AOO_STD_v2: 4.96e+05  AOO_AvgTime_v2: 6.42秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CEC2017>F30', 'E:\matlabProjects\demo\main\OptAlgo\CEC2017.m', 369)" style="font-weight:bold">CEC2017>F30</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\CEC2017.m',369,0)">第 369 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO>Get_jacobian', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 169)" style="font-weight:bold">PIMO>Get_jacobian</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',169,0)">第 169 行</a>)
+        f_perturbed = fobj(x_perturbed);
+                      ^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 57)" style="font-weight:bold">PIMO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',57,0)">第 57 行</a>)
+            J = Get_jacobian(fobj, Position(P1, :), epsilon); % Generalised Jacobi matrix
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 211)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',211,0)">第 211 行</a>)
+        [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-30 01:27:09 ---
+
+[01:27:09] [INFO] Diary started: logsЕ-07-30_log.txt
+[01:27:09] [INFO] ===== 日志记录已启动 =====
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 3.00e+02  BAEO_Mean: 3.00e+02  BAEO_STD: 1.37e-08  BAEO_AvgTime: 0.17秒
+以下为AOO的数据展示：
+AOO_Best: 3.00e+02  AOO_Mean: 3.00e+02  AOO_STD: 4.98e-04  AOO_AvgTime: 0.14秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.00e+02  AOO_Mean_v2: 3.00e+02  AOO_STD_v2: 7.68e-03  AOO_AvgTime_v2: 0.30秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.00e+02  PIMO_Mean: 3.00e+02  PIMO_STD: 4.75e-05  PIMO_AvgTime: 0.76秒
+
+以下为F8函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 8.10e+02  BAEO_Mean: 8.27e+02  BAEO_STD: 1.16e+01  BAEO_AvgTime: 0.22秒
+以下为AOO的数据展示：
+AOO_Best: 8.11e+02  AOO_Mean: 8.24e+02  AOO_STD: 7.64e+00  AOO_AvgTime: 0.16秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 8.04e+02  AOO_Mean_v2: 8.14e+02  AOO_STD_v2: 7.11e+00  AOO_AvgTime_v2: 0.67秒
+以下为PIMO的数据展示：
+PIMO_Best: 8.07e+02  PIMO_Mean: 8.19e+02  PIMO_STD: 7.16e+00  PIMO_AvgTime: 1.07秒
+
+以下为F28函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 3.10e+03  BAEO_Mean: 3.29e+03  BAEO_STD: 1.44e+02  BAEO_AvgTime: 0.26秒
+以下为AOO的数据展示：
+AOO_Best: 3.10e+03  AOO_Mean: 3.31e+03  AOO_STD: 1.20e+02  AOO_AvgTime: 0.27秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.10e+03  AOO_Mean_v2: 3.31e+03  AOO_STD_v2: 1.34e+02  AOO_AvgTime_v2: 2.36秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.80e+03  PIMO_Mean: 3.11e+03  PIMO_STD: 1.06e+02  PIMO_AvgTime: 2.37秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 6.69e+03  BAEO_Mean: 7.54e+05  BAEO_STD: 1.49e+06  BAEO_AvgTime: 0.75秒
+以下为AOO的数据展示：
+AOO_Best: 8.78e+03  AOO_Mean: 3.94e+05  AOO_STD: 6.22e+05  AOO_AvgTime: 0.53秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 5.22e+03  AOO_Mean_v2: 3.67e+05  AOO_STD_v2: 6.27e+05  AOO_AvgTime_v2: 6.43秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.49e+03  PIMO_Mean: 1.23e+04  PIMO_STD: 1.85e+04  PIMO_AvgTime: 5.34秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F3: BAEO=0.23s, AOO=0.19s, PIMO=0.98s
+F8: BAEO=0.28s, AOO=0.17s, PIMO=1.17s
+F28: BAEO=0.47s, AOO=0.30s, PIMO=2.52s
+F30: BAEO=0.92s, AOO=0.56s, PIMO=5.45s
+[01:38:35] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-30 01:39:28 ---
+
+[01:39:28] [INFO] Diary started: logsЕ-07-30_log.txt
+[01:39:28] [INFO] ===== 日志记录已启动 =====
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 3.00e+02  BAEO_Mean: 3.00e+02  BAEO_STD: 9.52e-09  BAEO_AvgTime: 0.17秒
+以下为AOO的数据展示：
+AOO_Best: 3.00e+02  AOO_Mean: 3.00e+02  AOO_STD: 6.47e-04  AOO_AvgTime: 0.14秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.00e+02  AOO_Mean_v2: 3.00e+02  AOO_STD_v2: 8.12e-03  AOO_AvgTime_v2: 0.30秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.00e+02  PIMO_Mean: 3.00e+02  PIMO_STD: 1.03e-03  PIMO_AvgTime: 0.77秒
+
+以下为F8函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 8.10e+02  BAEO_Mean: 8.25e+02  BAEO_STD: 8.38e+00  BAEO_AvgTime: 0.21秒
+以下为AOO的数据展示：
+AOO_Best: 8.11e+02  AOO_Mean: 8.24e+02  AOO_STD: 9.51e+00  AOO_AvgTime: 0.16秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 8.04e+02  AOO_Mean_v2: 8.12e+02  AOO_STD_v2: 3.66e+00  AOO_AvgTime_v2: 0.67秒
+以下为PIMO的数据展示：
+PIMO_Best: 8.06e+02  PIMO_Mean: 8.18e+02  PIMO_STD: 7.15e+00  PIMO_AvgTime: 1.07秒
+
+以下为F28函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 3.10e+03  BAEO_Mean: 3.30e+03  BAEO_STD: 1.62e+02  BAEO_AvgTime: 0.26秒
+以下为AOO的数据展示：
+AOO_Best: 3.10e+03  AOO_Mean: 3.27e+03  AOO_STD: 1.37e+02  AOO_AvgTime: 0.27秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.10e+03  AOO_Mean_v2: 3.31e+03  AOO_STD_v2: 1.41e+02  AOO_AvgTime_v2: 2.36秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.80e+03  PIMO_Mean: 3.10e+03  PIMO_STD: 8.96e+01  PIMO_AvgTime: 2.38秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250730_01
+以下为BAEO的数据展示：
+BAEO_Best: 1.06e+04  BAEO_Mean: 6.51e+05  BAEO_STD: 7.09e+05  BAEO_AvgTime: 0.69秒
+以下为AOO的数据展示：
+AOO_Best: 1.31e+04  AOO_Mean: 5.72e+05  AOO_STD: 7.00e+05  AOO_AvgTime: 0.53秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.83e+03  AOO_Mean_v2: 1.25e+05  AOO_STD_v2: 3.37e+05  AOO_AvgTime_v2: 6.42秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.45e+03  PIMO_Mean: 1.32e+04  PIMO_STD: 3.62e+04  PIMO_AvgTime: 5.33秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F3: BAEO=0.23s, AOO=0.18s, PIMO=0.91s
+F8: BAEO=0.25s, AOO=0.18s, PIMO=1.20s
+F28: BAEO=0.45s, AOO=0.30s, PIMO=2.47s
+F30: BAEO=0.90s, AOO=0.55s, PIMO=5.41s
+[01:50:54] [INFO] ===== 日志记录已停止 =====

@@ -1,0 +1,5 @@
+Diary started: logs\2025-07-19_log.txt
+[21:18:19] [INFO] ===== 日志记录已启动 =====
+以下为SFOA的数据展示：
+SFOA_Best: 2.49e+09  SFOA_Mean: 1.54e+10  SFOA_STD: 8.72e+09  
+[21:18:21] [INFO] ===== 日志记录已停止 =====
