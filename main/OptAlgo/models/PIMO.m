@@ -39,44 +39,56 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
         delta = sin(pi/2 * (1 - (2*it / Max_iter)).^5); % eq.(12)
         a = (1 - it/Max_iter) * rand(1, dim);
         for i = 1:N
+            %% 1. 选择参考个体（两种方式）
             rr1 = rand;rr2 = rand;
+                 % 方式1：基于适应度的轮盘赌选择（适应度越好，被选中概率越高）
             if rr1 >= rr2
                 Pr =  (Fitness.^2)/((norm(Fitness)^2));
                 P = randsrc(1, 2, [alphabet; Pr']);
                 P1 = P(1);P2 = P(2);
             else
+                 % 方式2：直接选择当前最优的两个个体
                 P = Ind(1:2);
                 P1 = P(1);P2 = P(2);
             end
+
+            %% 2. 计算雅可比矩阵（目标函数的局部梯度信息）
             r = rand;
-            J = Get_jacobian(fobj, Position(P1, :), epsilon); % Generalised Jacobi matrix
+            J = Get_jacobian(fobj, Position(P1, :), epsilon); % Generalised Jacobi matrix 
+
+            %% 3. 生成新位置（两种方向）
             if 3*rand >= 2*rand
-                % eq.(14)
-                grad = (r * (Position(P1, :) - Best_Pos) + (1-r) * (Position(P2, :) - Best_Pos)) / 2;
-                pos_n1 = Position(i,:) - delta * grad;
+                % eq.(14)  方向1：基于参考点与最优解的梯度差
+                grad = (r * (Position(P1, :) - Best_Pos) + (1-r) * (Position(P2, :) - Best_Pos)) / 2; %雅可比矩阵
+                pos_n1 = Position(i,:) - delta * grad; % 梯度下降（或上升，取决于符号）
             else
-                % eq.(15)
+                % eq.(15)  方向2：结合雅可比矩阵的投影更新
                 grad = (r * (Position(P2, :) - Best_Pos) + (1-r) * (Position(P1, :) - Best_Pos)) / 2;
-                pos_n1 = Position(i,:) + delta * J * grad';
+                pos_n1 = Position(i,:) + delta * J * grad'; % 雅可比矩阵调整方向
             end
-            newpos1 = max(min(pos_n1, ub), lb);
+
+            %% 4. 边界处理与评估
+            newpos1 = max(min(pos_n1, ub), lb); % 确保新位置在边界内
             fitt = fobj(newpos1);
-            if fitt < Fitness(i)
+            if fitt < Fitness(i) % 如果新位置更优，则更新
                 Fitness(i)= fitt;
                 Position(i,:) = newpos1;
             end
             
+            %% 策略二：随机扰动更新（增强多样性）
+            % 通过随机选择参考个体和方向，增加种群多样性，避免算法过早收敛到次优解。
             if rand > rand
-                P = randperm(N, 2); % eq.(13)
+                P = randperm(N, 2); % eq.(13)% 随机选两个个体
+                % 重复梯度投影逻辑，增加种群多样性
                 P1 = P(1);P2 = P(2);
                 if 3*rand >= 2*rand
                     % eq.(14)
                     grad = (r * (Position(P1, :) - Best_Pos) + (1-r) * (Position(P2, :) - Best_Pos)) / 2;
-                    pos_n2 = Position(i,:) - delta * grad;
+                    pos_n2 = Position(i,:) - delta * grad; % 梯度指导搜索方向
                 else
                     % eq.(15)
                     grad = (r * (Position(P2, :) - Best_Pos) + (1-r) * (Position(P1, :) - Best_Pos)) / 2;
-                    pos_n2 = Position(i,:) + delta * J * grad';
+                    pos_n2 = Position(i,:) + delta * J * grad'; % 梯度指导搜索方向
                 end
                 newpos2 = max(min(pos_n2, ub), lb);
                 fitt = fobj(newpos2);
@@ -85,13 +97,16 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
                     Position(i,:) = newpos2;
                 end
             end
-                        
+            
+            %% 策略三：维度级混合更新（精细调整）
+
             for j = 1 : dim
                 r1 = 1+rand;r2 = 1+rand; % eq.(16)
                 pho_1 = r1 * Position(i, :) + (1-r1) * Best_Pos + r2 * (Position(i, :) - Best_Pos); % eq.(17)
                 pho_2 = Position(i,:) + a.* (newpos1 - Best_Pos); % eq.(18)
+                % 随机选择两种更新方式之一
                 pos_n3 = Position(i,:);
-                if rand/j > rand
+                if rand/j > rand % 早期概率高，后期概率低（随维度增加而降低）
                     pos_n3(j) = pho_1(j);
                 else
                     pos_n3(j) = pho_2(j);
@@ -105,14 +120,16 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
             end     
         end
         
-        if rand <= 1/2*(tanh(9*it/Max_iter-5)+1)
+        %%  7. 基于Levy飞行的全局探索（以特定概率触发）
+        if rand <= 1/2*(tanh(9*it/Max_iter-5)+1) % 使早期概率高（约 50%），后期趋近于 0；
             pos_n4 = zeros(1, dim);
             d=rand()*(1-it/Max_iter)^2;
-            Step_length=levy(N, dim,1.5);
-            Elite=repmat(Best_Pos, N, 1);
+            Step_length=levy(N, dim,1.5); % 生成Levy分布的步长
+            Elite=repmat(Best_Pos, N, 1); % 复制最优解N份
             r=rand;
             for i=1:N
                 for j=1:dim
+                    % 基于最优解的Levy扰动
                     pos_n4(j)=r*Elite(i,j)+(1-r)*Step_length(i,j)*d*...
                         (Elite(i,j)-Position(i,j)*(2*it/Max_iter)); % eq.(21)
                 end
@@ -124,7 +141,7 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
                 end
             end
         end
-       %% Record convergence curve
+       %% Record convergence curve 更新全局最优解并记录收敛曲线
        [~, Ind] = sort(Fitness);     
         if Fitness(Ind(1)) < Best_Score
             Best_Score = Fitness(Ind(1));
@@ -134,21 +151,23 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
         % disp('swarm-opti')
     end
 end
-% Finite difference method for approximating generalised Jacobi matrix
+% Finite difference method for approximating generalised Jacobi matrix 
 function J = Get_jacobian(fobj, x, epsilon)
 % f: handle to target function, accepts vector x
 % x: current point (vector)
 % epsilon: small perturbation value
+% 雅可比矩阵计算（梯度近似）
     n = length(x);
     fx = fobj(x);
     m = length(fx);
     J = zeros(m, n); 
     % Calculate the finite difference in each direction according to eqs. (9) and (10).
+    % 有限差分法计算每个维度的偏导数
     for i = 1:n
         x_perturbed = x;
-        x_perturbed(i) = x_perturbed(i) + epsilon;
+        x_perturbed(i) = x_perturbed(i) + epsilon; % 对第i个变量微小扰动
         f_perturbed = fobj(x_perturbed);
-        J(:, i) = (f_perturbed - fx) / epsilon;
+        J(:, i) = (f_perturbed - fx) / epsilon; % 有限差分近似梯度 近似偏导数
     end
 end
 function [z] = levy(n,m,beta)
@@ -156,9 +175,9 @@ function [z] = levy(n,m,beta)
     num = gamma(1+beta)*sin(pi*beta/2);
     den = gamma((1+beta)/2)*beta*2^((beta-1)/2);
     sigma_u = (num/den)^(1/beta); % eq.(20)
-    u = random('Normal',0,sigma_u,n,m);
-    v = random('Normal',0,1,n,m);
-    z =u./(abs(v).^(1/beta));
+    u = random('Normal',0,sigma_u,n,m);  % 正态分布随机数
+    v = random('Normal',0,1,n,m); % 标准正态分布随机数
+    z =u./(abs(v).^(1/beta)); % Levy分布随机数
 end
 % Initialization function
 function X = initialization(N, Dim, UB, LB)

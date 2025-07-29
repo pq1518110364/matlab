@@ -29,7 +29,7 @@ Nt =3;
 % Std = zeros(F_num,MaxA);   %存储适应度方差
 % F_sum = zeros(F_num*3,MaxA); %最优值，平均值和方差过渡
 % next_sum = zeros(F_num*3,MaxA); %存储最优值，平均值和方差
-for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排查，先跑1-3吧
+for a = 1:F_num    %运行函数 F_num 8 18-23 好像显示不了，需要具体排查，先跑1-3吧
 
     if CEC_f == 17 && a == 2
         continue; % This function (F2) has been deleted
@@ -39,9 +39,10 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
 
     f_name = get_F_name(a);  %获得函数的序号
     [LB,UB,Dim,F_obj] = Function_name(f_name); %获得函数的边界
-    %% 最优位置&最优适应度&收敛曲线
-    % BAEOBest_pos
+    %% 最优适应度&最优位置&收敛曲线
     % BAEOBest_score
+    % BAEOBest_pos
+    % curve
     % 收敛曲线: 一个向量，记录算法每轮迭代的最优适应度值（通常是Best_Score随迭代次数的变化）。
     % 反映算法收敛速度：曲线下降越快（最小化问题），说明算法收敛速度越快。
     % 评估算法稳定性：曲线是否平滑（无剧烈震荡）反映算法的搜索稳定性，震荡越小说明算法越稳健。
@@ -69,8 +70,8 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     AOO_fhd = get_CEC_func_str(CEC_f);
     % 通过函数句柄 fhd 调用目标函数，传入参数 pos'（转置后的 pos）以及 varargin 中的所有参 e=feval(fhd,pos',varargin{:});
     % no F_obj -> a
-    [AOOBest_score, AOOBest_pos, AOO_cg_curve ] = AOO(AOO_fhd,Dim,PD_no,Max_iter,LB,UB,a); % Call AOO
-
+    [AOOBest_score, AOOBest_pos, AOO_cg_curve ] = AOOv1(AOO_fhd,Dim,PD_no,Max_iter,LB,UB,F_obj,a); % Call AOO
+    % 投影迭代优化算法 
     [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve ] = PIMO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call PIMO
 
     %% 绘制进化曲线
@@ -113,7 +114,10 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     % box on
     legend('BAEO','TOC','SBO','HHO','SCSO','AOO','SFOA','PIMO');
     % set (gcf,'position', [300,300,600,330])
-    result_dir = fullfile(pwd, 'result', 'cec2017');
+
+    current_time = datetime('now');  % 获取当前时间
+    timestamp = string(current_time, 'yyyyMMdd_HH');  % 格式化为：年-月-日_时-分-秒（如20250725_15）
+    result_dir = fullfile(pwd, 'result', 'cec2017', timestamp);
     if ~exist(result_dir, 'dir')
         mkdir(result_dir);
     end

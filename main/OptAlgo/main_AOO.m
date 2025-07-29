@@ -21,7 +21,7 @@ CEC_f = 17;
 AOO_fhd = get_CEC_func_str(CEC_f);
 [Function_name,F_num] = get_CEC_name(CEC_f);
 %% optimization algorithm
-for i = 1:1
+for i = 1:F_num
     if CEC_f == 17 && i == 2 
         continue; % This function (F2) has been deleted
     end
@@ -69,7 +69,19 @@ for i = 1:1
     grid off;
     func_plot2_AOO_cec2017(i);
     hold on;
-    scatter(search_history(:,1), search_history(:,2), '.');
+    % scatter(search_history(:,1), search_history(:,2), '.');
+    %% 
+    N = 30; % 种群规模，根据实际情况调整
+    sample_step = 10; % 每10轮抽取1轮，可调整以控制点数
+    num_rounds = size(search_history,1)/N;
+    sample_rounds = 1:sample_step:num_rounds;
+    row_indices = arrayfun(@(r) (r-1)*N+1:r*N, sample_rounds, 'UniformOutput', false);
+    row_indices = cell2mat(row_indices);
+    downsampled = search_history(row_indices, 1:2); % 提取抽样后的坐标
+    
+    % 使用纯蓝色(0,0,1)绘制点，保留透明度
+    scatter(downsampled(:,1), downsampled(:,2), 5, [0,0,1], 'filled', 'MarkerFaceAlpha', 0.2);
+
     hold on;
     scatter(Best_pos(:,1), Best_pos(:,2), 'r.');
     title('Search history');
@@ -115,7 +127,7 @@ for i = 1:1
     xlim([0, Max_iter]);
     set(gca, 'XTickLabel', arrayfun(@(x) num2str(x), 0:6000:30000, 'UniformOutput', false), 'FontAngle', 'normal');
     % 确保 result 文件夹存在
-    result_dir = fullfile(pwd, 'result');  % 构造完整路径
+    result_dir = fullfile(pwd, 'result','AOO');  % 构造完整路径
     if ~exist(result_dir, 'dir')
         mkdir(result_dir);  % 创建文件夹
     end

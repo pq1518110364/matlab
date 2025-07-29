@@ -1,4 +1,4 @@
-function [num,c] = get_CECname(A)
+function [num,c] = get_CEC_name(A)
 switch A
     case 0
         num = @Get_Functions_details0;

@@ -1,0 +1,32 @@
+which diary
+built-in (D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\diary)
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+{错误使用 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('diary')" style="font-weight:bold">diary</a>
+输出参数太多。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('start_logging', 'E:\matlabProjects\demo\main\OptAlgo\logs\start_logging.m', 17)" style="font-weight:bold">start_logging</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\logs\start_logging.m',17,0)">第 17 行</a>)
+        if diary('status')
+           ^^^^^^^^^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 8)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',8,0)">第 8 行</a>)
+start_logging();
+^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+{错误使用 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('diary')" style="font-weight:bold">diary</a>
+输出参数太多。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('start_logging', 'E:\matlabProjects\demo\main\OptAlgo\logs\start_logging.m', 17)" style="font-weight:bold">start_logging</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\logs\start_logging.m',17,0)">第 17 行</a>)
+        if strcmp(diary('status'), 'on')
+                  ^^^^^^^^^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 8)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',8,0)">第 8 行</a>)
+start_logging();
+^^^^^^^^^^^^^^^
+} 
+diary('status')
+which diary
+built-in (D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\diary)
+uiopen('D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\diary.m',1)
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
