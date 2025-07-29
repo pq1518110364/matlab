@@ -79,6 +79,8 @@ for t = 1:iter_max
 
     c = exp(-10 * t / iter_max); % 衰减因子
 
+    % grad_learning_rate = 0.1 * (1 - t / iter_max);
+
 
     %阙阀值
 
@@ -173,41 +175,44 @@ for t = 1:iter_max
             end
 
         else % 利用阶段：模拟燕麦受外力（如风、重力）影响的摆动
-            % 加入梯度，精细搜索
-            Jacb = Get_jacobian(F_obj, Best_X, 1e-6); % 精英解处的梯度
-
-            grad_norm = Jacb / norm(Jacb); % 梯度归一化（方向向量）
-
-            % 保持原始 AOO 的利用策略
+            
+             apply_gradient_guidance = false;
+            if rand < 0.3 && t > 1
+                Jacb = Get_jacobian(F_obj, Best_X, 1e-6); 
+                grad_norm = Jacb / (norm(Jacb) + eps);
+                apply_gradient_guidance = true;
+            end
             
             if rand > 0.5 % 子策略2.1：基于"距离感知"的摆动
-
-                A = ub - abs(ub * t * sin(2 * pi * rand) / iter_max); % 随迭代变化的振幅
-
-                % 扰动项R：结合燕麦特性参数（m_aoo,e,L_aoo）和振幅A 
-
-                % R = (m(i)*e(i) + L(i)^2)/dim * (unifrnd(-A,A,1,dim).* (-grad_norm));
-
-                R = (m(i)*e(i) + L(i)^2)/dim .* (-grad_norm);
-
-                X(i,:) = Best_X + R + c * P(i,:) .* Best_X;
-
-            else % 子策略2.2：基于"能量衰减"的摆动
-
+                A = ub - abs(ub * t * sin(2 * pi * rand) / iter_max);
+                
+                if apply_gradient_guidance
+                    % 当应用梯度时，主要由梯度引导，并可叠加一个更小的随机扰动
+                    % 这里你可以选择：
+                    % 1. 纯梯度更新 + Best_X (最纯粹的梯度下降思想)
+                    %    X(i,:) = Best_X - grad_learning_rate * grad_norm;
+                    % 2. 梯度更新 + 少量AOO原有随机项 (推荐，保持一定随机性但以梯度为主)
+                    % R_base_random = (m(i) * e(i) + L(i)^2) / dim * unifrnd(-A, A, 1, dim); % 原始R的基础部分
+                    X(i,:) = Best_X -  grad_norm + c * P(i,:) .* Best_X; % 减少R的影响
+                    % 这里的 0.1 是一个示例，你可以调整它来控制随机性与梯度的平衡
+                else
+                    % 不应用梯度，使用原始 AOO 更新
+                    R = (m(i) * e(i) + L(i)^2) / dim * unifrnd(-A, A, 1, dim);
+                    X(i,:) = Best_X + R + c * P(i,:) .* Best_X;
+                end
+                
+            else % 子策略2.2：基于"能量衰减"的摆动 (J项)
                 k = 0.5 + 0.5 * rand;
-
                 B = ub - abs(ub * t * cos(2 * pi * rand) / iter_max);
-
-                alpha= 1 / pi * exp((randi([0, t]) / iter_max));
-
-                % 扰动项J：模拟燕麦的摆动惯性
-
-                % 注意：x_aoo(i)和theta(i)需要正确引用或定义
-
+                alpha = 1 / pi * exp((randi([0, t]) / iter_max));
                 J = 2 * k * x(i)^2 * sin(2 * theta(i)) / m(i) / g * (1 - alpha) / dim * unifrnd(-B, B, 1, dim);
-
-                X(i, :) = Best_X + J + c * P(i, :) .* Best_X; % 注意：P在这里没有定义，需要确保P是存在的
-
+                
+                if apply_gradient_guidance
+                    % 当应用梯度时，减少J的影响，或将J作为更小的随机扰动
+                    X(i, :) = Best_X - grad_norm +  c * P(i, :) .* Best_X;
+                else
+                    X(i, :) = Best_X + J + c * P(i, :) .* Best_X;
+                end
             end
 
         end
