@@ -28,7 +28,7 @@ for a = 1:F_num
         continue; % F2已被删除
     end
     
-    if ~ismember(a, [3, 8, 28, 30])
+    if ~ismember(a, [1, 8,12,19,30])
         continue; % 只测试指定函数
     end
     
@@ -229,11 +229,11 @@ end
 %% 输出各算法在不同函数上的总运行时间
 fprintf('===== 各算法在测试函数上的总运行时间 =====\n');
 for a = 1:F_num
-    if ~ismember(a, [3, 8, 28, 30])
+    if ~ismember(a, [1, 8,12,19,30])
         continue;
     end
-    fprintf('F%d: BAEO=%.2fs, AOO=%.2fs, PIMO=%.2fs\n', ...
-        a, BAEO_time(a), AOO_time(a), PIMO_time(a));
+    fprintf('F%d: BAEO=%.2fs, AOO=%.2fs, AOOv2=%.2fs, PIMO=%.2fs\n', ...
+        a, BAEO_time(a), AOO_time(a), AOO_time_v2(a),PIMO_time(a));
 end
 
 %% 结束日志

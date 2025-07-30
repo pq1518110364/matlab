@@ -26,11 +26,10 @@ g = 9.8 / dim; % 重力加速度（缩放至问题维度）
 
 % Levy 飞行参数
 
-levy_prob = 0.15; % Levy 飞行引入概率
+levy_prob = 0.5; % Levy 飞行引入概率
 
 levy_beta = 1.5; % Levy 指数
 
-levy_scale_factor = 0.01; % Levy 步长的缩放因子，防止过大跳跃
 
 % 精英引导参数
 
@@ -44,7 +43,6 @@ p_best_rate = 0.1; % 优质个体比例
 
 % archive.count = 0; % 用于追踪归档中的个体数量
 
-% 初始化种群
 
 X = initialization(pop_size, dim, ub, lb);
 
@@ -68,6 +66,7 @@ end
 
 convergence_curve(1) = Best_Score;
 P = levy(pop_size,dim,1.5);
+persistent has_printed
 
 %% 迭代循环
 
@@ -79,13 +78,13 @@ for t = 1:iter_max
 
     c = exp(-10 * t / iter_max); % 衰减因子
 
-    % grad_learning_rate = 0.1 * (1 - t / iter_max);
+    grad_learning_rate = 0.5 * (1 - t / iter_max);
 
+    levy_scale_factor = 0.01 + 0.09*(1 - t/iter_max);  % 从0.1线性衰减到0.01
 
     %阙阀值
 
     threshold = 0.5 + 0.5 * tanh(6 * (t/iter_max - 0.5));
-
 
     % 存储当前迭代的阈值和 c
 
@@ -97,16 +96,42 @@ for t = 1:iter_max
 
     [~, sorted_index] = sort(Pop_Fit, 'ascend');
 
+    % 根据函数复杂度动态调整p_best_rate（可通过初始收敛速度判断）
+    if t <= iter_max/4  % 迭代前期
+        if Best_Score > 1e4  % 复杂函数（初始值高）
+            p_best_rate = 0.3;  % 更多精英引导
+        else
+            p_best_rate = 0.1;  % 少精英，多探索
+        end
+    end
+
+    % 仅打印一次超参数
+    if isempty(has_printed)
+        fprintf('\n===== AOOv2 超参数 =====\n');
+        fprintf('1. 物理参数初始化系数：\n');
+        fprintf('   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = %.4f, g的系数 = 9.8/dim = %.4f\n', ...
+            pop_size/dim, 9.8/dim);
+        fprintf('\n2. Levy飞行参数：\n');
+        fprintf('   levy_prob = %.2f, levy_beta = %.2f, levy_scale_factor = %.4f\n', ...
+            levy_prob, levy_beta, levy_scale_factor);
+        fprintf('\n3. 精英引导参数：\n');
+        fprintf('   p_best_rate = %.2f\n',p_best_rate);
+        fprintf('\n4. 衰减与阈值参数：\n');
+        fprintf('   c的衰减系数 = %.1f, threshold的tanh系数 = %.1f\n', ...
+            c, threshold);
+        fprintf('=========================\n\n');
+        has_printed = true;
+    end
+
+    % 初始化种群
     for i = 1:pop_size
 
         % 获取当前的个体
 
         current_X = X(i, :);
 
-        
 
         if rand > threshold % 探索阶段：精英引导 + 差异化 + Levy 飞行
-
 
             % 1. 结合当前种群和归档种群 (如果启用归档，这里将 archive.pop 添加到 popAll)
 
@@ -121,7 +146,6 @@ for t = 1:iter_max
             popAll = X;
 
             % end
-
 
             % 2. 随机选择两个不同的个体 r1 和 r2
 
@@ -175,17 +199,18 @@ for t = 1:iter_max
             end
 
         else % 利用阶段：模拟燕麦受外力（如风、重力）影响的摆动
-            
-             apply_gradient_guidance = false;
+
+            apply_gradient_guidance = false;
+
             if rand < 0.3 && t > 1
-                Jacb = Get_jacobian(F_obj, Best_X, 1e-6); 
+                Jacb = Get_jacobian(F_obj, Best_X, 1e-6);
                 grad_norm = Jacb / (norm(Jacb) + eps);
                 apply_gradient_guidance = true;
             end
-            
+
             if rand > 0.5 % 子策略2.1：基于"距离感知"的摆动
                 A = ub - abs(ub * t * sin(2 * pi * rand) / iter_max);
-                
+
                 if apply_gradient_guidance
                     % 当应用梯度时，主要由梯度引导，并可叠加一个更小的随机扰动
                     % 这里你可以选择：
@@ -193,23 +218,23 @@ for t = 1:iter_max
                     %    X(i,:) = Best_X - grad_learning_rate * grad_norm;
                     % 2. 梯度更新 + 少量AOO原有随机项 (推荐，保持一定随机性但以梯度为主)
                     % R_base_random = (m(i) * e(i) + L(i)^2) / dim * unifrnd(-A, A, 1, dim); % 原始R的基础部分
-                    X(i,:) = Best_X -  grad_norm + c * P(i,:) .* Best_X; % 减少R的影响
+                    X(i,:) = Best_X -  grad_learning_rate * grad_norm + c * P(i,:) .* Best_X; % 减少R的影响
                     % 这里的 0.1 是一个示例，你可以调整它来控制随机性与梯度的平衡
                 else
                     % 不应用梯度，使用原始 AOO 更新
                     R = (m(i) * e(i) + L(i)^2) / dim * unifrnd(-A, A, 1, dim);
                     X(i,:) = Best_X + R + c * P(i,:) .* Best_X;
                 end
-                
+
             else % 子策略2.2：基于"能量衰减"的摆动 (J项)
                 k = 0.5 + 0.5 * rand;
                 B = ub - abs(ub * t * cos(2 * pi * rand) / iter_max);
                 alpha = 1 / pi * exp((randi([0, t]) / iter_max));
                 J = 2 * k * x(i)^2 * sin(2 * theta(i)) / m(i) / g * (1 - alpha) / dim * unifrnd(-B, B, 1, dim);
-                
+
                 if apply_gradient_guidance
                     % 当应用梯度时，减少J的影响，或将J作为更小的随机扰动
-                    X(i, :) = Best_X - grad_norm +  c * P(i, :) .* Best_X;
+                    X(i, :) = Best_X - grad_learning_rate * grad_norm +  c * P(i, :) .* Best_X;
                 else
                     X(i, :) = Best_X + J + c * P(i, :) .* Best_X;
                 end
