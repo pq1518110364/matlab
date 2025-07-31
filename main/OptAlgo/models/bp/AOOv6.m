@@ -1,4 +1,4 @@
-function [Best_Score, Best_X, convergence_curve] = AOOv2(fhd, dim, pop_size, iter_max, lb, ub, F_obj, varargin)
+function [Best_Score, Best_X, convergence_curve] = AOOv6(fhd, dim, pop_size, iter_max, lb, ub, F_obj, varargin)
 
 % 初始化核心参数
 
@@ -54,9 +54,8 @@ end
 convergence_curve(1) = Best_Score;
 persistent has_printed
 
-step = levy(pop_size, dim, levy_beta);
-
 %% 迭代循环
+
 for t = 1:iter_max
  % 更新 AOO 参数
     theta = pi * rand(1, pop_size);
@@ -82,6 +81,7 @@ for t = 1:iter_max
     % threshold_curve(t) = threshold;
     % c_curve(t) = c;
 
+    step = levy(pop_size, dim, levy_beta);
 
     % 排序种群以选择 pbest
     [~, sorted_index] = sort(Pop_Fit, 'ascend');

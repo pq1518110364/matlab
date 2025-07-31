@@ -25,38 +25,51 @@ e = m; % 能量参数（与质量关联）
 g = 9.8 / dim; % 重力加速度（缩放至问题维度）
 
 % Levy 飞行参数
+
 % levy_prob = 0.5; % Levy 飞行引入概率
 
 levy_beta = 1.5; % Levy 指数
 
 
 % 精英引导参数
+
 p_best_rate =  0.1 + 0.2 * (1 - exp(-Best_Score / 1e3)); % 优质个体比例
 
 % 归档种群初始化
+
 % archive_size = round(pop_size * 0.5); % 如果需要归档，取消注释
+
 % archive.pop = zeros(archive_size, dim);
+
 % archive.count = 0; % 用于追踪归档中的个体数量
 
 
 X = initialization(pop_size, dim, ub, lb);
+
 Pop_Fit = zeros(pop_size, 1);
 
 % 首次评估种群
+
 for i = 1:pop_size
+
     Pop_Fit(i) = feval(fhd,X(i,:)',varargin{:});
+
     if Pop_Fit(i) < Best_Score
+
         Best_Score = Pop_Fit(i);
+
         Best_X = X(i, :);
+
     end
+
 end
 
 convergence_curve(1) = Best_Score;
 persistent has_printed
 
-step = levy(pop_size, dim, levy_beta);
-
 %% 迭代循环
+
+
 for t = 1:iter_max
  % 更新 AOO 参数
     theta = pi * rand(1, pop_size);
@@ -82,6 +95,7 @@ for t = 1:iter_max
     % threshold_curve(t) = threshold;
     % c_curve(t) = c;
 
+    step = levy(pop_size, dim, levy_beta);
 
     % 排序种群以选择 pbest
     [~, sorted_index] = sort(Pop_Fit, 'ascend');
