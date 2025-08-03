@@ -1,4 +1,4 @@
-function [Best_Score, Best_X, convergence_curve] = AOOv2(fhd, dim, pop_size, iter_max, lb, ub, F_obj, varargin)
+function [Best_Score, Best_X, convergence_curve] = AOOv7(fhd, dim, pop_size, iter_max, lb, ub, F_obj, varargin)
 
 % 初始化核心参数
 
@@ -25,62 +25,53 @@ e = m; % 能量参数（与质量关联）
 g = 9.8 / dim; % 重力加速度（缩放至问题维度）
 
 % Levy 飞行参数
-
 % levy_prob = 0.5; % Levy 飞行引入概率
 
 levy_beta = 1.5; % Levy 指数
 
 
 % 精英引导参数
-
 p_best_rate =  0.1 + 0.2 * (1 - exp(-Best_Score / 1e3)); % 优质个体比例
 
 % 归档种群初始化
-
 % archive_size = round(pop_size * 0.5); % 如果需要归档，取消注释
-
 % archive.pop = zeros(archive_size, dim);
-
 % archive.count = 0; % 用于追踪归档中的个体数量
 
 
 X = initialization(pop_size, dim, ub, lb);
-
 Pop_Fit = zeros(pop_size, 1);
 
 % 首次评估种群
-
 for i = 1:pop_size
-
     Pop_Fit(i) = feval(fhd,X(i,:)',varargin{:});
-
     if Pop_Fit(i) < Best_Score
-
         Best_Score = Pop_Fit(i);
-
         Best_X = X(i, :);
-
     end
-
 end
 
 convergence_curve(1) = Best_Score;
 persistent has_printed
 
+step = levy(pop_size, dim, levy_beta);
+
+grad_call_count = 0;       % 梯度更新总调用次数
+grad_improve_count = 0;    % 梯度更新后结果改进的次数
+
 %% 迭代循环
-
-
 for t = 1:iter_max
- % 更新 AOO 参数
+
+     % 更新 AOO 参数
     theta = pi * rand(1, pop_size);
     c = exp(-10 * t / iter_max); % 衰减因子
-    
+    delta = sin(pi/2 * (1 - (2*t / iter_max)).^5);
 
     % 梯度学习率 (用于可能的梯度引导)
     grad_learning_rate = 0.5 * (1 - t / iter_max);
 
     % Levy 缩放因子: 随着迭代逐步减小跳跃幅度，前期探索更强，后期更稳定
-    levy_scale_factor =  0.1 * (1 - t / iter_max)^2;
+    levy_scale_factor =  0.1 * (1 - t / iter_max)^2 ;
 
     % 阈值 (探索与利用的平衡)
     threshold = 0.5 + 0.5 * tanh(6 * (t/iter_max - 0.5));
@@ -89,13 +80,11 @@ for t = 1:iter_max
     levy_prob_initial = 0.5; % 初始概率
     levy_prob_final = 0.01;  % 最终概率 (保持一个很小的值，避免完全停止探索)
     prob_power_factor = 3;  % 调整此参数来控制衰减曲线的形状，越大前期下降越慢
-    levy_prob = levy_prob_final + (levy_prob_initial - levy_prob_final) * (1 - t / iter_max)^prob_power_factor;
-
+    levy_prob = (levy_prob_final + (levy_prob_initial - levy_prob_final) * (1 - t / iter_max)^prob_power_factor)* sign(2 * rand() - 1);
+    % levy_prob = 0.5;
     % 存储当前迭代的阈值和 c
     % threshold_curve(t) = threshold;
     % c_curve(t) = c;
-
-    step = levy(pop_size, dim, levy_beta);
 
     % 排序种群以选择 pbest
     [~, sorted_index] = sort(Pop_Fit, 'ascend');
@@ -171,57 +160,76 @@ for t = 1:iter_max
             if rand < levy_prob % 以 levy_prob 的概率进行 Levy 飞行
 
                 % 生成 Levy 步长
-                step_levy_current = levy(1, dim, levy_beta); % 保持 levy_beta，而不是固定的1.5
+                %step_levy_current = levy(1, dim, levy_beta); % 保持 levy_beta，而不是固定的1.5
 
                 % Levy 飞行更新：朝着远离最优解的方向进行长步幅跳跃，结合缩放因子
-                X(i, :) = current_X + levy_scale_factor * step_levy_current .* (current_X - Best_X);
-
+                %1. Levy 飞行方向固定为 “远离当前最优”，缺乏向未探索区域跳跃的机制；
+                %2. 精英引导过度集中，种群多样性衰减快。
+                % step(i,:).*
+                % X(i, :) = current_X + levy_scale_factor *
+                % step_levy_current .* randn(1, dim); 
+                X(i, :) = current_X + levy_scale_factor * step(i,:).* (current_X-Best_X);
+                % Best_X
 
             else % 否则，使用精英引导和差分扰动的混合策略
                 % 融合三种信息进行更新：精英引导 + 差异化 + AOO原始扰动
                 % 这里的rand()作为权重系数，增加随机性
-                X(i, :) = current_X + (pbest - current_X) * rand() + (r1 - r2) * rand() + W;
+                X(i, :) = current_X + ((pbest - current_X) * rand() + (r1 - r2) * rand())/2 + W;
 
             end
 
         else % 利用阶段：模拟燕麦受外力（如风、重力）影响的摆动
 
-            apply_gradient_guidance = false;
-
-             if rand < 0.1 && t > iter_max/2 && mod(t, 10) == 0 % 小概率、迭代后期、每10代触发一次
-                Jacb = Get_jacobian(F_obj, Best_X, 1e-6); % 潜在计算成本高
-                grad_norm = Jacb / (norm(Jacb) + eps);
-                apply_gradient_guidance = true;
-            end
-
-
-            if rand > 0.5 % 子策略2.1：基于"距离感知"的摆动
-                A = ub - abs(ub * t * sin(2 * pi * rand) / iter_max);
-                % R = (m(i) * e(i) + L(i)^2) / dim * unifrnd(-A, A, 1, dim);
-                % X(i,:) = Best_X + R + c * step(i,:).* Best_X;
-
-                 if apply_gradient_guidance
-                    % *** 关键修正3：移除不合理的 c * step(i,:).* Best_X，替换为可控扰动 ***
-                    X(i, :) = Best_X - grad_learning_rate * grad_norm + c * step(i,:) .* Best_X;
-                else
-                    % *** 关键修正3：移除不合理的 c * step(i,:).* Best_X，替换为可控扰动 ***
+            if rand > 0.5
+                if rand > 0.5 % 子策略2.1：基于"距离感知"的摆动
+                    A = ub - abs(ub * t * sin(2 * pi * rand) / iter_max);
                     R = (m(i) * e(i) + L(i)^2) / dim * unifrnd(-A, A, 1, dim);
                     X(i,:) = Best_X + R + c * step(i,:).* Best_X;
-                end
-
-            else % 子策略2.2：基于"能量衰减"的摆动 (J项)
-                k = 0.5 + 0.5 * rand;
-                B = ub - abs(ub * t * cos(2 * pi * rand) / iter_max);
-                alpha = 1 / pi * exp((randi([0, t]) / iter_max));
-                J = 2 * k * x(i)^2 * sin(2 * theta(i)) / m(i) / g * (1 - alpha) / dim * unifrnd(-B, B, 1, dim);
-
-               if apply_gradient_guidance
-                    % 当应用梯度时，减少J的影响，或将J作为更小的随机扰动
-                    X(i, :) = Best_X - grad_learning_rate * grad_norm + c * step(i,:) .* Best_X;
-               else
+                      
+                else % 子策略2.2：基于"能量衰减"的摆动 (J项)
+                    k = 0.5 + 0.5 * rand;
+                    B = ub - abs(ub * t * cos(2 * pi * rand) / iter_max);
+                    alpha = 1 / pi * exp((randi([0, t]) / iter_max));
+                    J = 2 * k * x(i)^2 * sin(2 * theta(i)) / m(i) / g * (1 - alpha) / dim * unifrnd(-B, B, 1, dim);
                     X(i, :) = Best_X + J + c * step(i,:) .* Best_X;
-               end
+                end
+            else
+                % 在梯度更新逻辑中添加
+                if rand < 0.5
+                    % 在迭代后期小概率触发，使用梯度更新进行精细搜索
+                    % 1. 动态选择参考个体（模仿 PIMO）
 
+                    % 2. 计算雅可比矩阵
+                    Jacb = Get_jacobian(F_obj, Best_X, 1e-6);
+                    grad_norm = Jacb / (norm(Jacb) + eps);
+                    X(i, :) =  Best_X -  grad_learning_rate * grad_norm;
+                    grad_call_count = grad_call_count + 1;  % 累计调用次数
+                   
+                    % 原梯度更新逻辑
+                    % Jacb = Get_jacobian(F_obj, Best_X, 1e-6);
+                    % grad_norm = Jacb / (norm(Jacb) + eps);
+                    % % X(i,:) = Best_X + grad_learning_rate * grad_norm + c * step(i,:) .* Best_X;
+                    % % X(i,:) = Best_X - delta * grad_norm + c * step(i,:) .* Best_X;
+                    % X(i,:) = Best_X - grad_learning_rate * grad_norm;    
+                    % 边界处理与评估
+                    newpos1 = max(min(X(i,:), ub), lb);
+                    Pop_Fit(i) = feval(fhd, newpos1', varargin{:});
+        
+                    % 判断是否改进全局最优
+                    if Pop_Fit(i) < Best_Score
+                        % Best_Score = Pop_Fit(i);
+                        % Best_X = newpos1;
+                        % X(i,:) = newpos1;
+                        grad_improve_count = grad_improve_count + 1;  % 累计改进次数
+                    end
+        
+                    % 每迭代10次打印一次统计（或在算法结束时打印）
+                    if i== pop_size && t == iter_max
+                        fprintf('迭代%d：梯度更新调用%d次，其中改进%d次，改进率=%.2f%%\n', ...
+                            t, grad_call_count, grad_improve_count, ...
+                            (grad_improve_count/grad_call_count)*100);
+                    end
+                end
             end
         end
     end
@@ -240,7 +248,7 @@ for t = 1:iter_max
     %         Best_X = X(i, :);
     %     end
     % end
-    Pop_Fit = feval(fhd,X',varargin{:});
+    % Pop_Fit = feval(fhd,X',varargin{:});
     for i=1:pop_size
         Pop_Fit(i) = feval(fhd,X(i,:)',varargin{:});
         if Pop_Fit(i)<Best_Score

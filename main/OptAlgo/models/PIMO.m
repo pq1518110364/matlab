@@ -34,6 +34,11 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
     Best_Pos = Position(Ind(1),:);
     
     CG_curve = zeros(1, Max_iter);% Store convergence information
+
+    grad_proj_improvements = 0; % 策略一
+    random_perturb_improvements = 0; % 策略二
+    dim_mix_improvements = 0; % 策略三
+    levy_improvements = 0; % 策略四
     %% Main optimization loop
     for it = 1:Max_iter
         delta = sin(pi/2 * (1 - (2*it / Max_iter)).^5); % eq.(12)
@@ -59,7 +64,7 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
             %% 3. 生成新位置（两种方向）
             if 3*rand >= 2*rand
                 % eq.(14)  方向1：基于参考点与最优解的梯度差
-                grad = (r * (Position(P1, :) - Best_Pos) + (1-r) * (Position(P2, :) - Best_Pos)) / 2; %雅可比矩阵
+                grad = (r * (Position(P1, :) - Best_Pos) + (1-r) * (Position(P2, :) - Best_Pos)) / 2; 
                 pos_n1 = Position(i,:) - delta * grad; % 梯度下降（或上升，取决于符号）
             else
                 % eq.(15)  方向2：结合雅可比矩阵的投影更新
@@ -73,6 +78,7 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
             if fitt < Fitness(i) % 如果新位置更优，则更新
                 Fitness(i)= fitt;
                 Position(i,:) = newpos1;
+                grad_proj_improvements = grad_proj_improvements + 1;
             end
             
             %% 策略二：随机扰动更新（增强多样性）
@@ -95,6 +101,8 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
                 if fitt < Fitness(i)
                     Fitness(i)= fitt;
                     Position(i,:) = newpos2;
+                    random_perturb_improvements = random_perturb_improvements + 1;
+
                 end
             end
             
@@ -116,6 +124,7 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
                 if fitt < Fitness(i)
                     Fitness(i)= fitt;
                     Position(i,:) = newpos3;
+                    dim_mix_improvements = dim_mix_improvements +1;
                 end
             end     
         end
@@ -138,6 +147,7 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
                 if fitt < Fitness(i)
                     Fitness(i) = fitt;
                     Position(i,:) = newpos4;
+                    levy_improvements = levy_improvements+1;
                 end
             end
         end
@@ -148,8 +158,17 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
             Best_Pos = Position(Ind(1),:);
         end
         CG_curve(it) = Best_Score;
+
         % disp('swarm-opti')
     end
+    %% 打印策略贡献统计
+    
+    % fprintf('\n===== PIMO 策略贡献统计 =====\n');
+    % fprintf('策略一 (梯度投影) 改进次数: %d\n', grad_proj_improvements);
+    % fprintf('策略二 (随机扰动) 改进次数: %d\n', random_perturb_improvements);
+    % fprintf('策略三 (维度级混合) 改进次数: %d\n', dim_mix_improvements);
+    % fprintf('策略四 (Levy飞行) 改进次数: %d\n', levy_improvements);
+    % fprintf('=============================\n');
 end
 % Finite difference method for approximating generalised Jacobi matrix 
 function J = Get_jacobian(fobj, x, epsilon)
