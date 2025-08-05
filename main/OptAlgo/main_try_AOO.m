@@ -20,6 +20,7 @@ BAEO_time = zeros(F_num, 1);
 AOO_time = zeros(F_num, 1);
 AOO_time_v2 = zeros(F_num, 1);
 PIMO_time = zeros(F_num, 1);
+AGDO_time = zeros(F_num, 1);
 
 % 主循环
 for a = 1:F_num
@@ -47,6 +48,11 @@ for a = 1:F_num
     tic;
     [BAEOBest_score, BAEOBest_pos, BAEO_cg_curve] = BAEO(PD_no, Max_iter, LB, UB, Dim, F_obj);
     BAEO_time(a) = toc;
+
+    % AGDO
+    tic;
+    [AGDOBest_score, AGDOBest_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+    AGDO_time(a) = toc;
     
     % AOO
     AOO_fhd = get_CEC_func_str(CEC_f);
@@ -81,6 +87,8 @@ for a = 1:F_num
     subplot(1, 2, 2);
     semilogy(iter(k), BAEO_cg_curve(k), 'Color', [1 0.5 0], 'Marker', '+', 'LineStyle', '-.', 'linewidth', 1);
     hold on;
+    semilogy(iter(k), AGDO_cg_curve(k), 'Color', [0.2, 0.8, 0.6], 'Marker', 'd', 'LineStyle', '--', 'LineWidth', 1, 'MarkerSize', 6);  % 薄荷绿双点划线+菱形标记
+    hold on;
     semilogy(iter(k), AOO_cg_curve(k), 'b-*', 'linewidth', 1);
     hold on;
     semilogy(iter(k), AOO_cg_curve_v2(k), 'Color', [0.6, 0.1, 0.8], 'Marker', 'h', 'LineStyle', '-', 'LineWidth', 1, 'MarkerSize', 6);  % 深紫色实线+六边形标记
@@ -92,7 +100,7 @@ for a = 1:F_num
     title('各算法在'+f_name+'函数的迭代图');
     xlabel('Iteration');
     ylabel('Best fitness so far');
-    legend('BAEO', 'AOOv1', 'AOOv2','PIMO');
+    legend('BAEO', 'AGDO','AOOv1', 'AOOv2','PIMO');
     
      current_time = datetime('now');  % 获取当前时间
     timestamp = string(current_time, 'yyyyMMdd_HH');  % 格式化为：年-月-日_时-分-秒（如20250725_15）
@@ -124,6 +132,26 @@ for a = 1:F_num
     fprintf('BAEO_Mean: %.2e  ', BAEO_mean_val);
     fprintf('BAEO_STD: %.2e  ', BAEO_std_val);
     fprintf('BAEO_AvgTime: %.2f秒\n', BAEO_avg_time);
+
+    % BAEO
+    AGDO_best_score_list = zeros(30, 1);
+    AGDO_time_list = zeros(30, 1);
+    for i = 1:30
+        tic;
+        [AGDOBest_score, AGDOBest_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+        AGDO_time_list(i) = toc;
+        AGDO_best_score_list(i) = AGDOBest_score;
+    end
+    AGDO_best = min(AGDO_best_score_list);
+    AGDO_mean_val = mean(AGDO_best_score_list);
+    AGDO_std_val = std(AGDO_best_score_list);
+    AGDO_avg_time = mean(AGDO_time_list);
+    
+    fprintf('以下为AGDO的数据展示：\n');
+    fprintf('AGDO_Best: %.2e  ', AGDO_best);
+    fprintf('AGDO_Mean: %.2e  ', AGDO_mean_val);
+    fprintf('AGDO_STD: %.2e  ', AGDO_std_val);
+    fprintf('AGDO_AvgTime: %.2f秒\n', AGDO_avg_time);
     
     % AOO
     AOO_best_score_list = zeros(30, 1);

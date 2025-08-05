@@ -44,6 +44,8 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
         delta = sin(pi/2 * (1 - (2*it / Max_iter)).^5); % eq.(12)
         a = (1 - it/Max_iter) * rand(1, dim);
         for i = 1:N
+
+            
             %% 1. 选择参考个体（两种方式）
             rr1 = rand;rr2 = rand;
                  % 方式1：基于适应度的轮盘赌选择（适应度越好，被选中概率越高）
@@ -102,7 +104,6 @@ function [Best_Score, Best_Pos, CG_curve] = PIMO(N, Max_iter, lb, ub, dim, fobj)
                     Fitness(i)= fitt;
                     Position(i,:) = newpos2;
                     random_perturb_improvements = random_perturb_improvements + 1;
-
                 end
             end
             
