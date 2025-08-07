@@ -29,7 +29,7 @@ for a = 1:F_num
         continue; % F2已被删除
     end
     
-    if ~ismember(a, [10,12,13,24,28,30])
+    if ~ismember(a, [3,6,9,12,13,14,19,22,26,30])
         continue; % 只测试指定函数
     end
 
