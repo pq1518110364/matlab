@@ -29,9 +29,9 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     [LB,UB,Dim,F_obj] = Function_name(f_name); %获得函数的边界
     % 最优适应度&最优位置&收敛曲线
     % 白鲸优化算法(BWO)
-    [BWOBest_score, BWOBest_pos, BWO_cg_curve ] = BWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
+    [BWO_best_score, BWO_best_pos, BWO_cg_curve ] = BWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
     % 鲸鱼优化算法（WOA）
-    [WOABest_score, WOABest_pos, WOA_cg_curve ] = WOA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call WOA
+    [WOA_best_score, WOA_best_pos, WOA_cg_curve ] = WOA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call WOA
     % 正余弦优化算法（SCA）
     [Alpha_score,Alpha_pos,SCA_cg_curve] = SCA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SCA
     % 哈里斯鹰优化算法(HHO)
@@ -90,9 +90,9 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     %% 寻求BWO的最佳适应度的Best、Mean、STD、Time
     BWO_best_score_list = zeros(30, 1);
     for i = 1:30
-        [BWOBest_score, BWOBest_pos, BWO_cg_curve ] = BWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
+        [BWO_best_score, BWO_best_pos, BWO_cg_curve ] = BWO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BWO
         % 保存每次循环的结果
-        BWO_best_score_list(i) = BWOBest_score;
+        BWO_best_score_list(i) = BWO_best_score;
     end
     % 计算 best、mean、STD、time
     BWO_best = min(BWO_best_score_list);
@@ -108,9 +108,9 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     %% 寻求WOA的最佳适应度的Best、Mean、STD、Time
     WOA_best_score_list = zeros(30, 1);
     for i = 1:30
-        [WOABest_score, WOABest_pos, WOA_cg_curve ] = WOA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call WOA
+        [WOA_best_score, WOA_best_pos, WOA_cg_curve ] = WOA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call WOA
         % 保存每次循环的结果
-        WOA_best_score_list(i) = WOABest_score;
+        WOA_best_score_list(i) = WOA_best_score;
     end
     % 计算 best、mean、STD、time
     WOA_best = min(WOA_best_score_list);

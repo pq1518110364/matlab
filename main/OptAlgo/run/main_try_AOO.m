@@ -29,11 +29,11 @@ for a = 1:F_num
         continue; % F2已被删除
     end
     
-    if ~ismember(a, [3,6,9,12,13,14,19,22,26,30])
-        continue; % 只测试指定函数
-    end
+    % if ~ismember(a, [9,13,,14,18,23,25,26])
+    %     continue; % 只测试指定函数
+    % end
 
-    % if ~ismember(a, [12,13])
+    % if ~ismember(a, [13,14,18,23,25,26])
     %     continue; % 只测试指定函数
     % end
     
@@ -46,29 +46,29 @@ for a = 1:F_num
     %% 计算各算法单次运行时间
     % BAEO
     tic;
-    [BAEOBest_score, BAEOBest_pos, BAEO_cg_curve] = BAEO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+    [BAEO_best_score, BAEO_best_pos, BAEO_cg_curve] = BAEO(PD_no, Max_iter, LB, UB, Dim, F_obj);
     BAEO_time(a) = toc;
 
     % AGDO
     tic;
-    [AGDOBest_score, AGDOBest_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+    [AGDO_best_score, AGDO_best_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
     AGDO_time(a) = toc;
     
     % AOO
     AOO_fhd = get_CEC_func_str(CEC_f);
     tic;
-    [AOOBest_score, AOOBest_pos, AOO_cg_curve] = AOOv1(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj,a);
+    [AOO_best_score, AOO_best_pos, AOO_cg_curve] = AOOv1(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj,a);
     AOO_time(a) = toc;
 
     % AOO
     AOO_fhd = get_CEC_func_str(CEC_f);
     tic;
-    [AOOBest_score_v2,AOOBest_pos_v2, AOO_cg_curve_v2 ] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
+    [AOO_best_score_v2,AOO_best_pos_v2, AOO_cg_curve_v2 ] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
     AOO_time_v2(a) = toc;
     
     % PIMO
     tic;
-    [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+    [PIMO_best_score, PIMO_best_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
     PIMO_time(a) = toc;
     
     %% 绘制进化曲线（代码保持不变）
@@ -118,9 +118,9 @@ for a = 1:F_num
     BAEO_time_list = zeros(30, 1);
     for i = 1:30
         tic;
-        [BAEOBest_score, BAEOBest_pos, BAEO_cg_curve] = BAEO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+        [BAEO_best_score, BAEO_best_pos, BAEO_cg_curve] = BAEO(PD_no, Max_iter, LB, UB, Dim, F_obj);
         BAEO_time_list(i) = toc;
-        BAEO_best_score_list(i) = BAEOBest_score;
+        BAEO_best_score_list(i) = BAEO_best_score;
     end
     BAEO_best = min(BAEO_best_score_list);
     BAEO_mean_val = mean(BAEO_best_score_list);
@@ -138,9 +138,9 @@ for a = 1:F_num
     AGDO_time_list = zeros(30, 1);
     for i = 1:30
         tic;
-        [AGDOBest_score, AGDOBest_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+        [AGDO_best_score, AGDO_best_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
         AGDO_time_list(i) = toc;
-        AGDO_best_score_list(i) = AGDOBest_score;
+        AGDO_best_score_list(i) = AGDO_best_score;
     end
     AGDO_best = min(AGDO_best_score_list);
     AGDO_mean_val = mean(AGDO_best_score_list);
@@ -158,9 +158,9 @@ for a = 1:F_num
     AOO_time_list = zeros(30, 1);
     for i = 1:30
         tic;
-        [AOOBest_score, AOOBest_pos, AOO_cg_curve] = AOOv1(AOO_fhd, Dim, PD_no, Max_iter, LB, UB,F_obj, a);
+        [AOO_best_score, AOO_best_pos, AOO_cg_curve] = AOOv1(AOO_fhd, Dim, PD_no, Max_iter, LB, UB,F_obj, a);
         AOO_time_list(i) = toc;
-        AOO_best_score_list(i) = AOOBest_score;
+        AOO_best_score_list(i) = AOO_best_score;
     end
     AOO_best = min(AOO_best_score_list);
     AOO_mean_val = mean(AOO_best_score_list);
@@ -178,9 +178,9 @@ for a = 1:F_num
     AOO_time_v2_list = zeros(30, 1);
     for i = 1:30
         tic;
-        [AOOBest_score_v2, AOOBest_pos_v2, AOO_cg_curve_v2] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB,F_obj, a);
+        [AOO_best_score_v2, AOO_best_pos_v2, AOO_cg_curve_v2] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB,F_obj, a);
         AOO_time_v2_list(i) = toc;
-        AOO_best_score_v2_list(i) = AOOBest_score_v2;
+        AOO_best_score_v2_list(i) = AOO_best_score_v2;
     end
     AOO_best_v2 = min(AOO_best_score_v2_list);
     AOO_mean_val_v2 = mean(AOO_best_score_v2_list);
@@ -199,9 +199,9 @@ for a = 1:F_num
     PIMO_time_list = zeros(30, 1);
     for i = 1:30
         tic;
-        [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+        [PIMO_best_score, PIMO_best_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
         PIMO_time_list(i) = toc;
-        PIMO_best_score_list(i) = PIMOBest_score;
+        PIMO_best_score_list(i) = PIMO_best_score;
     end
     PIMO_best = min(PIMO_best_score_list);
     PIMO_mean_val = mean(PIMO_best_score_list);

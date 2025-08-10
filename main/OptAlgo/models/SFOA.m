@@ -1,5 +1,5 @@
 %  Superb Fairy-wren Optimization Algorithm: a novel metaheuristic algorithm for solving feature selection problems(SFOA)
-%
+% 壮丽细尾鹩莺算法
 %  Source codes demo version 1.0                                                                      
 %                                                                                                     
 %  The 11th Gen Intel(R) Core(TM) i7-11700 processor with the primary frequency of 2.50GHz, 16GB memory, and the operating system of 64-bit windows 11 using matlab2021a.                                                                

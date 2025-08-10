@@ -14,7 +14,7 @@ start_logging();
 %% 设置参数
 PD_no = 30; % Number of search agents
 Max_iter = 1000; % 最大迭代次数
-CEC_f = 20;
+CEC_f = 17;
 % F_no = 10;
 
 % Default Values for TOC
@@ -29,7 +29,7 @@ Nt =3;
 % Std = zeros(F_num,MaxA);   %存储适应度方差
 % F_sum = zeros(F_num*3,MaxA); %最优值，平均值和方差过渡
 % next_sum = zeros(F_num*3,MaxA); %存储最优值，平均值和方差
-for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排查，先跑1-3吧
+for a = 1:F_num    %运行函数 F_num 8 18-23 好像显示不了，需要具体排查，先跑1-3吧
 
     if CEC_f == 17 && a == 2
         continue; % This function (F2) has been deleted
@@ -39,38 +39,39 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
 
     f_name = get_F_name(a);  %获得函数的序号
     [LB,UB,Dim,F_obj] = Function_name(f_name); %获得函数的边界
-    %% 最优位置&最优适应度&收敛曲线
-    % BAEOBest_pos
-    % BAEOBest_score
+    %% 最优适应度&最优位置&收敛曲线
+    % BAEO_best_score
+    % BAEO_best_pos
+    % curve
     % 收敛曲线: 一个向量，记录算法每轮迭代的最优适应度值（通常是Best_Score随迭代次数的变化）。
     % 反映算法收敛速度：曲线下降越快（最小化问题），说明算法收敛速度越快。
     % 评估算法稳定性：曲线是否平滑（无剧烈震荡）反映算法的搜索稳定性，震荡越小说明算法越稳健。
     % 分析搜索阶段：通过曲线斜率变化可判断算法是否经历 “全局探索”（前期快速下降）和 “局部开发”（后期平缓收敛）阶段。
 
     % 回旋镖气动椭圆优化算法(BAEO)
-    [BAEOBest_score, BAEOBest_pos, BAEO_cg_curve ] = BAEO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BAEO
+    [BAEO_best_score, BAEO_best_pos, BAEO_cg_curve ] = BAEO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call BAEO
 
     % 龙卷风优化算法(TOC)
-    [TOCBest_score, TOCBest_pos,  TOC_cg_curve ] = TOC(PD_no,Max_iter,LB,UB,Dim,F_obj,Ntt,Nt); % Call TOC
+    [TOC_best_score, TOC_best_pos,  TOC_cg_curve ] = TOC(PD_no,Max_iter,LB,UB,Dim,F_obj,Ntt,Nt); % Call TOC
 
     % 状态优化算法(SBO)
-    [SBOBest_score, SBOBest_pos, SBO_cg_curve ] = HHO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SBO
+    [SBO_best_score, SBO_best_pos, SBO_cg_curve ] = HHO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SBO
 
     % 哈里斯鹰优化算法(HHO)
-    [HHOBest_score, HHOBest_pos, HHO_cg_curve ] = HHO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call HHO
+    [HHO_best_score, HHO_best_pos, HHO_cg_curve ] = HHO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call HHO
 
     % 沙猫群优化算法(SCSO)
-    [SCSOBest_score, SCSOBest_pos, SCSO_cg_curve ] = SCSO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SCSO
+    [SCSO_best_score, SCSO_best_pos, SCSO_cg_curve ] = SCSO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SCSO
 
     % 壮丽细尾鹩莺优化算法(SFOA) 论文中测试函数为cec2017与cec2020
-    [SFOABest_score, SFOABest_pos, SFOA_cg_curve ] = SFOA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SFOA
+    [SFOA_best_score, SFOA_best_pos, SFOA_cg_curve ] = SFOA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SFOA
 
     % 不实野燕麦优化算法 论文中测试函数为cec2017与cec2020 AOOv4(fhd,dim,pop_size,iter_max,lb,ub,varargin)
     AOO_fhd = get_CEC_func_str(CEC_f);
     % 通过函数句柄 fhd 调用目标函数，传入参数 pos'（转置后的 pos）以及 varargin 中的所有参 e=feval(fhd,pos',varargin{:});
     % no F_obj -> a
-    [AOOBest_score, AOOBest_pos, AOO_cg_curve ] = AOO(AOO_fhd,Dim,PD_no,Max_iter,LB,UB,a); % Call AOO
-
+    [AOOBest_score, AOOBest_pos, AOO_cg_curve ] = AOOv1(AOO_fhd,Dim,PD_no,Max_iter,LB,UB,F_obj,a); % Call AOO
+    % 投影迭代优化算法 
     [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve ] = PIMO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call PIMO
 
     %% 绘制进化曲线
@@ -78,15 +79,15 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     k=round(linspace(1,Max_iter,CNT)); %随机选CNT个点
     iter=1:1:Max_iter;
     % 300,300,800,330
-    figure('Position',[300   300   800   330]);
-    % subplot(1,2,1);
-    % func_plot_cec2017(f_name);     % Function plot 需要替换原来的func_plot
-    % 
-    % title(f_name + '函数图');
-    % xlabel('x_1');
-    % ylabel('x_2');
-    % zlabel([f_name,'( x_1 , x_2 )'])
-    % subplot(1,2,2);       % Convergence plot
+    figure('Position',[154   145   894   357]);
+    subplot(1,2,1);
+    func_plot_cec2017(f_name);     % Function plot 需要替换原来的func_plot
+
+    title(f_name + '函数图');
+    xlabel('x_1');
+    ylabel('x_2');
+    zlabel([f_name,'( x_1 , x_2 )'])
+    subplot(1,2,2);       % Convergence plot
 
     semilogy(iter(k),BAEO_cg_curve(k),'Color', [1 0.5 0], 'Marker','+','LineStyle','-.', 'linewidth', 1);
     hold on
@@ -113,7 +114,10 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     % box on
     legend('BAEO','TOC','SBO','HHO','SCSO','AOO','SFOA','PIMO');
     % set (gcf,'position', [300,300,600,330])
-    result_dir = fullfile(pwd, 'result', 'cec2017');
+
+    current_time = datetime('now');  % 获取当前时间
+    timestamp = string(current_time, 'yyyyMMdd_HH');  % 格式化为：年-月-日_时-分-秒（如20250725_15）
+    result_dir = fullfile(pwd, 'result', 'cec2017', timestamp);
     if ~exist(result_dir, 'dir')
         mkdir(result_dir);
     end
@@ -129,9 +133,9 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     % BAEO 的最佳适应度的Best、Mean、STD、Time
     BAEO_best_score_list = zeros(30, 1);
     for i = 1:30
-        [BAEOBest_score, BAEOBest_pos, BAEO_cg_curve ] = TOC(PD_no,Max_iter,LB,UB,Dim,F_obj,Ntt,Nt); % Call BAEO
+        [BAEO_best_score, BAEO_best_pos, BAEO_cg_curve ] = TOC(PD_no,Max_iter,LB,UB,Dim,F_obj,Ntt,Nt); % Call BAEO
         % 保存每次循环的结果
-        BAEO_best_score_list(i) = BAEOBest_score;
+        BAEO_best_score_list(i) = BAEO_best_score;
     end
     % 计算 best、mean、STD、time
     BAEO_best = min(BAEO_best_score_list);
@@ -147,9 +151,9 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     % TOC 的最佳适应度的Best、Mean、STD、Time
     TOC_best_score_list = zeros(30, 1);
     for i = 1:30
-        [TOCBest_score,TOCBest_pos, TOC_cg_curve ] = TOC(PD_no,Max_iter,LB,UB,Dim,F_obj,Ntt,Nt); % Call SCSO
+        [TOC_best_score,TOC_best_pos, TOC_cg_curve ] = TOC(PD_no,Max_iter,LB,UB,Dim,F_obj,Ntt,Nt); % Call SCSO
         % 保存每次循环的结果
-        TOC_best_score_list(i) = TOCBest_score;
+        TOC_best_score_list(i) = TOC_best_score;
     end
     % 计算 best、mean、STD、time
     TOC_best = min(TOC_best_score_list);
@@ -165,9 +169,9 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     % SBO 的最佳适应度的Best、Mean、STD、Time
     SBO_best_score_list = zeros(30, 1);
     for i = 1:30
-        [SBOBest_score,SBOBest_pos, SBO_cg_curve ] = SBO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SCSO
+        [SBO_best_score,SBO_best_pos, SBO_cg_curve ] = SBO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SCSO
         % 保存每次循环的结果
-        SBO_best_score_list(i) = SBOBest_score;
+        SBO_best_score_list(i) = SBO_best_score;
     end
     % 计算 best、mean、STD、time
     SBO_best = min(SBO_best_score_list);
@@ -183,9 +187,9 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     % 寻求HHO 的最佳适应度的Best、Mean、STD、Time
     HHO_best_score_list = zeros(30, 1);
     for i = 1:30
-        [HHOBest_score,HHOBest_pos, HHO_cg_curve ] = HHO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SCSO
+        [HHO_best_score,HHO_best_pos, HHO_cg_curve ] = HHO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SCSO
         % 保存每次循环的结果
-        HHO_best_score_list(i) = HHOBest_score;
+        HHO_best_score_list(i) = HHO_best_score;
     end
     % 计算 best、mean、STD、time
     HHO_best = min(HHO_best_score_list);
@@ -201,9 +205,9 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     % 寻求SCSO的最佳适应度的Best、Mean、STD、Time
     SCSO_best_score_list = zeros(30, 1);
     for i = 1:30
-        [SCSOBest_score, SCSOBest_pos, SCSO_cg_curve ] = SCSO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SCSO
+        [SCSO_best_score, SCSO_best_pos, SCSO_cg_curve ] = SCSO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SCSO
         % 保存每次循环的结果
-        SCSO_best_score_list(i) = SCSOBest_score;
+        SCSO_best_score_list(i) = SCSO_best_score;
     end
     % 计算 best、mean、STD、time
     SCSO_best = min(SCSO_best_score_list);
@@ -237,9 +241,9 @@ for a = 1:1    %运行函数 F_num 8 18-23 好像显示不了，需要具体排�
     % 寻求SFOA的最佳适应度的Best、Mean、STD、Time
     SFOA_best_score_list = zeros(30, 1);
     for i = 1:30
-        [SFOABest_score,SFOABest_pos, SFOA_cg_curve ] = SFOA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SFOA
+        [SFOA_best_score,SFOA_best_pos, SFOA_cg_curve ] = SFOA(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SFOA
         % 保存每次循环的结果
-        SFOA_best_score_list(i) = SFOABest_score;
+        SFOA_best_score_list(i) = SFOA_best_score;
     end
     % 计算 best、mean、STD、time
     SFOA_best = min(SFOA_best_score_list);

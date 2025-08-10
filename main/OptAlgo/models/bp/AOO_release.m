@@ -1,4 +1,4 @@
-function [Best_Score, Best_X, convergence_curve] = AOOv2(fhd, dim, pop_size, iter_max, lb, ub, F_obj, varargin)
+function [Best_Score, Best_X, convergence_curve] = AOO_release(fhd, dim, pop_size, iter_max, lb, ub, F_obj, varargin)
 
 % 初始化核心参数
 Best_Score = inf;
@@ -100,7 +100,7 @@ for t = 1:iter_max
     % a = (1 - t/iter_max) * rand(1,dim)* sign(2 * rand() - 1); % 随迭代减小的随机扰动参数
     a = (1 - t/iter_max) * rand(1,dim);
     % step = levy(pop_size,dim,1.5);
-    % if t == 1, Best_X_prev = Best_X; end
+
     % 初始化种群
     for i = 1:pop_size
 
@@ -121,18 +121,7 @@ for t = 1:iter_max
                 % 策略1: Levy飞行和精英引导的组合 (高探索性)
                 % Strategy_1  = current_X + levy_scale_factor * step_levy_current .* Best_X + levy_scale_factor * step_levy_current .* pbest ;
                 % strategy_1  = current_X +  levy_scale_factor * step_levy_current.* (Best_X - current_X)+ levy_scale_factor * step_levy_current .* pbest ;
-                % strategy_1  = Best_X +  levy_scale_factor * step_levy_current.* (Best_X - pbest) + levy_scale_factor * step_levy_current.* (Best_X-current_X);
-                strategy_1  = current_X +  levy_scale_factor * step_levy_current.* (Best_X - pbest)+ levy_scale_factor * step_levy_current .* Best_X ;
-
-                % 新增历史最优差分项（Best_X_prev为上一代全局最优）
-                
-                % history_dir = Best_X - Best_X_prev;  % 历史最优变化方向
-                
-                % 多元化Levy方向：当前精英差 + 历史最优差 + 随机扰动
-                % strategy_1 = current_X + levy_scale_factor * step_levy_current .* ...
-                %     (0.5*(Best_X - pbest) + 0.3*history_dir + 0.2*randn(1,dim));  % 加权融合多方向
-                % Best_X_prev = Best_X;  % 更新历史最优缓存
-                
+                strategy_1  = current_X +  levy_scale_factor * step_levy_current.* (Best_X - pbest) + levy_scale_factor * step_levy_current.* Best_X;
                 newpos1 = max(min(strategy_1, ub), lb);
                 new_fit1  = feval(fhd, newpos1', varargin{:});
                 if new_fit1 < Pop_Fit(i)
@@ -145,9 +134,9 @@ for t = 1:iter_max
                 % strategy_2  = current_X + ((pbest - current_X) * rand() + (r1 - r2) * rand())/2+ W;
                  % AOO原始扰动
                 for j = 1 : dim
-                    r1 = 1+rand;r2 = 1+rand; % 
-                    pho_1 = r1 * X(i, :) + (1-r1) * Best_X + r2 * (X(i, :) - Best_X); 
-                    pho_2 = X(i,:) + a.* (pbest - Best_X) + a.* (pbest - X(i,:)) ; 
+                    r1 = 1+rand;r2 = 1+rand; % eq.(16)
+                    pho_1 = r1 * X(i, :) + (1-r1) * Best_X + r2 * (X(i, :) - Best_X); % eq.(17)
+                    pho_2 = X(i,:) + a.* (pbest - Best_X) ; % eq.(18)
                     % 随机选择两种更新方式之一
                     pos_n3 = X(i,:) ;
                     if rand/j > rand % 早期概率高，后期概率低（随维度增加而降低）
@@ -163,26 +152,7 @@ for t = 1:iter_max
                         Pop_Fit(i) = new_fit2;
                         strategy_global2_improve = strategy_global2_improve + 1;% 策略1，全局探索改进
                     end
-                end 
-                % new_X = current_X; % 初始化新解
-                % for j = 1:dim
-                %     r1 = 1+rand; r2 = 1+rand;
-                %     pho_1 = r1 * current_X + (1-r1) * Best_X + r2 * (current_X - Best_X);
-                %     pho_2 = current_X + a .* (pbest - Best_X) + a .* (pbest - current_X);
-                %     if rand/j > rand
-                %         new_X(j) = pho_1(j);
-                %     else
-                %         new_X(j) = pho_2(j);
-                %     end
-                %     newpos2 = max(min(new_X, ub), lb);
-                %     new_fit2 = feval(fhd, newpos2', varargin{:}); % 只评估一次
-                %     if new_fit2 < Pop_Fit(i)
-                %         X(i, :) = newpos2;
-                %         Pop_Fit(i) = new_fit2;
-                %         strategy_global2_improve = strategy_global2_improve + 1;
-                %     end
-                % end
-                % 
+                end    
                 
             end
  
@@ -194,37 +164,8 @@ for t = 1:iter_max
                 % 2. 计算雅可比矩阵
                 Jacb = Get_jacobian(F_obj, Best_X, 1e-6);
                 grad_norm = Jacb / (norm(Jacb) + eps);
-                % X(i, :) = Best_X - grad_learning_rate * grad_norm;
-                % elite_updated = Best_X - grad_learning_rate * grad_norm;
-                % X(i, :) = X(i, :) + rand() * (elite_updated - X(i,:));
-
-                % elite_updated = Best_X - grad_learning_rate * grad_norm;
-                % 计算个体与Best_X的归一化距离（0~1）
-                % dist = norm(X(i,:) - Best_X) / (norm(ub - lb) + eps);  % 距离越大，dist越接近1
-                
-                % 距离越远，权重alpha越大（快速拉近距离）；越近则越小（精细搜索）
-                % alpha = dist;  % alpha = dist ∈ [0,1]
-                % X(i, :) = (1 - alpha) * X(i, :) + alpha * elite_updated;
-
-                % 计算当前个体与Best_X的归一化距离（衡量分散度）
-                dist_to_best = norm(X(i,:) - Best_X) / (norm(ub - lb) + eps);
-                
-                % 动态聚集因子：距离越远（分散），因子越大（强聚集）
-                gather_factor = min(1.0, dist_to_best * 2);  % 距离≥0.5时，因子=1.0（直接更新）
-                % 1. 迭代阶段阈值：前期宽松（易聚集），后期严格（防震荡）
-                if t < iter_max/2  % 前期
-                    stage_threshold = 0.5;  % 低阈值，更容易触发强聚集
-                else  % 后期
-                    stage_threshold = 0.7;  % 高阈值，减少不必要的强聚集
-                end
-    
-                if gather_factor > stage_threshold  % 分散度高：直接更新强聚集
-                    X(i, :) = Best_X - grad_learning_rate * grad_norm;
-                else  % 分散度低：平滑过渡微调整
-                    elite_updated = Best_X - grad_learning_rate * grad_norm;
-                    X(i, :) = X(i, :) + rand() * (elite_updated - X(i,:));  % 小幅度随机
-                end
-
+                elite_updated = Best_X - grad_learning_rate * grad_norm;
+                X(i, :) = X(i, :) + rand() * (elite_updated - X(i,:));
 
                 grad_call_count = grad_call_count + 1;  % 累计调用次数
             
@@ -296,8 +237,8 @@ for t = 1:iter_max
     convergence_curve(t) = Best_Score;
 
 end
-% calculate_improvement_percent('策略 levy (全局)', strategy_global1_improve, strategy_global);
-% calculate_improvement_percent('策略 差分进化 (全局)', strategy_global2_improve, strategy_global);
+%  calculate_improvement_percent('策略 (全局)', strategy_global1_improve, strategy_global);
+% calculate_improvement_percent('策略 (全局)', strategy_global2_improve, strategy_global);
 % 
 % calculate_improvement_percent('策略3 (梯度)', grad_improve_count, grad_call_count);
 % calculate_improvement_percent('策略3 (局部)', strategy_local3_improve, strategy_local3);
