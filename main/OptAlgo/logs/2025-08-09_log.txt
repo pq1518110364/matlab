@@ -1,0 +1,1222 @@
+[17:58:45] [INFO] Diary started: logsЕ-08-09_log.txt
+[17:58:45] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+At iteration 50 the best solution fitness is 15848332823.7884
+At iteration 100 the best solution fitness is 15087187702.8072
+At iteration 150 the best solution fitness is 14360220581.1625
+At iteration 200 the best solution fitness is 14215289820.9237
+At iteration 250 the best solution fitness is 14132231592.2756
+At iteration 300 the best solution fitness is 14051986297.9672
+At iteration 350 the best solution fitness is 14019234496.8762
+At iteration 400 the best solution fitness is 13987317734.6898
+At iteration 450 the best solution fitness is 13985176049.8193
+At iteration 500 the best solution fitness is 13985176049.8193
+At iteration 550 the best solution fitness is 13985176049.8193
+At iteration 600 the best solution fitness is 13985176049.8193
+At iteration 650 the best solution fitness is 13985176049.8193
+At iteration 700 the best solution fitness is 13985176049.8193
+At iteration 750 the best solution fitness is 13985176049.8193
+At iteration 800 the best solution fitness is 13985176049.8193
+At iteration 850 the best solution fitness is 13985176049.8193
+At iteration 900 the best solution fitness is 13985176049.8193
+At iteration 950 the best solution fitness is 13985176049.8193
+At iteration 1000 the best solution fitness is 13985176049.8193
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CEC2017>F1', 'E:\matlabProjects\demo\main\OptAlgo\CEC2017.m', 220)" style="font-weight:bold">CEC2017>F1</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\CEC2017.m',220,0)">第 220 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO>Get_jacobian', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 181)" style="font-weight:bold">PIMO>Get_jacobian</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',181,0)">第 181 行</a>)
+    fx = fobj(x);
+         ^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 64)" style="font-weight:bold">PIMO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',64,0)">第 64 行</a>)
+            J = Get_jacobian(fobj, Position(P1, :), epsilon); % Generalised Jacobi matrix
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 92)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',92,0)">第 92 行</a>)
+    [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 17:59:50 ---
+
+[17:59:50] [INFO] Diary started: logsЕ-08-09_log.txt
+[17:59:50] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{错误使用 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('semilogy')" style="font-weight:bold">semilogy</a>
+'-.-' 是无效值。请使用以下某个值: '-' | '--' | ':' | '-.' | 'none'。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 122)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',122,0)">第 122 行</a>)
+    semilogy(iter(k), PSO_curve(k), 'Color', [0.2, 0.8, 0.6], 'Marker', 'd', 'LineStyle', '-.-', 'LineWidth', 1, 'MarkerSize', 6);  % 薄荷绿双点划线+菱形标记
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:00:31 ---
+
+[18:00:31] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:00:31] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = -0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{错误使用 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('semilogy')" style="font-weight:bold">semilogy</a>
+'-.-' 是无效值。请使用以下某个值: '-' | '--' | ':' | '-.' | 'none'。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 122)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',122,0)">第 122 行</a>)
+    semilogy(iter(k), PSO_curve(k), 'Color', [0.2, 0.8, 0.6], 'Marker', 'd', 'LineStyle', '-.-', 'LineWidth', 1, 'MarkerSize', 6);  % 薄荷绿双点划线+菱形标记
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:00:56 ---
+
+[18:00:56] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:00:56] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = -0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AGDO', 'E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m', 73)" style="font-weight:bold">AGDO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m',73,0)">第 73 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 87)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',87,0)">第 87 行</a>)
+    [AGDOBest_score, AGDOBest_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:02:03 ---
+
+[18:02:03] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:02:03] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{函数或变量 'GWO_cg_curve' 无法识别。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 124)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',124,0)">第 124 行</a>)
+    semilogy(iter(k), GWO_cg_curve(k), 'Color', [0.2, 0.2, 0.8], 'Marker', 'p', 'LineStyle', ':', 'LineWidth', 1, 'MarkerSize', 6);  % 靛蓝色点线+五边形标记
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:02:28 ---
+
+[18:02:28] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:02:28] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F5函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F6函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F7函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F8函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F9函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F10函数的数据展示效果：
+{错误使用 checkArgsForHandleToPrint
+图形对象无效。
+
+出错 checkArgsForHandleToPrint
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print>LocalCreatePrintJob', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 108)" style="font-weight:bold">print>LocalCreatePrintJob</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',108,0)">第 108 行</a>)
+handles = checkArgsForHandleToPrint(0, varargin{:});
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 38)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',38,0)">第 38 行</a>)
+[pj, inputargs] = LocalCreatePrintJob(varargin{:});
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m',181,0)">第 181 行</a>)
+        print( h, name, ['-d' dev{i}] )
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 156)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',156,0)">第 156 行</a>)
+    saveas(gcf, fullfile(result_dir, sprintf('%s_evolution_curve.eps', f_name)), 'epsc');
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:04:29 ---
+
+[18:04:29] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:04:29] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('SFOA', 'E:\matlabProjects\demo\main\OptAlgo\models\SFOA.m', 49)" style="font-weight:bold">SFOA</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\SFOA.m',49,0)">第 49 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 77)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',77,0)">第 77 行</a>)
+    [SFOA_Best_score,SFOABest_pos,SFOA_curve]=SFOA(PD_no,Max_iter,LB,UB,Dim,F_obj);
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:04:50 ---
+
+[18:04:50] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:04:50] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = -0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CEC2017>F4', 'E:\matlabProjects\demo\main\OptAlgo\CEC2017.m', 235)" style="font-weight:bold">CEC2017>F4</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\CEC2017.m',235,0)">第 235 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2>Get_jacobian', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 342)" style="font-weight:bold">AOOv2>Get_jacobian</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',342,0)">第 342 行</a>)
+    f_perturbed = fobj(x_perturbed);
+                  ^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 195)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',195,0)">第 195 行</a>)
+                Jacb = Get_jacobian(F_obj, Best_X, 1e-6);
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 104)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',104,0)">第 104 行</a>)
+    [AOOBest_score_v2,AOOBest_pos_v2, AOO_cg_curve_v2 ] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:05:22 ---
+
+[18:05:22] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:05:22] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 124)" style="font-weight:bold">PIMO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',124,0)">第 124 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 92)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',92,0)">第 92 行</a>)
+    [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:07:24 ---
+
+[18:07:24] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:07:24] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('BAEO', 'E:\matlabProjects\demo\main\OptAlgo\models\BAEO.m', 92)" style="font-weight:bold">BAEO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\BAEO.m',92,0)">第 92 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 82)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',82,0)">第 82 行</a>)
+    [BAEOBest_score, BAEOBest_pos, BAEO_cg_curve] = BAEO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:09:42 ---
+
+[18:09:42] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:09:42] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AGDO', 'E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m', 71)" style="font-weight:bold">AGDO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m',71,0)">第 71 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 87)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',87,0)">第 87 行</a>)
+    [AGDOBest_score, AGDOBest_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:12:40 ---
+
+[18:12:40] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:12:40] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = -0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('SCA', 'E:\matlabProjects\demo\main\OptAlgo\models\SCA.m', 82)" style="font-weight:bold">SCA</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\SCA.m',82,0)">第 82 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 67)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',67,0)">第 67 行</a>)
+    [SCA_Best_score,SCABest_pos,SCA_curve]=SCA(PD_no,Max_iter,LB,UB,Dim,F_obj);
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:13:57 ---
+
+[18:13:57] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:13:57] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = -0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CEC2017>F4', 'E:\matlabProjects\demo\main\OptAlgo\CEC2017.m', 235)" style="font-weight:bold">CEC2017>F4</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\CEC2017.m',235,0)">第 235 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 124)" style="font-weight:bold">PIMO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',124,0)">第 124 行</a>)
+                fitt = fobj(newpos3);
+                       ^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 92)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',92,0)">第 92 行</a>)
+    [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:19:26 ---
+
+[18:19:26] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:19:26] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = -0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F5函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F6函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F7函数的数据展示效果：
+{错误使用 checkArgsForHandleToPrint
+图形对象无效。
+
+出错 checkArgsForHandleToPrint
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print>LocalCreatePrintJob', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 108)" style="font-weight:bold">print>LocalCreatePrintJob</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',108,0)">第 108 行</a>)
+handles = checkArgsForHandleToPrint(0, varargin{:});
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 38)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',38,0)">第 38 行</a>)
+[pj, inputargs] = LocalCreatePrintJob(varargin{:});
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m',181,0)">第 181 行</a>)
+        print( h, name, ['-d' dev{i}] )
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 238)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',238,0)">第 238 行</a>)
+    saveas(gcf, fullfile(result_dir, sprintf('%s_evolution_curve.png', f_name)), 'png');
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:22:10 ---
+
+[18:22:10] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:22:10] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F5函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F6函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F7函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F8函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F9函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F10函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F11函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F12函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F13函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F14函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F15函数的数据展示效果：
+[警告: 由于图窗无效，因而未完成所请求的打印。发生该情况的原因可能是在打印完毕前已将图窗关闭。] 
+[> 位置：alternatePrintPath
+位置: alternatePrintPath
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 90)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',90,0)">第 90 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m',181,0)">第 181 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 239)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',239,0)">第 239 行</a>)] 
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F16函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F17函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AGDO', 'E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m', 97)" style="font-weight:bold">AGDO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m',97,0)">第 97 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 87)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',87,0)">第 87 行</a>)
+    [AGDOBest_score, AGDOBest_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:25:24 ---
+
+[18:25:24] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:25:24] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F5函数的数据展示效果：
+[警告: 由于图窗无效，因而未完成所请求的打印。发生该情况的原因可能是在打印完毕前已将图窗关闭。] 
+[> 位置：alternatePrintPath
+位置: alternatePrintPath
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 90)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',90,0)">第 90 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m',181,0)">第 181 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 240)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',240,0)">第 240 行</a>)] 
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F6函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CEC2017>F6', 'E:\matlabProjects\demo\main\OptAlgo\CEC2017.m', 245)" style="font-weight:bold">CEC2017>F6</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\CEC2017.m',245,0)">第 245 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AGDO', 'E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m', 82)" style="font-weight:bold">AGDO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m',82,0)">第 82 行</a>)
+                newfit = fobj(npo_line);
+                         ^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 87)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',87,0)">第 87 行</a>)
+    [AGDOBest_score, AGDOBest_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:26:14 ---
+
+[18:26:14] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:26:14] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+{操作在以下过程中被用户终止 matlab.graphics.illustration.legend.LegendEntry/doUpdate
+
+
+位置 matlab.graphics.illustration.Legend/get.IconColumnWidth
+
+位置 matlab.graphics.illustration.Legend/scaleForPrinting
+
+位置 matlab.graphics.internal.mlprintjob.modifyUnitsForPrint
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('modifyUnitsForPrint', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\private\modifyUnitsForPrint.m', 7)" style="font-weight:bold">modifyUnitsForPrint</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\private\modifyUnitsForPrint.m',7,0)">第 7 行</a>)
+        matlab.graphics.internal.mlprintjob.modifyUnitsForPrint(...
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+位置 alternatePrintPath
+
+位置 alternatePrintPath
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 90)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',90,0)">第 90 行</a>)
+pj = alternatePrintPath(pj);
+     ^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m',181,0)">第 181 行</a>)
+        print( h, name, ['-d' dev{i}] )
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 242)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',242,0)">第 242 行</a>)
+    saveas(gcf, fullfile(result_dir, sprintf('%s_evolution_curve.eps', f_name)), 'epsc');
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:26:42 ---
+
+[18:26:42] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:26:42] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = -0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F5函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F6函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F7函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F8函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F9函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F10函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F11函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F12函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F13函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F14函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F15函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AGDO', 'E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m', 73)" style="font-weight:bold">AGDO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m',73,0)">第 73 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 87)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',87,0)">第 87 行</a>)
+    [AGDOBest_score, AGDOBest_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:32:06 ---
+
+[18:32:06] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:32:06] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{函数或变量 'AGDO_curve' 无法识别。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 185)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',185,0)">第 185 行</a>)
+    semilogy(iter(k), AGDO_curve(k), ...
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:32:55 ---
+
+[18:32:55] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:32:55] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F5函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CEC2017>F5', 'E:\matlabProjects\demo\main\OptAlgo\CEC2017.m', 240)" style="font-weight:bold">CEC2017>F5</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\CEC2017.m',240,0)">第 240 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 124)" style="font-weight:bold">PIMO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',124,0)">第 124 行</a>)
+                fitt = fobj(newpos3);
+                       ^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 92)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',92,0)">第 92 行</a>)
+    [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:37:41 ---
+
+[18:37:41] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:37:41] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = -0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{操作在以下过程中被用户终止 matlab.graphics.internal.mlprintjob.generateGfxOutput
+
+
+位置 printingGenerateOutput
+
+位置 printingGenerateOutput
+
+位置 printingGenerateOutput
+
+位置 alternatePrintPath
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 90)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',90,0)">第 90 行</a>)
+pj = alternatePrintPath(pj);
+     ^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m',181,0)">第 181 行</a>)
+        print( h, name, ['-d' dev{i}] )
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 252)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',252,0)">第 252 行</a>)
+    saveas(gcf, fullfile(result_dir, sprintf('%s_evolution_curve.eps', f_name)), 'epsc');
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:40:48 ---
+
+[18:40:48] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:40:48] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F5函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F6函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F7函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F8函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv1', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv1.m', 36)" style="font-weight:bold">AOOv1</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv1.m',36,0)">第 36 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 98)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',98,0)">第 98 行</a>)
+    [AOOBest_score, AOOBest_pos, AOO_cg_curve] = AOOv1(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj,a);
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:45:55 ---
+
+[18:45:55] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:45:55] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F5函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F6函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F7函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F8函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AGDO', 'E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m', 68)" style="font-weight:bold">AGDO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m',68,0)">第 68 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 87)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',87,0)">第 87 行</a>)
+    [AGDOBest_score, AGDOBest_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:48:51 ---
+
+[18:48:51] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:48:51] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AGDO', 'E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m', 68)" style="font-weight:bold">AGDO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m',68,0)">第 68 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 87)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',87,0)">第 87 行</a>)
+    [AGDOBest_score, AGDOBest_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:50:27 ---
+
+[18:50:27] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:50:27] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 90)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',90,0)">第 90 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m',181,0)">第 181 行</a>)
+        print( h, name, ['-d' dev{i}] )
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 259)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',259,0)">第 259 行</a>)
+    saveas(gcf, fullfile(result_dir, sprintf('%s_evolution_curve.eps', f_name)), 'epsc');
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:51:13 ---
+
+[18:51:13] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:51:13] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = -0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv1', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv1.m', 31)" style="font-weight:bold">AOOv1</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv1.m',31,0)">第 31 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 98)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',98,0)">第 98 行</a>)
+    [AOOBest_score, AOOBest_pos, AOO_cg_curve] = AOOv1(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj,a);
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-09 18:51:48 ---
+
+[18:51:48] [INFO] Diary started: logsЕ-08-09_log.txt
+[18:51:48] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = -0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F4函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F5函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F6函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F7函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F8函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F9函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F10函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F11函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F12函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F13函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F14函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F15函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F16函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F17函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F18函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F19函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F20函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F21函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F22函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F23函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F24函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F25函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F26函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F27函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F28函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F29函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250809_18
+
+[18:55:10] [INFO] ===== 日志记录已停止 =====

@@ -1,0 +1,2453 @@
+[01:20:10] [INFO] Diary started: logsЕ-07-31_log.txt
+[01:20:10] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0100
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+以下为BAEO的数据展示：
+BAEO_Best: 1.05e+02  BAEO_Mean: 1.81e+03  BAEO_STD: 2.49e+03  BAEO_AvgTime: 0.17秒
+以下为AOO的数据展示：
+AOO_Best: 1.64e+02  AOO_Mean: 4.34e+03  AOO_STD: 3.63e+03  AOO_AvgTime: 0.14秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.22e+02  AOO_Mean_v2: 2.31e+03  AOO_STD_v2: 2.79e+03  AOO_AvgTime_v2: 0.43秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.00e+02  PIMO_Mean: 1.95e+02  PIMO_STD: 2.07e+02  PIMO_AvgTime: 0.77秒
+
+以下为F8函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+以下为BAEO的数据展示：
+BAEO_Best: 8.06e+02  BAEO_Mean: 8.25e+02  BAEO_STD: 8.70e+00  BAEO_AvgTime: 0.22秒
+以下为AOO的数据展示：
+AOO_Best: 8.07e+02  AOO_Mean: 8.25e+02  AOO_STD: 1.09e+01  AOO_AvgTime: 0.16秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 8.04e+02  AOO_Mean_v2: 8.14e+02  AOO_STD_v2: 7.12e+00  AOO_AvgTime_v2: 0.82秒
+以下为PIMO的数据展示：
+PIMO_Best: 8.06e+02  PIMO_Mean: 8.18e+02  PIMO_STD: 6.40e+00  PIMO_AvgTime: 1.07秒
+
+以下为F12函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+以下为BAEO的数据展示：
+BAEO_Best: 8.71e+03  BAEO_Mean: 2.53e+05  BAEO_STD: 2.74e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 1.07e+04  AOO_Mean: 6.58e+05  AOO_STD: 6.41e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.55e+04  AOO_Mean_v2: 2.73e+05  AOO_STD_v2: 2.26e+05  AOO_AvgTime_v2: 0.66秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.26e+03  PIMO_Mean: 1.44e+03  PIMO_STD: 1.37e+02  PIMO_AvgTime: 0.95秒
+
+以下为F19函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+以下为BAEO的数据展示：
+BAEO_Best: 1.94e+03  BAEO_Mean: 4.97e+03  BAEO_STD: 4.76e+03  BAEO_AvgTime: 0.83秒
+以下为AOO的数据展示：
+AOO_Best: 1.92e+03  AOO_Mean: 2.26e+03  AOO_STD: 5.82e+02  AOO_AvgTime: 0.47秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.92e+03  AOO_Mean_v2: 2.37e+03  AOO_STD_v2: 1.21e+03  AOO_AvgTime_v2: 5.74秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.90e+03  PIMO_Mean: 1.90e+03  PIMO_STD: 6.67e-01  PIMO_AvgTime: 4.76秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+以下为BAEO的数据展示：
+BAEO_Best: 5.21e+03  BAEO_Mean: 7.10e+05  BAEO_STD: 1.12e+06  BAEO_AvgTime: 0.76秒
+以下为AOO的数据展示：
+AOO_Best: 8.06e+03  AOO_Mean: 6.27e+05  AOO_STD: 8.15e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.03e+03  AOO_Mean_v2: 5.12e+05  AOO_STD_v2: 8.23e+05  AOO_AvgTime_v2: 6.54秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.47e+03  PIMO_Mean: 3.45e+04  PIMO_STD: 1.49e+05  PIMO_AvgTime: 5.26秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F1: BAEO=0.22s, AOO=0.20s, AOOv2=0.50s, PIMO=0.90s
+F8: BAEO=0.24s, AOO=0.17s, AOOv2=0.85s, PIMO=1.14s
+F12: BAEO=0.21s, AOO=0.16s, AOOv2=0.69s, PIMO=1.07s
+F19: BAEO=0.86s, AOO=0.48s, AOOv2=5.79s, PIMO=4.77s
+F30: BAEO=0.95s, AOO=0.55s, AOOv2=6.67s, PIMO=5.42s
+[01:36:13] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 01:40:54 ---
+
+[01:40:54] [INFO] Diary started: logsЕ-07-31_log.txt
+[01:40:54] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+以下为BAEO的数据展示：
+BAEO_Best: 1.02e+02  BAEO_Mean: 2.28e+03  BAEO_STD: 2.43e+03  BAEO_AvgTime: 0.17秒
+以下为AOO的数据展示：
+AOO_Best: 1.94e+02  AOO_Mean: 2.71e+03  AOO_STD: 3.70e+03  AOO_AvgTime: 0.14秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.22e+02  AOO_Mean_v2: 3.02e+03  AOO_STD_v2: 3.43e+03  AOO_AvgTime_v2: 0.43秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.00e+02  PIMO_Mean: 3.40e+02  PIMO_STD: 9.28e+02  PIMO_AvgTime: 0.76秒
+
+以下为F8函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+以下为BAEO的数据展示：
+BAEO_Best: 8.10e+02  BAEO_Mean: 8.25e+02  BAEO_STD: 7.54e+00  BAEO_AvgTime: 0.21秒
+以下为AOO的数据展示：
+AOO_Best: 8.09e+02  AOO_Mean: 8.23e+02  AOO_STD: 8.98e+00  AOO_AvgTime: 0.16秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 8.03e+02  AOO_Mean_v2: 8.14e+02  AOO_STD_v2: 5.58e+00  AOO_AvgTime_v2: 0.82秒
+以下为PIMO的数据展示：
+PIMO_Best: 8.05e+02  PIMO_Mean: 8.20e+02  PIMO_STD: 8.00e+00  PIMO_AvgTime: 1.06秒
+
+以下为F12函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+以下为BAEO的数据展示：
+BAEO_Best: 1.03e+04  BAEO_Mean: 3.77e+05  BAEO_STD: 4.01e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 1.08e+04  AOO_Mean: 9.12e+05  AOO_STD: 9.13e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.25e+04  AOO_Mean_v2: 3.59e+05  AOO_STD_v2: 5.88e+05  AOO_AvgTime_v2: 0.66秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.21e+03  PIMO_Mean: 1.49e+03  PIMO_STD: 1.60e+02  PIMO_AvgTime: 0.96秒
+
+以下为F19函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+以下为BAEO的数据展示：
+BAEO_Best: 1.92e+03  BAEO_Mean: 4.86e+03  BAEO_STD: 3.03e+03  BAEO_AvgTime: 0.82秒
+以下为AOO的数据展示：
+AOO_Best: 1.93e+03  AOO_Mean: 2.75e+03  AOO_STD: 1.57e+03  AOO_AvgTime: 0.47秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.93e+03  AOO_Mean_v2: 2.40e+03  AOO_STD_v2: 7.25e+02  AOO_AvgTime_v2: 5.74秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.90e+03  PIMO_Mean: 1.90e+03  PIMO_STD: 7.50e-01  PIMO_AvgTime: 4.69秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_01
+以下为BAEO的数据展示：
+BAEO_Best: 4.88e+03  BAEO_Mean: 5.15e+05  BAEO_STD: 7.19e+05  BAEO_AvgTime: 0.75秒
+以下为AOO的数据展示：
+AOO_Best: 5.39e+03  AOO_Mean: 5.38e+05  AOO_STD: 6.62e+05  AOO_AvgTime: 0.53秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.80e+03  AOO_Mean_v2: 5.63e+05  AOO_STD_v2: 6.40e+05  AOO_AvgTime_v2: 6.62秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.48e+03  PIMO_Mean: 5.71e+03  PIMO_STD: 5.82e+03  PIMO_AvgTime: 5.31秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F1: BAEO=0.21s, AOO=0.17s, AOOv2=0.50s, PIMO=0.87s
+F8: BAEO=0.23s, AOO=0.17s, AOOv2=0.84s, PIMO=1.16s
+F12: BAEO=0.22s, AOO=0.16s, AOOv2=0.70s, PIMO=1.04s
+F19: BAEO=0.85s, AOO=0.48s, AOOv2=5.84s, PIMO=4.77s
+F30: BAEO=0.94s, AOO=0.53s, AOOv2=6.58s, PIMO=5.32s
+[01:56:58] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 14:11:21 ---
+
+[14:11:21] [INFO] Diary started: logsЕ-07-31_log.txt
+[14:11:21] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_14
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_14
+以下为BAEO的数据展示：
+BAEO_Best: 6.55e+03  BAEO_Mean: 3.80e+05  BAEO_STD: 3.46e+05  BAEO_AvgTime: 0.18秒
+以下为AOO的数据展示：
+AOO_Best: 1.65e+04  AOO_Mean: 6.47e+05  AOO_STD: 8.90e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.23e+04  AOO_Mean_v2: 2.85e+05  AOO_STD_v2: 2.83e+05  AOO_AvgTime_v2: 0.63秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.21e+03  PIMO_Mean: 1.44e+03  PIMO_STD: 1.63e+02  PIMO_AvgTime: 0.98秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_14
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_14
+以下为BAEO的数据展示：
+BAEO_Best: 9.50e+03  BAEO_Mean: 8.20e+05  BAEO_STD: 1.38e+06  BAEO_AvgTime: 0.71秒
+以下为AOO的数据展示：
+AOO_Best: 7.87e+03  AOO_Mean: 6.30e+05  AOO_STD: 9.62e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.15e+03  AOO_Mean_v2: 2.82e+05  AOO_STD_v2: 5.44e+05  AOO_AvgTime_v2: 6.50秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.40e+03  PIMO_Mean: 6.21e+03  PIMO_STD: 6.05e+03  PIMO_AvgTime: 5.32秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F1: BAEO=0.00s, AOO=0.00s, AOOv2=0.00s, PIMO=0.00s
+F8: BAEO=0.00s, AOO=0.00s, AOOv2=0.00s, PIMO=0.00s
+F12: BAEO=0.39s, AOO=0.20s, AOOv2=0.77s, PIMO=1.12s
+F19: BAEO=0.00s, AOO=0.00s, AOOv2=0.00s, PIMO=0.00s
+F30: BAEO=0.50s, AOO=0.53s, AOOv2=6.55s, PIMO=5.35s
+[14:19:16] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 14:47:19 ---
+
+[14:47:19] [INFO] Diary started: logsЕ-07-31_log.txt
+[14:47:19] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{函数或变量 'Dim' 无法识别。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 192)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',192,0)">第 192 行</a>)
+                random_direction = rand(1, Dim) - 0.5; % 生成 -0.5 到 0.5 的随机方向
+                                           ^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 56)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',56,0)">第 56 行</a>)
+    [AOOBest_score_v2, ~, AOO_cg_curve_v2, AOO_v2_diversity, AOO_v2_threshold, AOO_v2_c_curve] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 14:48:30 ---
+
+[14:48:30] [INFO] Diary started: logsЕ-07-31_log.txt
+[14:48:30] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_14
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_14
+以下为BAEO的数据展示：
+BAEO_Best: 1.09e+04  BAEO_Mean: 1.97e+05  BAEO_STD: 2.54e+05  BAEO_AvgTime: 0.18秒
+以下为AOO的数据展示：
+AOO_Best: 8.40e+03  AOO_Mean: 7.71e+05  AOO_STD: 1.04e+06  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 5.11e+03  AOO_Mean_v2: 4.84e+05  AOO_STD_v2: 7.80e+05  AOO_AvgTime_v2: 0.63秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.22e+03  PIMO_Mean: 1.48e+03  PIMO_STD: 1.79e+02  PIMO_AvgTime: 0.98秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_14
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_14
+以下为BAEO的数据展示：
+BAEO_Best: 1.41e+04  BAEO_Mean: 4.88e+05  BAEO_STD: 7.12e+05  BAEO_AvgTime: 0.74秒
+以下为AOO的数据展示：
+AOO_Best: 4.97e+03  AOO_Mean: 4.10e+05  AOO_STD: 5.89e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 7.56e+03  AOO_Mean_v2: 4.33e+05  AOO_STD_v2: 5.95e+05  AOO_AvgTime_v2: 6.49秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.44e+03  PIMO_Mean: 1.31e+04  PIMO_STD: 2.83e+04  PIMO_AvgTime: 5.28秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.28s, AOO=0.19s, AOOv2=0.74s, PIMO=1.22s
+F30: BAEO=0.49s, AOO=0.54s, AOOv2=6.51s, PIMO=5.37s
+[14:56:21] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 14:56:40 ---
+
+[14:56:40] [INFO] Diary started: logsЕ-07-31_log.txt
+[14:56:40] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_14
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_14
+以下为BAEO的数据展示：
+BAEO_Best: 9.51e+03  BAEO_Mean: 2.32e+05  BAEO_STD: 2.22e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 6.62e+03  AOO_Mean: 6.61e+05  AOO_STD: 7.35e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.56e+04  AOO_Mean_v2: 2.95e+05  AOO_STD_v2: 3.20e+05  AOO_AvgTime_v2: 0.63秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.24e+03  PIMO_Mean: 1.58e+03  PIMO_STD: 5.71e+02  PIMO_AvgTime: 0.97秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_14
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_14
+以下为BAEO的数据展示：
+BAEO_Best: 9.42e+03  BAEO_Mean: 5.50e+05  BAEO_STD: 1.08e+06  BAEO_AvgTime: 0.79秒
+以下为AOO的数据展示：
+AOO_Best: 1.27e+04  AOO_Mean: 5.21e+05  AOO_STD: 9.07e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 9.02e+03  AOO_Mean_v2: 3.75e+05  AOO_STD_v2: 5.74e+05  AOO_AvgTime_v2: 6.51秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.51e+03  PIMO_Mean: 7.27e+03  PIMO_STD: 1.47e+04  PIMO_AvgTime: 5.27秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.24s, AOO=0.18s, AOOv2=0.74s, PIMO=1.12s
+F30: BAEO=0.42s, AOO=0.53s, AOOv2=6.54s, PIMO=5.37s
+[15:04:33] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 15:05:08 ---
+
+[15:05:08] [INFO] Diary started: logsЕ-07-31_log.txt
+[15:05:08] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 6.40e+03  BAEO_Mean: 3.36e+05  BAEO_STD: 5.08e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 1.20e+04  AOO_Mean: 9.55e+05  AOO_STD: 9.02e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.66e+04  AOO_Mean_v2: 3.26e+05  AOO_STD_v2: 3.88e+05  AOO_AvgTime_v2: 0.66秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('randsrc', 'D:\Program Files\MATLAB\R2024b\toolbox\comm\comm\randsrc.m', 66)" style="font-weight:bold">randsrc</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\comm\comm\randsrc.m',66,0)">第 66 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 47)" style="font-weight:bold">PIMO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',47,0)">第 47 行</a>)
+                P = randsrc(1, 2, [alphabet; Pr']);
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 211)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',211,0)">第 211 行</a>)
+        [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 15:06:23 ---
+
+[15:06:23] [INFO] Diary started: logsЕ-07-31_log.txt
+[15:06:23] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 4.82e+03  BAEO_Mean: 1.62e+05  BAEO_STD: 2.29e+05  BAEO_AvgTime: 0.18秒
+以下为AOO的数据展示：
+AOO_Best: 2.58e+04  AOO_Mean: 9.02e+05  AOO_STD: 1.05e+06  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.67e+04  AOO_Mean_v2: 4.84e+05  AOO_STD_v2: 1.04e+06  AOO_AvgTime_v2: 0.63秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.28e+03  PIMO_Mean: 1.53e+03  PIMO_STD: 2.41e+02  PIMO_AvgTime: 0.99秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 1.12e+04  BAEO_Mean: 8.45e+05  BAEO_STD: 1.35e+06  BAEO_AvgTime: 0.71秒
+以下为AOO的数据展示：
+AOO_Best: 5.51e+03  AOO_Mean: 7.62e+05  AOO_STD: 7.55e+05  AOO_AvgTime: 0.52秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 257)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',257,0)">第 257 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 191)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',191,0)">第 191 行</a>)
+        [AOOBest_score_v2, AOOBest_pos_v2, AOO_cg_curve_v2] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB,F_obj, a);
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 15:09:40 ---
+
+[15:09:40] [INFO] Diary started: logsЕ-07-31_log.txt
+[15:09:40] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 5.01e+03  BAEO_Mean: 2.66e+05  BAEO_STD: 3.46e+05  BAEO_AvgTime: 0.18秒
+以下为AOO的数据展示：
+AOO_Best: 7.37e+03  AOO_Mean: 8.77e+05  AOO_STD: 8.71e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.21e+04  AOO_Mean_v2: 1.86e+05  AOO_STD_v2: 2.72e+05  AOO_AvgTime_v2: 0.75秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.21e+03  PIMO_Mean: 1.40e+03  PIMO_STD: 1.50e+02  PIMO_AvgTime: 0.97秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 4.87e+03  BAEO_Mean: 5.77e+05  BAEO_STD: 9.18e+05  BAEO_AvgTime: 0.73秒
+以下为AOO的数据展示：
+AOO_Best: 1.22e+04  AOO_Mean: 5.01e+05  AOO_STD: 6.91e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.87e+03  AOO_Mean_v2: 5.12e+05  AOO_STD_v2: 7.20e+05  AOO_AvgTime_v2: 7.32秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.42e+03  PIMO_Mean: 3.35e+04  PIMO_STD: 1.49e+05  PIMO_AvgTime: 5.27秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.25s, AOO=0.18s, AOOv2=0.87s, PIMO=1.07s
+F30: BAEO=0.60s, AOO=0.52s, AOOv2=7.32s, PIMO=5.38s
+[15:17:59] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 15:18:13 ---
+
+[15:18:13] [INFO] Diary started: logsЕ-07-31_log.txt
+[15:18:13] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 8.48e+03  BAEO_Mean: 3.44e+05  BAEO_STD: 3.72e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 1.92e+04  AOO_Mean: 1.01e+06  AOO_STD: 1.05e+06  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.53e+04  AOO_Mean_v2: 2.65e+05  AOO_STD_v2: 4.53e+05  AOO_AvgTime_v2: 0.67秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CEC2017>F12', 'E:\matlabProjects\demo\main\OptAlgo\CEC2017.m', 276)" style="font-weight:bold">CEC2017>F12</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\CEC2017.m',276,0)">第 276 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO>Get_jacobian', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 169)" style="font-weight:bold">PIMO>Get_jacobian</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',169,0)">第 169 行</a>)
+        f_perturbed = fobj(x_perturbed);
+                      ^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 57)" style="font-weight:bold">PIMO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',57,0)">第 57 行</a>)
+            J = Get_jacobian(fobj, Position(P1, :), epsilon); % Generalised Jacobi matrix
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 211)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',211,0)">第 211 行</a>)
+        [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 15:19:37 ---
+
+[15:19:37] [INFO] Diary started: logsЕ-07-31_log.txt
+[15:19:37] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 7.10e+03  BAEO_Mean: 2.57e+05  BAEO_STD: 3.66e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 3.76e+04  AOO_Mean: 9.45e+05  AOO_STD: 9.18e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.49e+04  AOO_Mean_v2: 1.33e+06  AOO_STD_v2: 1.58e+06  AOO_AvgTime_v2: 0.58秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.26e+03  PIMO_Mean: 1.50e+03  PIMO_STD: 1.86e+02  PIMO_AvgTime: 0.98秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 9.75e+03  BAEO_Mean: 6.06e+05  BAEO_STD: 1.02e+06  BAEO_AvgTime: 0.76秒
+以下为AOO的数据展示：
+AOO_Best: 4.30e+03  AOO_Mean: 5.92e+05  AOO_STD: 6.61e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 5.37e+03  AOO_Mean_v2: 1.94e+05  AOO_STD_v2: 3.77e+05  AOO_AvgTime_v2: 6.12秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CEC2017>F30', 'E:\matlabProjects\demo\main\OptAlgo\CEC2017.m', 369)" style="font-weight:bold">CEC2017>F30</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\CEC2017.m',369,0)">第 369 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO>Get_jacobian', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 169)" style="font-weight:bold">PIMO>Get_jacobian</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',169,0)">第 169 行</a>)
+        f_perturbed = fobj(x_perturbed);
+                      ^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 57)" style="font-weight:bold">PIMO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',57,0)">第 57 行</a>)
+            J = Get_jacobian(fobj, Position(P1, :), epsilon); % Generalised Jacobi matrix
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 211)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',211,0)">第 211 行</a>)
+        [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 15:26:30 ---
+
+[15:26:30] [INFO] Diary started: logsЕ-07-31_log.txt
+[15:26:30] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 15:30:29 ---
+
+[15:30:29] [INFO] Diary started: logsЕ-07-31_log.txt
+[15:30:29] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 8.67e+03  BAEO_Mean: 2.90e+05  BAEO_STD: 2.63e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 1.38e+04  AOO_Mean: 1.03e+06  AOO_STD: 1.03e+06  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.34e+05  AOO_Mean_v2: 3.05e+06  AOO_STD_v2: 2.94e+06  AOO_AvgTime_v2: 0.76秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.23e+03  PIMO_Mean: 1.54e+03  PIMO_STD: 2.52e+02  PIMO_AvgTime: 0.98秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 5.25e+03  BAEO_Mean: 7.29e+05  BAEO_STD: 8.38e+05  BAEO_AvgTime: 0.69秒
+以下为AOO的数据展示：
+AOO_Best: 1.40e+04  AOO_Mean: 6.62e+05  AOO_STD: 5.98e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.76e+04  AOO_Mean_v2: 7.28e+05  AOO_STD_v2: 6.35e+05  AOO_AvgTime_v2: 6.30秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.46e+03  PIMO_Mean: 6.59e+03  PIMO_STD: 7.89e+03  PIMO_AvgTime: 5.29秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.26s, AOO=0.20s, AOOv2=0.78s, PIMO=1.09s
+F30: BAEO=0.54s, AOO=0.53s, AOOv2=6.30s, PIMO=5.41s
+[15:38:18] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 15:38:34 ---
+
+[15:38:34] [INFO] Diary started: logsЕ-07-31_log.txt
+[15:38:34] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 1.46e+04  BAEO_Mean: 2.91e+05  BAEO_STD: 4.23e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 3.42e+04  AOO_Mean: 9.29e+05  AOO_STD: 8.11e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.35e+04  AOO_Mean_v2: 1.96e+06  AOO_STD_v2: 1.82e+06  AOO_AvgTime_v2: 0.38秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.24e+03  PIMO_Mean: 1.54e+03  PIMO_STD: 2.33e+02  PIMO_AvgTime: 0.98秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 8.14e+03  BAEO_Mean: 4.11e+05  BAEO_STD: 9.03e+05  BAEO_AvgTime: 0.78秒
+以下为AOO的数据展示：
+AOO_Best: 4.07e+03  AOO_Mean: 4.63e+05  AOO_STD: 6.41e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.00e+03  AOO_Mean_v2: 3.12e+05  AOO_STD_v2: 5.22e+05  AOO_AvgTime_v2: 5.88秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.50e+03  PIMO_Mean: 1.02e+04  PIMO_STD: 1.68e+04  PIMO_AvgTime: 5.29秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.29s, AOO=0.20s, AOOv2=0.41s, PIMO=1.05s
+F30: BAEO=0.48s, AOO=0.53s, AOOv2=5.90s, PIMO=5.38s
+[15:46:00] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 15:47:48 ---
+
+[15:47:48] [INFO] Diary started: logsЕ-07-31_log.txt
+[15:47:48] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 7.46e+03  BAEO_Mean: 2.76e+05  BAEO_STD: 4.67e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 3.91e+04  AOO_Mean: 8.97e+05  AOO_STD: 8.51e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.26e+05  AOO_Mean_v2: 6.62e+06  AOO_STD_v2: 4.06e+06  AOO_AvgTime_v2: 0.39秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.24e+03  PIMO_Mean: 1.45e+03  PIMO_STD: 1.08e+02  PIMO_AvgTime: 0.98秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_15
+以下为BAEO的数据展示：
+BAEO_Best: 6.69e+03  BAEO_Mean: 1.16e+06  BAEO_STD: 1.71e+06  BAEO_AvgTime: 0.66秒
+以下为AOO的数据展示：
+AOO_Best: 5.94e+03  AOO_Mean: 6.24e+05  AOO_STD: 7.11e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 5.12e+03  AOO_Mean_v2: 1.06e+06  AOO_STD_v2: 1.19e+06  AOO_AvgTime_v2: 5.91秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CEC2017>F30', 'E:\matlabProjects\demo\main\OptAlgo\CEC2017.m', 369)" style="font-weight:bold">CEC2017>F30</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\CEC2017.m',369,0)">第 369 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO>Get_jacobian', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 169)" style="font-weight:bold">PIMO>Get_jacobian</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',169,0)">第 169 行</a>)
+        f_perturbed = fobj(x_perturbed);
+                      ^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 57)" style="font-weight:bold">PIMO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',57,0)">第 57 行</a>)
+            J = Get_jacobian(fobj, Position(P1, :), epsilon); % Generalised Jacobi matrix
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 211)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',211,0)">第 211 行</a>)
+        [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 16:00:17 ---
+
+[16:00:17] [INFO] Diary started: logsЕ-07-31_log.txt
+[16:00:17] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{无法执行赋值，因为左侧的大小为 1×10，右侧的大小为 30×10。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 187)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',187,0)">第 187 行</a>)
+                X(i, :) = current_X + levy_scale_factor * step .* (current_X - Best_X);
+                ^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 56)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',56,0)">第 56 行</a>)
+    [AOOBest_score_v2, ~, AOO_cg_curve_v2, AOO_v2_diversity, AOO_v2_threshold, AOO_v2_c_curve] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 16:00:58 ---
+
+[16:00:58] [INFO] Diary started: logsЕ-07-31_log.txt
+[16:00:58] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+以下为BAEO的数据展示：
+BAEO_Best: 5.27e+03  BAEO_Mean: 3.66e+05  BAEO_STD: 5.20e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 2.81e+04  AOO_Mean: 6.64e+05  AOO_STD: 8.05e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.88e+04  AOO_Mean_v2: 8.36e+05  AOO_STD_v2: 8.36e+05  AOO_AvgTime_v2: 0.44秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.21e+03  PIMO_Mean: 1.45e+03  PIMO_STD: 1.37e+02  PIMO_AvgTime: 0.99秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+以下为BAEO的数据展示：
+BAEO_Best: 5.57e+03  BAEO_Mean: 7.05e+05  BAEO_STD: 9.95e+05  BAEO_AvgTime: 0.74秒
+以下为AOO的数据展示：
+AOO_Best: 4.40e+03  AOO_Mean: 3.86e+05  AOO_STD: 6.32e+05  AOO_AvgTime: 0.52秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 74)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',74,0)">第 74 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 191)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',191,0)">第 191 行</a>)
+        [AOOBest_score_v2, AOOBest_pos_v2, AOO_cg_curve_v2] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB,F_obj, a);
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 16:07:54 ---
+
+[16:07:54] [INFO] Diary started: logsЕ-07-31_log.txt
+[16:07:54] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{错误使用 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('mtimes')" style="font-weight:bold"> * </a>
+用于矩阵乘法的维度不正确。请检查并确保第一个矩阵中的列数与第二个矩阵中的行数匹配。要单独对矩阵的每个元素进行运算，请使用 TIMES (.*)执行按元素相乘。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 227)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',227,0)">第 227 行</a>)
+                    X(i,:) = Best_X + R + c * step* Best_X;
+                                                  ^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 56)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',56,0)">第 56 行</a>)
+    [AOOBest_score_v2, ~, AOO_cg_curve_v2, AOO_v2_diversity, AOO_v2_threshold, AOO_v2_c_curve] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+<a href="matlab:helpview('matlab','error_innerdim')" style="font-weight:bold">相关文档</a>
+} 
+opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',227,0)
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 16:08:32 ---
+
+[16:08:32] [INFO] Diary started: logsЕ-07-31_log.txt
+[16:08:32] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+以下为BAEO的数据展示：
+BAEO_Best: 7.10e+03  BAEO_Mean: 1.86e+05  BAEO_STD: 2.88e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 1.84e+04  AOO_Mean: 1.33e+06  AOO_STD: 1.12e+06  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 9.19e+03  AOO_Mean_v2: 1.19e+06  AOO_STD_v2: 1.19e+06  AOO_AvgTime_v2: 0.85秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.24e+03  PIMO_Mean: 1.45e+03  PIMO_STD: 1.27e+02  PIMO_AvgTime: 0.99秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+以下为BAEO的数据展示：
+BAEO_Best: 6.33e+03  BAEO_Mean: 1.03e+06  BAEO_STD: 1.02e+06  BAEO_AvgTime: 0.65秒
+以下为AOO的数据展示：
+AOO_Best: 7.76e+03  AOO_Mean: 3.33e+05  AOO_STD: 5.74e+05  AOO_AvgTime: 0.53秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.58e+03  AOO_Mean_v2: 4.13e+05  AOO_STD_v2: 5.93e+05  AOO_AvgTime_v2: 6.43秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.42e+03  PIMO_Mean: 3.88e+04  PIMO_STD: 1.51e+05  PIMO_AvgTime: 5.28秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.27s, AOO=0.19s, AOOv2=0.90s, PIMO=1.08s
+F30: BAEO=0.88s, AOO=0.55s, AOOv2=6.60s, PIMO=5.44s
+[16:16:27] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 16:17:24 ---
+
+[16:17:24] [INFO] Diary started: logsЕ-07-31_log.txt
+[16:17:24] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+以下为BAEO的数据展示：
+BAEO_Best: 9.09e+03  BAEO_Mean: 3.01e+05  BAEO_STD: 4.93e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 5.07e+03  AOO_Mean: 8.93e+05  AOO_STD: 1.02e+06  AOO_AvgTime: 0.15秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 257)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',257,0)">第 257 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 191)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',191,0)">第 191 行</a>)
+        [AOOBest_score_v2, AOOBest_pos_v2, AOO_cg_curve_v2] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB,F_obj, a);
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 16:18:52 ---
+
+[16:18:52] [INFO] Diary started: logsЕ-07-31_log.txt
+[16:18:52] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+以下为BAEO的数据展示：
+BAEO_Best: 7.66e+03  BAEO_Mean: 2.24e+05  BAEO_STD: 2.92e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 2.42e+04  AOO_Mean: 8.85e+05  AOO_STD: 1.00e+06  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.17e+04  AOO_Mean_v2: 1.85e+06  AOO_STD_v2: 1.69e+06  AOO_AvgTime_v2: 0.84秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.22e+03  PIMO_Mean: 1.49e+03  PIMO_STD: 1.82e+02  PIMO_AvgTime: 0.98秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_16
+以下为BAEO的数据展示：
+BAEO_Best: 7.38e+03  BAEO_Mean: 6.64e+05  BAEO_STD: 8.26e+05  BAEO_AvgTime: 0.71秒
+以下为AOO的数据展示：
+AOO_Best: 5.07e+03  AOO_Mean: 3.62e+05  AOO_STD: 6.00e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.22e+03  AOO_Mean_v2: 3.29e+05  AOO_STD_v2: 5.61e+05  AOO_AvgTime_v2: 6.40秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.42e+03  PIMO_Mean: 3.51e+04  PIMO_STD: 1.50e+05  PIMO_AvgTime: 5.33秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.28s, AOO=0.19s, AOOv2=0.98s, PIMO=1.12s
+F30: BAEO=0.81s, AOO=0.56s, AOOv2=6.47s, PIMO=5.39s
+[16:26:48] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 17:41:50 ---
+
+[17:41:50] [INFO] Diary started: logsЕ-07-31_log.txt
+[17:41:50] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_17
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_17
+以下为BAEO的数据展示：
+BAEO_Best: 1.09e+04  BAEO_Mean: 2.54e+05  BAEO_STD: 3.07e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 2.53e+04  AOO_Mean: 8.41e+05  AOO_STD: 8.96e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.60e+04  AOO_Mean_v2: 1.11e+06  AOO_STD_v2: 1.39e+06  AOO_AvgTime_v2: 0.85秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.24e+03  PIMO_Mean: 1.48e+03  PIMO_STD: 1.62e+02  PIMO_AvgTime: 0.99秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_17
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_17
+以下为BAEO的数据展示：
+BAEO_Best: 8.10e+03  BAEO_Mean: 9.27e+05  BAEO_STD: 8.42e+05  BAEO_AvgTime: 0.61秒
+以下为AOO的数据展示：
+AOO_Best: 6.87e+03  AOO_Mean: 4.42e+05  AOO_STD: 7.19e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 7.20e+03  AOO_Mean_v2: 4.36e+05  AOO_STD_v2: 6.75e+05  AOO_AvgTime_v2: 6.40秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.41e+03  PIMO_Mean: 5.18e+03  PIMO_STD: 4.58e+03  PIMO_AvgTime: 5.29秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.30s, AOO=0.18s, AOOv2=0.95s, PIMO=1.09s
+F30: BAEO=0.47s, AOO=0.54s, AOOv2=6.46s, PIMO=5.36s
+[17:49:42] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 17:49:50 ---
+
+[17:49:50] [INFO] Diary started: logsЕ-07-31_log.txt
+[17:49:50] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_17
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_17
+以下为BAEO的数据展示：
+BAEO_Best: 1.19e+04  BAEO_Mean: 3.43e+05  BAEO_STD: 6.77e+05  BAEO_AvgTime: 0.18秒
+以下为AOO的数据展示：
+AOO_Best: 7.78e+03  AOO_Mean: 7.10e+05  AOO_STD: 6.69e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.01e+04  AOO_Mean_v2: 2.44e+05  AOO_STD_v2: 1.63e+05  AOO_AvgTime_v2: 0.84秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.23e+03  PIMO_Mean: 1.43e+03  PIMO_STD: 1.40e+02  PIMO_AvgTime: 0.99秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_17
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_17
+以下为BAEO的数据展示：
+BAEO_Best: 4.41e+03  BAEO_Mean: 1.02e+06  BAEO_STD: 7.97e+05  BAEO_AvgTime: 0.62秒
+以下为AOO的数据展示：
+AOO_Best: 1.05e+04  AOO_Mean: 5.14e+05  AOO_STD: 6.38e+05  AOO_AvgTime: 0.53秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.20e+03  AOO_Mean_v2: 3.97e+05  AOO_STD_v2: 5.43e+05  AOO_AvgTime_v2: 6.90秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CEC2017>F30', 'E:\matlabProjects\demo\main\OptAlgo\CEC2017.m', 369)" style="font-weight:bold">CEC2017>F30</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\CEC2017.m',369,0)">第 369 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('PIMO', 'E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m', 115)" style="font-weight:bold">PIMO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\PIMO.m',115,0)">第 115 行</a>)
+                fitt = fobj(newpos3);
+                       ^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 211)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',211,0)">第 211 行</a>)
+        [PIMOBest_score, PIMOBest_pos, PIMO_cg_curve] = PIMO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 18:00:11 ---
+
+[18:00:11] [INFO] Diary started: logsЕ-07-31_log.txt
+[18:00:11] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('BAEO', 'E:\matlabProjects\demo\main\OptAlgo\models\BAEO.m', 51)" style="font-weight:bold">BAEO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\BAEO.m',51,0)">第 51 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 151)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',151,0)">第 151 行</a>)
+        [BAEOBest_score, BAEOBest_pos, BAEO_cg_curve] = BAEO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 18:01:31 ---
+
+[18:01:31] [INFO] Diary started: logsЕ-07-31_log.txt
+[18:01:31] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+[警告: 由于图窗无效，因而未完成所请求的打印。发生该情况的原因可能是在打印完毕前已将图窗关闭。] 
+[> 位置：alternatePrintPath
+位置: alternatePrintPath
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('print', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m', 90)" style="font-weight:bold">print</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\graphics\graphics\printing\print.m',90,0)">第 90 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('saveas', 'D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m', 181)" style="font-weight:bold">saveas</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\matlab\general\saveas.m',181,0)">第 181 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 100)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',100,0)">第 100 行</a>)] 
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 1.01e+04  BAEO_Mean: 2.13e+05  BAEO_STD: 2.41e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 3.75e+03  AOO_Mean: 1.07e+06  AOO_STD: 1.18e+06  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 7.52e+03  AOO_Mean_v2: 1.10e+06  AOO_STD_v2: 1.13e+06  AOO_AvgTime_v2: 0.65秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 4.27e+03  BAEO_Mean: 5.61e+05  BAEO_STD: 8.18e+05  BAEO_AvgTime: 0.72秒
+以下为AOO的数据展示：
+AOO_Best: 4.12e+03  AOO_Mean: 4.22e+05  AOO_STD: 5.51e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.44e+03  AOO_Mean_v2: 5.00e+05  AOO_STD_v2: 6.50e+05  AOO_AvgTime_v2: 6.20秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.26s, AOO=0.24s, AOOv2=0.76s, PIMO=1.12s
+F30: BAEO=0.93s, AOO=0.52s, AOOv2=6.21s, PIMO=5.37s
+[18:06:06] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 18:07:17 ---
+
+[18:07:17] [INFO] Diary started: logsЕ-07-31_log.txt
+[18:07:17] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{位置 1 处的索引超出数组边界。索引不能超过 1。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 230)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',230,0)">第 230 行</a>)
+                    X(i,:) = Best_X + R + c * P(i,:) .* Best_X;
+                                              ^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 56)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',56,0)">第 56 行</a>)
+    [AOOBest_score_v2, ~, AOO_cg_curve_v2, AOO_v2_diversity, AOO_v2_threshold, AOO_v2_c_curve] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',230,0)
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 18:07:59 ---
+
+[18:07:59] [INFO] Diary started: logsЕ-07-31_log.txt
+[18:07:59] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 8.14e+03  BAEO_Mean: 2.39e+05  BAEO_STD: 3.06e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 4.31e+04  AOO_Mean: 8.46e+05  AOO_STD: 7.51e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.04e+04  AOO_Mean_v2: 9.74e+05  AOO_STD_v2: 1.44e+06  AOO_AvgTime_v2: 0.41秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 4.91e+03  BAEO_Mean: 6.27e+05  BAEO_STD: 8.21e+05  BAEO_AvgTime: 0.72秒
+以下为AOO的数据展示：
+AOO_Best: 3.74e+03  AOO_Mean: 2.55e+05  AOO_STD: 5.71e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.11e+03  AOO_Mean_v2: 4.67e+05  AOO_STD_v2: 5.81e+05  AOO_AvgTime_v2: 5.94秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.26s, AOO=0.19s, AOOv2=0.52s, PIMO=1.17s
+F30: BAEO=0.96s, AOO=0.56s, AOOv2=5.96s, PIMO=5.38s
+[18:12:18] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 18:12:53 ---
+
+[18:12:53] [INFO] Diary started: logsЕ-07-31_log.txt
+[18:12:53] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{位置 1 处的索引超出数组边界。索引不能超过 1。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 225)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',225,0)">第 225 行</a>)
+                    X(i,:) = Best_X -  grad_learning_rate * grad_norm + c * P(i,:) .* Best_X; % 减少R的影响
+                                                                            ^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 56)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',56,0)">第 56 行</a>)
+    [AOOBest_score_v2, ~, AOO_cg_curve_v2, AOO_v2_diversity, AOO_v2_threshold, AOO_v2_c_curve] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',225,0)
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 18:13:22 ---
+
+[18:13:22] [INFO] Diary started: logsЕ-07-31_log.txt
+[18:13:22] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 3.72e+03  BAEO_Mean: 2.77e+05  BAEO_STD: 3.67e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 2.49e+04  AOO_Mean: 8.34e+05  AOO_STD: 9.48e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.05e+04  AOO_Mean_v2: 1.03e+06  AOO_STD_v2: 9.47e+05  AOO_AvgTime_v2: 0.51秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 6.82e+03  BAEO_Mean: 6.19e+05  BAEO_STD: 8.93e+05  BAEO_AvgTime: 0.72秒
+以下为AOO的数据展示：
+AOO_Best: 1.02e+04  AOO_Mean: 6.57e+05  AOO_STD: 6.77e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.03e+03  AOO_Mean_v2: 4.16e+05  AOO_STD_v2: 5.77e+05  AOO_AvgTime_v2: 6.57秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.24s, AOO=0.23s, AOOv2=0.59s, PIMO=1.13s
+F30: BAEO=0.97s, AOO=0.54s, AOOv2=6.62s, PIMO=5.40s
+[18:18:03] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 18:19:20 ---
+
+[18:19:20] [INFO] Diary started: logsЕ-07-31_log.txt
+[18:19:20] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{无法执行赋值，因为左侧的大小为 1×10，右侧的大小为 30×10。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 192)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',192,0)">第 192 行</a>)
+                X(i, :) = current_X + levy_scale_factor * P .* (current_X - Best_X);
+                ^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 56)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',56,0)">第 56 行</a>)
+    [AOOBest_score_v2, ~, AOO_cg_curve_v2, AOO_v2_diversity, AOO_v2_threshold, AOO_v2_c_curve] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',192,0)
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 18:20:02 ---
+
+[18:20:02] [INFO] Diary started: logsЕ-07-31_log.txt
+[18:20:02] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 3.21e+03  BAEO_Mean: 2.20e+05  BAEO_STD: 2.44e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 8.16e+03  AOO_Mean: 5.94e+05  AOO_STD: 5.73e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.10e+04  AOO_Mean_v2: 2.08e+05  AOO_STD_v2: 1.84e+05  AOO_AvgTime_v2: 0.54秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 5.51e+03  BAEO_Mean: 9.41e+05  BAEO_STD: 1.35e+06  BAEO_AvgTime: 0.70秒
+以下为AOO的数据展示：
+AOO_Best: 1.11e+04  AOO_Mean: 6.00e+05  AOO_STD: 8.36e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 8.99e+03  AOO_Mean_v2: 4.87e+05  AOO_STD_v2: 6.00e+05  AOO_AvgTime_v2: 6.61秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.25s, AOO=0.22s, AOOv2=0.61s, PIMO=1.18s
+F30: BAEO=1.00s, AOO=0.54s, AOOv2=6.61s, PIMO=5.36s
+[18:24:46] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 18:27:21 ---
+
+[18:27:21] [INFO] Diary started: logsЕ-07-31_log.txt
+[18:27:21] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 5.51e+03  BAEO_Mean: 3.74e+05  BAEO_STD: 8.21e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 3.85e+03  AOO_Mean: 7.25e+05  AOO_STD: 8.64e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.14e+04  AOO_Mean_v2: 2.57e+05  AOO_STD_v2: 3.02e+05  AOO_AvgTime_v2: 1.28秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 6.32e+03  BAEO_Mean: 6.94e+05  BAEO_STD: 1.07e+06  BAEO_AvgTime: 0.73秒
+以下为AOO的数据展示：
+AOO_Best: 5.03e+03  AOO_Mean: 4.47e+05  AOO_STD: 6.18e+05  AOO_AvgTime: 0.52秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 258)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',258,0)">第 258 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 191)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',191,0)">第 191 行</a>)
+        [AOOBest_score_v2, AOOBest_pos_v2, AOO_cg_curve_v2] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB,F_obj, a);
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 18:44:02 ---
+
+[18:44:02] [INFO] Diary started: logsЕ-07-31_log.txt
+[18:44:02] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{无法执行赋值，因为左侧的大小为 1×10，右侧的大小为 30×10。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 190)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',190,0)">第 190 行</a>)
+                X(i, :) = current_X + levy_scale_factor * step .* (current_X - Best_X);
+                ^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 56)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',56,0)">第 56 行</a>)
+    [AOOBest_score_v2, ~, AOO_cg_curve_v2, AOO_v2_diversity, AOO_v2_threshold, AOO_v2_c_curve] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 190)
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 18:44:20 ---
+
+[18:44:20] [INFO] Diary started: logsЕ-07-31_log.txt
+[18:44:20] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 8.94e+03  BAEO_Mean: 1.82e+05  BAEO_STD: 1.78e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 1.77e+04  AOO_Mean: 7.33e+05  AOO_STD: 6.40e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.81e+04  AOO_Mean_v2: 2.12e+05  AOO_STD_v2: 3.25e+05  AOO_AvgTime_v2: 0.54秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 4.39e+03  BAEO_Mean: 1.06e+06  BAEO_STD: 1.67e+06  BAEO_AvgTime: 0.71秒
+以下为AOO的数据展示：
+AOO_Best: 1.04e+04  AOO_Mean: 2.81e+05  AOO_STD: 4.81e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.24e+03  AOO_Mean_v2: 3.07e+05  AOO_STD_v2: 5.34e+05  AOO_AvgTime_v2: 6.68秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.25s, AOO=0.21s, AOOv2=0.64s, PIMO=1.15s
+F30: BAEO=0.89s, AOO=0.54s, AOOv2=6.69s, PIMO=5.40s
+[18:49:06] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 18:50:26 ---
+
+[18:50:26] [INFO] Diary started: logsЕ-07-31_log.txt
+[18:50:26] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{错误使用 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('Levy')" style="font-weight:bold">Levy</a>
+输入参数太多。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 186)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',186,0)">第 186 行</a>)
+                step1 = Levy(1,dim,1.5);
+                        ^^^^^^^^^^^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 56)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',56,0)">第 56 行</a>)
+    [AOOBest_score_v2, ~, AOO_cg_curve_v2, AOO_v2_diversity, AOO_v2_threshold, AOO_v2_c_curve] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',186,0)
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 18:50:55 ---
+
+[18:50:55] [INFO] Diary started: logsЕ-07-31_log.txt
+[18:50:55] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 7.95e+03  BAEO_Mean: 3.06e+05  BAEO_STD: 5.33e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 5.80e+03  AOO_Mean: 7.52e+05  AOO_STD: 8.00e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.62e+03  AOO_Mean_v2: 2.21e+05  AOO_STD_v2: 2.52e+05  AOO_AvgTime_v2: 0.76秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_18
+以下为BAEO的数据展示：
+BAEO_Best: 1.28e+04  BAEO_Mean: 7.91e+05  BAEO_STD: 1.18e+06  BAEO_AvgTime: 0.71秒
+以下为AOO的数据展示：
+AOO_Best: 3.97e+03  AOO_Mean: 4.44e+05  AOO_STD: 6.00e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.81e+03  AOO_Mean_v2: 2.58e+05  AOO_STD_v2: 4.87e+05  AOO_AvgTime_v2: 6.83秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.28s, AOO=0.20s, AOOv2=0.90s, PIMO=1.17s
+F30: BAEO=0.97s, AOO=0.55s, AOOv2=7.41s, PIMO=5.89s
+[18:55:55] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 20:10:01 ---
+
+[20:10:01] [INFO] Diary started: logsЕ-07-31_log.txt
+[20:10:01] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 8.44e+03  BAEO_Mean: 3.43e+05  BAEO_STD: 5.44e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 8.11e+03  AOO_Mean: 7.10e+05  AOO_STD: 8.85e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 9.94e+03  AOO_Mean_v2: 2.06e+05  AOO_STD_v2: 2.25e+05  AOO_AvgTime_v2: 0.65秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 5.85e+03  BAEO_Mean: 1.18e+06  BAEO_STD: 1.05e+06  BAEO_AvgTime: 0.61秒
+以下为AOO的数据展示：
+AOO_Best: 5.37e+03  AOO_Mean: 5.56e+05  AOO_STD: 8.56e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.21e+03  AOO_Mean_v2: 3.79e+05  AOO_STD_v2: 6.39e+05  AOO_AvgTime_v2: 6.74秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.27s, AOO=0.20s, AOOv2=0.81s, PIMO=1.13s
+F30: BAEO=0.86s, AOO=0.56s, AOOv2=6.77s, PIMO=5.42s
+[20:14:50] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 20:17:29 ---
+
+[20:17:29] [INFO] Diary started: logsЕ-07-31_log.txt
+[20:17:29] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 8.52e+03  BAEO_Mean: 2.60e+05  BAEO_STD: 3.82e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 7.74e+03  AOO_Mean: 1.03e+06  AOO_STD: 1.21e+06  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.27e+04  AOO_Mean_v2: 2.36e+05  AOO_STD_v2: 2.35e+05  AOO_AvgTime_v2: 0.64秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 4.17e+03  BAEO_Mean: 5.46e+05  BAEO_STD: 8.63e+05  BAEO_AvgTime: 0.76秒
+以下为AOO的数据展示：
+AOO_Best: 4.55e+03  AOO_Mean: 3.99e+05  AOO_STD: 5.35e+05  AOO_AvgTime: 0.53秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.84e+03  AOO_Mean_v2: 3.33e+05  AOO_STD_v2: 5.53e+05  AOO_AvgTime_v2: 6.74秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.31s, AOO=0.21s, AOOv2=0.81s, PIMO=1.11s
+F30: BAEO=0.91s, AOO=0.55s, AOOv2=6.81s, PIMO=5.45s
+[20:22:21] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 20:24:14 ---
+
+[20:24:14] [INFO] Diary started: logsЕ-07-31_log.txt
+[20:24:14] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob (动态, 初始值=0.50), levy_beta = 1.50, levy_scale_factor (动态)
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = -10.0 (exp(-10*t/iter_max)), threshold的tanh系数 = 6.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 5.82e+03  BAEO_Mean: 2.64e+05  BAEO_STD: 2.99e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 1.61e+04  AOO_Mean: 6.48e+05  AOO_STD: 6.09e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 5.25e+03  AOO_Mean_v2: 1.00e+06  AOO_STD_v2: 1.36e+06  AOO_AvgTime_v2: 0.49秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 5.75e+03  BAEO_Mean: 5.43e+05  BAEO_STD: 7.25e+05  BAEO_AvgTime: 0.70秒
+以下为AOO的数据展示：
+AOO_Best: 6.70e+03  AOO_Mean: 4.21e+05  AOO_STD: 6.03e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.74e+03  AOO_Mean_v2: 4.16e+05  AOO_STD_v2: 6.32e+05  AOO_AvgTime_v2: 6.06秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.24s, AOO=0.20s, AOOv2=0.64s, PIMO=1.09s
+F30: BAEO=0.81s, AOO=0.54s, AOOv2=6.08s, PIMO=5.45s
+[20:28:38] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 20:29:36 ---
+
+[20:29:36] [INFO] Diary started: logsЕ-07-31_log.txt
+[20:29:36] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob (动态, 初始值=0.50), levy_beta = 1.50, levy_scale_factor (动态)
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = -10.0 (exp(-10*t/iter_max)), threshold的tanh系数 = 6.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 5.62e+03  BAEO_Mean: 3.44e+05  BAEO_STD: 5.55e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 1.18e+04  AOO_Mean: 8.22e+05  AOO_STD: 7.35e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.94e+04  AOO_Mean_v2: 9.42e+05  AOO_STD_v2: 1.03e+06  AOO_AvgTime_v2: 0.50秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.23e+03  PIMO_Mean: 1.47e+03  PIMO_STD: 1.49e+02  PIMO_AvgTime: 0.99秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 4.72e+03  BAEO_Mean: 5.53e+05  BAEO_STD: 7.24e+05  BAEO_AvgTime: 0.71秒
+以下为AOO的数据展示：
+AOO_Best: 4.72e+03  AOO_Mean: 3.11e+05  AOO_STD: 5.70e+05  AOO_AvgTime: 0.53秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 5.23e+03  AOO_Mean_v2: 4.91e+05  AOO_STD_v2: 9.03e+05  AOO_AvgTime_v2: 6.05秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.46e+03  PIMO_Mean: 7.50e+03  PIMO_STD: 1.13e+04  PIMO_AvgTime: 5.32秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.25s, AOO=0.21s, AOOv2=0.55s, PIMO=1.14s
+F30: BAEO=0.65s, AOO=0.53s, AOOv2=6.10s, PIMO=5.41s
+[20:37:10] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 20:43:25 ---
+
+[20:43:25] [INFO] Diary started: logsЕ-07-31_log.txt
+[20:43:25] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob (动态, 初始值=0.50), levy_beta = 1.50, levy_scale_factor (动态)
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = -10.0 (exp(-10*t/iter_max)), threshold的tanh系数 = 6.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('random', 'D:\Program Files\MATLAB\R2024b\toolbox\stats\stats\random.m', 88)" style="font-weight:bold">random</a> (<a href="matlab: opentoline('D:\Program Files\MATLAB\R2024b\toolbox\stats\stats\random.m',88,0)">第 88 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('BAEO', 'E:\matlabProjects\demo\main\OptAlgo\models\BAEO.m', 68)" style="font-weight:bold">BAEO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\BAEO.m',68,0)">第 68 行</a>)
+        ads=random('Normal', ner_Boomerang, 1 ,n,Dim);
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 151)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',151,0)">第 151 行</a>)
+        [BAEOBest_score, BAEOBest_pos, BAEO_cg_curve] = BAEO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 20:43:48 ---
+
+[20:43:48] [INFO] Diary started: logsЕ-07-31_log.txt
+[20:43:48] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob (动态, 初始值=0.50), levy_beta = 1.50, levy_scale_factor (动态)
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = -10.0 (exp(-10*t/iter_max)), threshold的tanh系数 = 6.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 5.97e+03  BAEO_Mean: 2.11e+05  BAEO_STD: 2.18e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 1.36e+04  AOO_Mean: 7.95e+05  AOO_STD: 7.25e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.85e+04  AOO_Mean_v2: 1.45e+06  AOO_STD_v2: 1.53e+06  AOO_AvgTime_v2: 0.50秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 1.32e+04  BAEO_Mean: 6.59e+05  BAEO_STD: 1.10e+06  BAEO_AvgTime: 0.75秒
+以下为AOO的数据展示：
+AOO_Best: 3.95e+03  AOO_Mean: 4.56e+05  AOO_STD: 6.53e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.86e+03  AOO_Mean_v2: 5.54e+05  AOO_STD_v2: 8.36e+05  AOO_AvgTime_v2: 6.06秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.23s, AOO=0.21s, AOOv2=0.56s, PIMO=1.14s
+F30: BAEO=0.49s, AOO=0.54s, AOOv2=6.11s, PIMO=5.40s
+[20:48:14] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 20:49:48 ---
+
+[20:49:48] [INFO] Diary started: logsЕ-07-31_log.txt
+[20:49:48] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 7.17e+03  BAEO_Mean: 3.42e+05  BAEO_STD: 5.88e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 9.10e+03  AOO_Mean: 7.74e+05  AOO_STD: 7.13e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.08e+04  AOO_Mean_v2: 1.75e+05  AOO_STD_v2: 1.89e+05  AOO_AvgTime_v2: 0.64秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 8.34e+03  BAEO_Mean: 1.02e+06  BAEO_STD: 1.26e+06  BAEO_AvgTime: 0.70秒
+以下为AOO的数据展示：
+AOO_Best: 6.64e+03  AOO_Mean: 8.16e+05  AOO_STD: 7.55e+05  AOO_AvgTime: 0.53秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.73e+03  AOO_Mean_v2: 4.01e+05  AOO_STD_v2: 6.76e+05  AOO_AvgTime_v2: 6.74秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.25s, AOO=0.19s, AOOv2=0.75s, PIMO=1.19s
+F30: BAEO=0.88s, AOO=0.56s, AOOv2=6.78s, PIMO=5.37s
+[20:54:39] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 20:55:16 ---
+
+[20:55:16] [INFO] Diary started: logsЕ-07-31_log.txt
+[20:55:16] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 1.04e+04  BAEO_Mean: 2.72e+05  BAEO_STD: 4.24e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 9.29e+03  AOO_Mean: 9.75e+05  AOO_STD: 9.62e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.03e+04  AOO_Mean_v2: 1.53e+05  AOO_STD_v2: 1.66e+05  AOO_AvgTime_v2: 0.75秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_20
+以下为BAEO的数据展示：
+BAEO_Best: 8.47e+03  BAEO_Mean: 7.47e+05  BAEO_STD: 1.88e+06  BAEO_AvgTime: 0.75秒
+以下为AOO的数据展示：
+AOO_Best: 8.37e+03  AOO_Mean: 6.74e+05  AOO_STD: 7.28e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 5.27e+03  AOO_Mean_v2: 2.73e+05  AOO_STD_v2: 4.83e+05  AOO_AvgTime_v2: 6.84秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.31s, AOO=0.23s, AOOv2=0.86s, PIMO=1.12s
+F30: BAEO=0.95s, AOO=0.53s, AOOv2=6.93s, PIMO=5.39s
+[21:00:15] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 21:04:12 ---
+
+[21:04:12] [INFO] Diary started: logsЕ-07-31_log.txt
+[21:04:12] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_21
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_21
+以下为BAEO的数据展示：
+BAEO_Best: 1.28e+04  BAEO_Mean: 2.52e+05  BAEO_STD: 3.17e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 3.83e+04  AOO_Mean: 7.67e+05  AOO_STD: 8.45e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 7.08e+04  AOO_Mean_v2: 1.25e+06  AOO_STD_v2: 1.67e+06  AOO_AvgTime_v2: 0.66秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_21
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_21
+以下为BAEO的数据展示：
+BAEO_Best: 9.86e+03  BAEO_Mean: 1.32e+06  BAEO_STD: 2.50e+06  BAEO_AvgTime: 0.70秒
+以下为AOO的数据展示：
+AOO_Best: 4.93e+03  AOO_Mean: 3.90e+05  AOO_STD: 6.62e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.33e+03  AOO_Mean_v2: 3.27e+05  AOO_STD_v2: 5.69e+05  AOO_AvgTime_v2: 6.20秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.29s, AOO=0.22s, AOOv2=0.76s, PIMO=1.11s
+F30: BAEO=0.51s, AOO=0.54s, AOOv2=6.25s, PIMO=5.36s
+[21:08:47] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 21:10:14 ---
+
+[21:10:14] [INFO] Diary started: logsЕ-07-31_log.txt
+[21:10:14] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_21
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_21
+以下为BAEO的数据展示：
+BAEO_Best: 2.49e+03  BAEO_Mean: 4.21e+05  BAEO_STD: 5.64e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 6.84e+03  AOO_Mean: 7.32e+05  AOO_STD: 7.97e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 6.65e+03  AOO_Mean_v2: 1.73e+06  AOO_STD_v2: 1.50e+06  AOO_AvgTime_v2: 0.65秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_21
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_21
+以下为BAEO的数据展示：
+BAEO_Best: 9.84e+03  BAEO_Mean: 3.52e+05  BAEO_STD: 6.78e+05  BAEO_AvgTime: 0.77秒
+以下为AOO的数据展示：
+AOO_Best: 7.09e+03  AOO_Mean: 6.86e+05  AOO_STD: 7.24e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 6.26e+03  AOO_Mean_v2: 2.19e+05  AOO_STD_v2: 4.07e+05  AOO_AvgTime_v2: 6.20秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.25s, AOO=0.21s, AOOv2=0.71s, PIMO=1.07s
+F30: BAEO=0.48s, AOO=0.54s, AOOv2=6.21s, PIMO=5.34s
+[21:14:50] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 21:15:29 ---
+
+[21:15:29] [INFO] Diary started: logsЕ-07-31_log.txt
+[21:15:29] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+{函数或变量 'pbest' 无法识别。
+
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 199)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',199,0)">第 199 行</a>)
+                X(i, :) = current_X + (pbest - current_X) * rand() + (r1 - r2) * rand() + W;
+                                       ^^^^^
+出错 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 56)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',56,0)">第 56 行</a>)
+    [AOOBest_score_v2, ~, AOO_cg_curve_v2, AOO_v2_diversity, AOO_v2_threshold, AOO_v2_c_curve] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB, F_obj, a);
+                                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-07-31 21:16:50 ---
+
+[21:16:50] [INFO] Diary started: logsЕ-07-31_log.txt
+[21:16:50] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_21
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_21
+以下为BAEO的数据展示：
+BAEO_Best: 7.10e+03  BAEO_Mean: 3.32e+05  BAEO_STD: 5.31e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 2.82e+04  AOO_Mean: 9.49e+05  AOO_STD: 8.19e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.90e+04  AOO_Mean_v2: 1.28e+06  AOO_STD_v2: 9.28e+05  AOO_AvgTime_v2: 0.44秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_21
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_21
+以下为BAEO的数据展示：
+BAEO_Best: 5.36e+03  BAEO_Mean: 8.20e+05  BAEO_STD: 9.85e+05  BAEO_AvgTime: 0.68秒
+以下为AOO的数据展示：
+AOO_Best: 7.97e+03  AOO_Mean: 3.40e+05  AOO_STD: 4.82e+05  AOO_AvgTime: 0.52秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 9.37e+03  AOO_Mean_v2: 3.77e+05  AOO_STD_v2: 6.50e+05  AOO_AvgTime_v2: 5.98秒
+
+===== 各算法在测试函数上的总运行时间 =====
+F12: BAEO=0.25s, AOO=0.20s, AOOv2=0.53s, PIMO=1.09s
+F30: BAEO=0.96s, AOO=0.57s, AOOv2=6.00s, PIMO=5.38s
+[21:21:09] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-07-31 23:57:57 ---
+
+[23:57:57] [INFO] Diary started: logsЕ-07-31_log.txt
+[23:57:57] [INFO] ===== 日志记录已启动 =====
+以下为F12函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.30
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_23
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_23
+以下为BAEO的数据展示：
+BAEO_Best: 8.87e+03  BAEO_Mean: 1.80e+05  BAEO_STD: 2.20e+05  BAEO_AvgTime: 0.19秒
+以下为AOO的数据展示：
+AOO_Best: 1.42e+04  AOO_Mean: 1.01e+06  AOO_STD: 8.75e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.65e+04  AOO_Mean_v2: 6.89e+05  AOO_STD_v2: 5.60e+05  AOO_AvgTime_v2: 0.46秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_23
+AOOv2 详细分析图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250731_23
+以下为BAEO的数据展示：
+BAEO_Best: 8.08e+03  BAEO_Mean: 3.47e+05  BAEO_STD: 6.07e+05  BAEO_AvgTime: 0.76秒
+以下为AOO的数据展示：
+AOO_Best: 7.52e+03  AOO_Mean: 3.52e+05  AOO_STD: 5.91e+05  AOO_AvgTime: 0.53秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOOv2', 'E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m', 244)" style="font-weight:bold">AOOv2</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOOv2.m',244,0)">第 244 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m', 191)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\main_try_AOO.m',191,0)">第 191 行</a>)
+        [AOOBest_score_v2, AOOBest_pos_v2, AOO_cg_curve_v2] = AOOv2(AOO_fhd, Dim, PD_no, Max_iter, LB, UB,F_obj, a);
+                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo

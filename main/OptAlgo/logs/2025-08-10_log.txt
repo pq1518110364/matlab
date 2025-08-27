@@ -1,0 +1,1580 @@
+[09:34:49] [INFO] Diary started: logsЕ-08-10_log.txt
+[09:34:49] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_09
+以下为PSO的数据展示：
+PSO_Best: 1.01e+02  PSO_Mean: 3.08e+03  PSO_STD: 3.09e+03  PSO_AvgTime: 0.04秒
+以下为GWO的数据展示：
+GWO_Best: 6.72e+03  GWO_Mean: 1.25e+07  GWO_STD: 5.22e+07  GWO_AvgTime: 0.07秒
+以下为SCA的数据展示：
+SCA_Best: 3.89e+08  SCA_Mean: 8.64e+08  SCA_STD: 2.93e+08  SCA_AvgTime: 0.06秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AOA', 'E:\matlabProjects\demo\main\OptAlgo\models\AOA.m', 39)" style="font-weight:bold">AOA</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AOA.m',39,0)">第 39 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 329)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',329,0)">第 329 行</a>)
+        [AOA_best_score, AOA_best_pos, AOA_curve] = AOA(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-10 09:41:42 ---
+
+[09:41:42] [INFO] Diary started: logsЕ-08-10_log.txt
+[09:41:42] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 1.65e+04  BAEO_Mean: 1.29e+07  BAEO_STD: 2.43e+07  
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('TOC', 'E:\matlabProjects\demo\main\OptAlgo\models\TOC.m', 265)" style="font-weight:bold">TOC</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\TOC.m',265,0)">第 265 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main', 'E:\matlabProjects\demo\main\OptAlgo\run\main.m', 133)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run\main.m',133,0)">第 133 行</a>)
+       [TOC_best_pos,TOC_best_score, TOC_cg_curve ] = TOC(PD_no,Max_iter,LB,UB,Dim,F_obj,Ntt,Nt); % Call SCSO
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+main_try_AOO
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-10 09:46:23 ---
+
+[09:46:23] [INFO] Diary started: logsЕ-08-10_log.txt
+[09:46:23] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = -0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\AOO\20250810_09
+以下为BAEO的数据展示：
+BAEO_Best: 1.01e+02  BAEO_Mean: 1.53e+03  BAEO_STD: 2.06e+03  BAEO_AvgTime: 0.16秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('AGDO', 'E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m', 68)" style="font-weight:bold">AGDO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\AGDO.m',68,0)">第 68 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main_try_AOO', 'E:\matlabProjects\demo\main\OptAlgo\run\main_try_AOO.m', 141)" style="font-weight:bold">main_try_AOO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run\main_try_AOO.m',141,0)">第 141 行</a>)
+        [AGDO_best_score, AGDO_best_pos, AGDO_cg_curve] = AGDO(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec05_main
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-10 09:48:04 ---
+
+[09:48:04] [INFO] Diary started: logsЕ-08-10_log.txt
+[09:48:04] [INFO] ===== 日志记录已启动 =====
+以下为BWO的数据展示：
+BWO_Best: 4.92e-05  BWO_Mean: 9.02e-03  BWO_STD: 7.58e-03  
+以下为WOA的数据展示：
+WOA_Best: 1.80e-87  WOA_Mean: 7.44e-73  WOA_STD: 2.81e-72  
+以下为SCA的数据展示：
+SCA_Best: 3.53e-03  SCA_Mean: 1.39e+01  SCA_STD: 2.64e+01  
+以下为HHO的数据展示：
+HHO_Best: 4.00e-120  HHO_Mean: 2.79e-95  HHO_STD: 1.52e-94  
+以下为SCSO的数据展示：
+SCSO_Best: 1.21e-129  SCSO_Mean: 2.61e-112  SCSO_STD: 1.16e-111  
+以下为DBO的数据展示：
+DBO_Best: 5.87e-159  DBO_Mean: 8.12e-108  DBO_STD: 3.29e-107  
+
+[09:48:35] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-08-10 09:51:44 ---
+
+[09:51:44] [INFO] Diary started: logsЕ-08-10_log.txt
+[09:51:44] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\cec2017\20250810_09
+以下为BAEO的数据展示：
+BAEO_Best: 2.92e+04  BAEO_Mean: 4.33e+07  BAEO_STD: 1.48e+08  
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('TOC', 'E:\matlabProjects\demo\main\OptAlgo\models\TOC.m', 280)" style="font-weight:bold">TOC</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\TOC.m',280,0)">第 280 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec17_main', 'E:\matlabProjects\demo\main\OptAlgo\run\run_cec17_main.m', 154)" style="font-weight:bold">run_cec17_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run\run_cec17_main.m',154,0)">第 154 行</a>)
+        [TOC_best_score,TOC_best_pos, TOC_cg_curve ] = TOC(PD_no,Max_iter,LB,UB,Dim,F_obj,Ntt,Nt); % Call SCSO
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec20_main
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-10 09:54:08 ---
+
+[09:54:08] [INFO] Diary started: logsЕ-08-10_log.txt
+[09:54:08] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\cec2017
+以下为BAEO的数据展示：
+BAEO_Best: 6.41e+04  BAEO_Mean: 4.54e+07  BAEO_STD: 2.06e+08  
+以下为TOC的数据展示：
+TOC_Best: 5.40e+04  TOC_Mean: 1.30e+07  TOC_STD: 1.69e+07  
+以下为SBO的数据展示：
+SBO_Best: 8.64e+08  SBO_Mean: 1.93e+09  SBO_STD: 8.62e+08  
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CEC2020>F1', 'E:\matlabProjects\demo\main\OptAlgo\CEC2020.m', 98)" style="font-weight:bold">CEC2020>F1</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\CEC2020.m',98,0)">第 98 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('HHO', 'E:\matlabProjects\demo\main\OptAlgo\models\HHO.m', 88)" style="font-weight:bold">HHO</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\HHO.m',88,0)">第 88 行</a>)
+                if fobj(X1)<fobj(X(i,:)) % improved move?
+                   ^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec20_main', 'E:\matlabProjects\demo\main\OptAlgo\run\run_cec20_main.m', 186)" style="font-weight:bold">run_cec20_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run\run_cec20_main.m',186,0)">第 186 行</a>)
+        [HHO_best_score,HHO_best_pos, HHO_cg_curve ] = HHO(PD_no,Max_iter,LB,UB,Dim,F_obj); % Call SCSO
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-10 09:56:49 ---
+
+[09:56:49] [INFO] Diary started: logsЕ-08-10_log.txt
+[09:56:49] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_09
+以下为PSO的数据展示：
+PSO_Best: 1.00e+02  PSO_Mean: 4.67e+06  PSO_STD: 1.78e+07  PSO_AvgTime: 0.04秒
+以下为GWO的数据展示：
+GWO_Best: 8.58e+03  GWO_Mean: 2.52e+07  GWO_STD: 7.05e+07  GWO_AvgTime: 0.07秒
+以下为SCA的数据展示：
+SCA_Best: 2.73e+08  SCA_Mean: 7.87e+08  SCA_STD: 2.48e+08  SCA_AvgTime: 0.05秒
+以下为AOA的数据展示：
+AOA_Best: 2.20e+09  AOA_Mean: 9.33e+09  AOA_STD: 3.98e+09  AOA_AvgTime: 0.05秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.18e+08  SFOA_Mean: 1.24e+10  SFOA_STD: 8.02e+09  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.06e+02  BAEO_Mean: 2.20e+03  BAEO_STD: 2.45e+03  BAEO_AvgTime: 0.16秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.01e+02  AGDO_Mean: 2.15e+03  AGDO_STD: 2.41e+03  AGDO_AvgTime: 1.24秒
+以下为AOO的数据展示：
+AOO_Best: 1.67e+02  AOO_Mean: 3.94e+03  AOO_STD: 3.26e+03  AOO_AvgTime: 0.13秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.00e+02  AOO_Mean_v2: 2.54e+03  AOO_STD_v2: 3.22e+03  AOO_AvgTime_v2: 0.79秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.00e+02  PIMO_Mean: 5.43e+02  PIMO_STD: 9.16e+02  PIMO_AvgTime: 0.74秒
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_09
+以下为PSO的数据展示：
+PSO_Best: 3.00e+02  PSO_Mean: 3.00e+02  PSO_STD: 2.50e-06  PSO_AvgTime: 0.04秒
+以下为GWO的数据展示：
+GWO_Best: 3.86e+02  GWO_Mean: 2.20e+03  GWO_STD: 2.30e+03  GWO_AvgTime: 0.07秒
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('SCA', 'E:\matlabProjects\demo\main\OptAlgo\models\SCA.m', 72)" style="font-weight:bold">SCA</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\SCA.m',72,0)">第 72 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec2017', 'E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m', 309)" style="font-weight:bold">run_cec2017</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run_cec2017.m',309,0)">第 309 行</a>)
+        [SCA_best_score, SCA_best_pos, SCA_cg_curve] = SCA(PD_no, Max_iter, LB, UB, Dim, F_obj);
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec2017
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-10 09:59:06 ---
+
+[09:59:06] [INFO] Diary started: logsЕ-08-10_log.txt
+[09:59:06] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = 0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_09
+以下为PSO的数据展示：
+PSO_Best: 1.00e+02  PSO_Mean: 4.73e+07  PSO_STD: 2.46e+08  PSO_AvgTime: 0.04秒
+以下为GWO的数据展示：
+GWO_Best: 8.56e+03  GWO_Mean: 1.44e+07  GWO_STD: 5.21e+07  GWO_AvgTime: 0.07秒
+以下为SCA的数据展示：
+SCA_Best: 1.92e+08  SCA_Mean: 8.71e+08  SCA_STD: 3.29e+08  SCA_AvgTime: 0.05秒
+以下为AOA的数据展示：
+AOA_Best: 1.97e+09  AOA_Mean: 7.51e+09  AOA_STD: 3.57e+09  AOA_AvgTime: 0.05秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.25e+09  SFOA_Mean: 1.30e+10  SFOA_STD: 6.40e+09  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.02e+02  BAEO_Mean: 2.02e+03  BAEO_STD: 2.08e+03  BAEO_AvgTime: 0.16秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.53e+02  AGDO_Mean: 2.50e+03  AGDO_STD: 2.51e+03  AGDO_AvgTime: 1.33秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.00e+02  PIMO_Mean: 1.85e+02  PIMO_STD: 1.63e+02  PIMO_AvgTime: 0.77秒
+以下为AOO的数据展示：
+AOO_Best: 1.74e+02  AOO_Mean: 2.53e+03  AOO_STD: 2.60e+03  AOO_AvgTime: 0.13秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.01e+02  AOO_Mean_v2: 2.01e+03  AOO_STD_v2: 1.98e+03  AOO_AvgTime_v2: 0.83秒
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 3.00e+02  PSO_Mean: 3.00e+02  PSO_STD: 8.33e-07  PSO_AvgTime: 0.04秒
+以下为GWO的数据展示：
+GWO_Best: 3.76e+02  GWO_Mean: 2.17e+03  GWO_STD: 2.03e+03  GWO_AvgTime: 0.07秒
+以下为SCA的数据展示：
+SCA_Best: 9.13e+02  SCA_Mean: 1.95e+03  SCA_STD: 9.01e+02  SCA_AvgTime: 0.06秒
+以下为AOA的数据展示：
+AOA_Best: 5.11e+03  AOA_Mean: 1.03e+04  AOA_STD: 2.96e+03  AOA_AvgTime: 0.05秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.30e+04  SFOA_Mean: 6.68e+04  SFOA_STD: 3.95e+04  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 3.00e+02  BAEO_Mean: 3.00e+02  BAEO_STD: 7.46e-09  BAEO_AvgTime: 0.17秒
+以下为AGDO的数据展示：
+AGDO_Best: 3.00e+02  AGDO_Mean: 3.00e+02  AGDO_STD: 8.81e-06  AGDO_AvgTime: 1.31秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.00e+02  PIMO_Mean: 3.00e+02  PIMO_STD: 2.74e-04  PIMO_AvgTime: 0.77秒
+以下为AOO的数据展示：
+AOO_Best: 3.00e+02  AOO_Mean: 3.00e+02  AOO_STD: 4.58e-04  AOO_AvgTime: 0.13秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.00e+02  AOO_Mean_v2: 3.00e+02  AOO_STD_v2: 3.53e-04  AOO_AvgTime_v2: 0.84秒
+
+以下为F4函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 4.00e+02  PSO_Mean: 4.14e+02  PSO_STD: 2.15e+01  PSO_AvgTime: 0.04秒
+以下为GWO的数据展示：
+GWO_Best: 4.05e+02  GWO_Mean: 4.19e+02  GWO_STD: 1.70e+01  GWO_AvgTime: 0.07秒
+以下为SCA的数据展示：
+SCA_Best: 4.25e+02  SCA_Mean: 4.52e+02  SCA_STD: 1.73e+01  SCA_AvgTime: 0.06秒
+以下为AOA的数据展示：
+AOA_Best: 5.14e+02  AOA_Mean: 8.76e+02  AOA_STD: 3.00e+02  AOA_AvgTime: 0.05秒
+以下为SFOA的数据展示：
+SFOA_Best: 5.02e+02  SFOA_Mean: 1.74e+03  SFOA_STD: 1.12e+03  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 4.00e+02  BAEO_Mean: 4.04e+02  BAEO_STD: 1.96e+00  BAEO_AvgTime: 0.18秒
+以下为AGDO的数据展示：
+AGDO_Best: 4.00e+02  AGDO_Mean: 4.01e+02  AGDO_STD: 4.79e-01  AGDO_AvgTime: 1.31秒
+以下为PIMO的数据展示：
+PIMO_Best: 4.00e+02  PIMO_Mean: 4.01e+02  PIMO_STD: 5.77e-01  PIMO_AvgTime: 0.77秒
+以下为AOO的数据展示：
+AOO_Best: 4.00e+02  AOO_Mean: 4.03e+02  AOO_STD: 1.57e+00  AOO_AvgTime: 0.13秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.00e+02  AOO_Mean_v2: 4.01e+02  AOO_STD_v2: 1.18e+00  AOO_AvgTime_v2: 0.83秒
+
+以下为F5函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 5.08e+02  PSO_Mean: 5.19e+02  PSO_STD: 1.10e+01  PSO_AvgTime: 0.06秒
+以下为GWO的数据展示：
+GWO_Best: 5.03e+02  GWO_Mean: 5.14e+02  GWO_STD: 7.17e+00  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 5.34e+02  SCA_Mean: 5.50e+02  SCA_STD: 7.71e+00  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 5.27e+02  AOA_Mean: 5.61e+02  AOA_STD: 2.08e+01  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 5.67e+02  SFOA_Mean: 6.26e+02  SFOA_STD: 2.65e+01  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 5.21e+02  BAEO_Mean: 5.43e+02  BAEO_STD: 1.90e+01  BAEO_AvgTime: 0.21秒
+以下为AGDO的数据展示：
+AGDO_Best: 5.02e+02  AGDO_Mean: 5.06e+02  AGDO_STD: 2.94e+00  AGDO_AvgTime: 1.36秒
+以下为PIMO的数据展示：
+PIMO_Best: 5.08e+02  PIMO_Mean: 5.21e+02  PIMO_STD: 5.72e+00  PIMO_AvgTime: 1.09秒
+以下为AOO的数据展示：
+AOO_Best: 5.09e+02  AOO_Mean: 5.29e+02  AOO_STD: 9.64e+00  AOO_AvgTime: 0.17秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 5.04e+02  AOO_Mean_v2: 5.09e+02  AOO_STD_v2: 2.61e+00  AOO_AvgTime_v2: 1.06秒
+
+以下为F6函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 6.00e+02  PSO_Mean: 6.00e+02  PSO_STD: 9.55e-01  PSO_AvgTime: 0.10秒
+以下为GWO的数据展示：
+GWO_Best: 6.00e+02  GWO_Mean: 6.02e+02  GWO_STD: 2.23e+00  GWO_AvgTime: 0.13秒
+以下为SCA的数据展示：
+SCA_Best: 6.14e+02  SCA_Mean: 6.22e+02  SCA_STD: 3.71e+00  SCA_AvgTime: 0.11秒
+以下为AOA的数据展示：
+AOA_Best: 6.29e+02  AOA_Mean: 6.39e+02  AOA_STD: 5.12e+00  AOA_AvgTime: 0.10秒
+以下为SFOA的数据展示：
+SFOA_Best: 6.20e+02  SFOA_Mean: 6.78e+02  SFOA_STD: 2.60e+01  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 6.00e+02  BAEO_Mean: 6.21e+02  BAEO_STD: 1.49e+01  BAEO_AvgTime: 0.38秒
+以下为AGDO的数据展示：
+AGDO_Best: 6.00e+02  AGDO_Mean: 6.00e+02  AGDO_STD: 9.27e-05  AGDO_AvgTime: 1.63秒
+以下为PIMO的数据展示：
+PIMO_Best: 6.00e+02  PIMO_Mean: 6.00e+02  PIMO_STD: 3.05e-01  PIMO_AvgTime: 1.80秒
+以下为AOO的数据展示：
+AOO_Best: 6.00e+02  AOO_Mean: 6.09e+02  AOO_STD: 1.07e+01  AOO_AvgTime: 0.23秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 6.00e+02  AOO_Mean_v2: 6.00e+02  AOO_STD_v2: 8.67e-04  AOO_AvgTime_v2: 1.20秒
+
+以下为F7函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 7.05e+02  PSO_Mean: 7.21e+02  PSO_STD: 5.75e+00  PSO_AvgTime: 0.06秒
+以下为GWO的数据展示：
+GWO_Best: 7.15e+02  GWO_Mean: 7.36e+02  GWO_STD: 9.70e+00  GWO_AvgTime: 0.09秒
+以下为SCA的数据展示：
+SCA_Best: 7.61e+02  SCA_Mean: 7.79e+02  SCA_STD: 8.04e+00  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 7.72e+02  AOA_Mean: 7.96e+02  AOA_STD: 1.35e+01  AOA_AvgTime: 0.07秒
+以下为SFOA的数据展示：
+SFOA_Best: 8.34e+02  SFOA_Mean: 1.06e+03  SFOA_STD: 1.30e+02  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 7.18e+02  BAEO_Mean: 7.42e+02  BAEO_STD: 1.46e+01  BAEO_AvgTime: 0.23秒
+以下为AGDO的数据展示：
+AGDO_Best: 7.11e+02  AGDO_Mean: 7.17e+02  AGDO_STD: 3.16e+00  AGDO_AvgTime: 1.44秒
+以下为PIMO的数据展示：
+PIMO_Best: 7.08e+02  PIMO_Mean: 7.24e+02  PIMO_STD: 8.02e+00  PIMO_AvgTime: 1.27秒
+以下为AOO的数据展示：
+AOO_Best: 7.17e+02  AOO_Mean: 7.33e+02  AOO_STD: 1.22e+01  AOO_AvgTime: 0.19秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 7.14e+02  AOO_Mean_v2: 7.18e+02  AOO_STD_v2: 2.93e+00  AOO_AvgTime_v2: 1.09秒
+
+以下为F8函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 8.05e+02  PSO_Mean: 8.16e+02  PSO_STD: 6.51e+00  PSO_AvgTime: 0.06秒
+以下为GWO的数据展示：
+GWO_Best: 8.04e+02  GWO_Mean: 8.13e+02  GWO_STD: 5.07e+00  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 8.22e+02  SCA_Mean: 8.42e+02  SCA_STD: 8.12e+00  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 8.14e+02  AOA_Mean: 8.31e+02  AOA_STD: 6.20e+00  AOA_AvgTime: 0.07秒
+以下为SFOA的数据展示：
+SFOA_Best: 8.57e+02  SFOA_Mean: 9.16e+02  SFOA_STD: 3.21e+01  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 8.06e+02  BAEO_Mean: 8.26e+02  BAEO_STD: 8.51e+00  BAEO_AvgTime: 0.22秒
+以下为AGDO的数据展示：
+AGDO_Best: 8.03e+02  AGDO_Mean: 8.07e+02  AGDO_STD: 3.36e+00  AGDO_AvgTime: 1.40秒
+以下为PIMO的数据展示：
+PIMO_Best: 8.07e+02  PIMO_Mean: 8.19e+02  PIMO_STD: 6.45e+00  PIMO_AvgTime: 1.11秒
+以下为AOO的数据展示：
+AOO_Best: 8.10e+02  AOO_Mean: 8.22e+02  AOO_STD: 8.54e+00  AOO_AvgTime: 0.16秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 8.04e+02  AOO_Mean_v2: 8.10e+02  AOO_STD_v2: 3.95e+00  AOO_AvgTime_v2: 0.95秒
+
+以下为F9函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 9.00e+02  PSO_Mean: 9.00e+02  PSO_STD: 8.40e-02  PSO_AvgTime: 0.06秒
+以下为GWO的数据展示：
+GWO_Best: 9.00e+02  GWO_Mean: 9.20e+02  GWO_STD: 3.93e+01  GWO_AvgTime: 0.09秒
+以下为SCA的数据展示：
+SCA_Best: 9.38e+02  SCA_Mean: 1.04e+03  SCA_STD: 6.83e+01  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 1.08e+03  AOA_Mean: 1.43e+03  AOA_STD: 1.77e+02  AOA_AvgTime: 0.07秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.57e+03  SFOA_Mean: 4.02e+03  SFOA_STD: 1.17e+03  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 9.00e+02  BAEO_Mean: 1.04e+03  BAEO_STD: 2.12e+02  BAEO_AvgTime: 0.23秒
+以下为AGDO的数据展示：
+AGDO_Best: 9.00e+02  AGDO_Mean: 9.00e+02  AGDO_STD: 5.93e-08  AGDO_AvgTime: 1.42秒
+以下为PIMO的数据展示：
+PIMO_Best: 9.00e+02  PIMO_Mean: 9.06e+02  PIMO_STD: 4.32e+00  PIMO_AvgTime: 1.16秒
+以下为AOO的数据展示：
+AOO_Best: 9.00e+02  AOO_Mean: 9.05e+02  AOO_STD: 1.90e+01  AOO_AvgTime: 0.17秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 9.00e+02  AOO_Mean_v2: 9.00e+02  AOO_STD_v2: 4.41e-06  AOO_AvgTime_v2: 1.03秒
+
+以下为F10函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 1.13e+03  PSO_Mean: 1.61e+03  PSO_STD: 2.93e+02  PSO_AvgTime: 0.06秒
+以下为GWO的数据展示：
+GWO_Best: 1.00e+03  GWO_Mean: 1.67e+03  GWO_STD: 2.97e+02  GWO_AvgTime: 0.09秒
+以下为SCA的数据展示：
+SCA_Best: 2.05e+03  SCA_Mean: 2.35e+03  SCA_STD: 1.99e+02  SCA_AvgTime: 0.08秒
+以下为AOA的数据展示：
+AOA_Best: 1.58e+03  AOA_Mean: 2.20e+03  AOA_STD: 2.97e+02  AOA_AvgTime: 0.07秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.09e+03  SFOA_Mean: 2.97e+03  SFOA_STD: 3.13e+02  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.38e+03  BAEO_Mean: 2.12e+03  BAEO_STD: 3.10e+02  BAEO_AvgTime: 0.22秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.00e+03  AGDO_Mean: 1.26e+03  AGDO_STD: 1.79e+02  AGDO_AvgTime: 1.46秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.08e+03  PIMO_Mean: 1.38e+03  PIMO_STD: 1.39e+02  PIMO_AvgTime: 1.25秒
+以下为AOO的数据展示：
+AOO_Best: 1.29e+03  AOO_Mean: 1.87e+03  AOO_STD: 3.11e+02  AOO_AvgTime: 0.17秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.01e+03  AOO_Mean_v2: 1.30e+03  AOO_STD_v2: 1.59e+02  AOO_AvgTime_v2: 0.98秒
+
+以下为F11函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 1.10e+03  PSO_Mean: 1.13e+03  PSO_STD: 4.99e+01  PSO_AvgTime: 0.05秒
+以下为GWO的数据展示：
+GWO_Best: 1.10e+03  GWO_Mean: 1.14e+03  GWO_STD: 5.35e+01  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 1.13e+03  SCA_Mean: 1.20e+03  SCA_STD: 4.33e+01  SCA_AvgTime: 0.06秒
+以下为AOA的数据展示：
+AOA_Best: 1.17e+03  AOA_Mean: 2.16e+03  AOA_STD: 1.57e+03  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.20e+03  SFOA_Mean: 1.18e+04  SFOA_STD: 1.42e+04  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.11e+03  BAEO_Mean: 1.16e+03  BAEO_STD: 5.30e+01  BAEO_AvgTime: 0.19秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.10e+03  AGDO_Mean: 1.10e+03  AGDO_STD: 8.71e-01  AGDO_AvgTime: 1.33秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.10e+03  PIMO_Mean: 1.11e+03  PIMO_STD: 2.42e+00  PIMO_AvgTime: 0.93秒
+以下为AOO的数据展示：
+AOO_Best: 1.11e+03  AOO_Mean: 1.15e+03  AOO_STD: 2.62e+01  AOO_AvgTime: 0.14秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.10e+03  AOO_Mean_v2: 1.10e+03  AOO_STD_v2: 1.50e+00  AOO_AvgTime_v2: 0.88秒
+
+以下为F12函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 2.31e+03  PSO_Mean: 1.51e+04  PSO_STD: 1.24e+04  PSO_AvgTime: 0.05秒
+以下为GWO的数据展示：
+GWO_Best: 1.20e+04  GWO_Mean: 7.17e+05  GWO_STD: 9.64e+05  GWO_AvgTime: 0.07秒
+以下为SCA的数据展示：
+SCA_Best: 1.06e+06  SCA_Mean: 2.04e+07  SCA_STD: 1.94e+07  SCA_AvgTime: 0.06秒
+以下为AOA的数据展示：
+AOA_Best: 1.93e+04  AOA_Mean: 3.20e+07  AOA_STD: 6.05e+07  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.65e+07  SFOA_Mean: 6.67e+08  SFOA_STD: 5.52e+08  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 5.02e+03  BAEO_Mean: 1.78e+05  BAEO_STD: 2.19e+05  BAEO_AvgTime: 0.19秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.94e+03  AGDO_Mean: 9.61e+03  AGDO_STD: 9.63e+03  AGDO_AvgTime: 1.35秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.23e+03  PIMO_Mean: 1.52e+03  PIMO_STD: 1.97e+02  PIMO_AvgTime: 0.97秒
+以下为AOO的数据展示：
+AOO_Best: 9.86e+03  AOO_Mean: 8.84e+05  AOO_STD: 7.97e+05  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.87e+03  AOO_Mean_v2: 2.50e+04  AOO_STD_v2: 1.71e+04  AOO_AvgTime_v2: 0.89秒
+
+以下为F13函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 1.45e+03  PSO_Mean: 9.51e+03  PSO_STD: 8.47e+03  PSO_AvgTime: 0.05秒
+以下为GWO的数据展示：
+GWO_Best: 1.89e+03  GWO_Mean: 1.29e+04  GWO_STD: 8.25e+03  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 4.67e+03  SCA_Mean: 3.09e+04  SCA_STD: 2.37e+04  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 3.41e+03  AOA_Mean: 1.06e+04  AOA_STD: 8.14e+03  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.44e+04  SFOA_Mean: 3.57e+07  SFOA_STD: 5.21e+07  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.00e+03  BAEO_Mean: 1.39e+04  BAEO_STD: 1.01e+04  BAEO_AvgTime: 0.20秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.32e+03  AGDO_Mean: 1.88e+03  AGDO_STD: 8.32e+02  AGDO_AvgTime: 1.33秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.30e+03  PIMO_Mean: 1.31e+03  PIMO_STD: 4.64e+00  PIMO_AvgTime: 0.93秒
+以下为AOO的数据展示：
+AOO_Best: 2.03e+03  AOO_Mean: 1.09e+04  AOO_STD: 6.46e+03  AOO_AvgTime: 0.14秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.33e+03  AOO_Mean_v2: 3.72e+03  AOO_STD_v2: 3.68e+03  AOO_AvgTime_v2: 0.85秒
+
+以下为F14函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 1.44e+03  PSO_Mean: 1.61e+03  PSO_STD: 3.15e+02  PSO_AvgTime: 0.06秒
+以下为GWO的数据展示：
+GWO_Best: 1.45e+03  GWO_Mean: 3.61e+03  GWO_STD: 1.79e+03  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 1.48e+03  SCA_Mean: 1.97e+03  SCA_STD: 8.35e+02  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 1.51e+03  AOA_Mean: 9.60e+03  AOA_STD: 8.62e+03  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.56e+03  SFOA_Mean: 1.96e+06  SFOA_STD: 5.51e+06  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.43e+03  BAEO_Mean: 2.23e+03  BAEO_STD: 1.03e+03  BAEO_AvgTime: 0.22秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.40e+03  AGDO_Mean: 1.42e+03  AGDO_STD: 8.66e+00  AGDO_AvgTime: 1.34秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.41e+03  PIMO_Mean: 1.42e+03  PIMO_STD: 6.55e+00  PIMO_AvgTime: 1.13秒
+以下为AOO的数据展示：
+AOO_Best: 1.44e+03  AOO_Mean: 1.57e+03  AOO_STD: 2.98e+02  AOO_AvgTime: 0.16秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.40e+03  AOO_Mean_v2: 1.42e+03  AOO_STD_v2: 1.33e+01  AOO_AvgTime_v2: 0.92秒
+
+以下为F15函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 1.51e+03  PSO_Mean: 2.14e+03  PSO_STD: 1.10e+03  PSO_AvgTime: 0.05秒
+以下为GWO的数据展示：
+GWO_Best: 1.56e+03  GWO_Mean: 5.31e+03  GWO_STD: 4.12e+03  GWO_AvgTime: 0.07秒
+以下为SCA的数据展示：
+SCA_Best: 1.70e+03  SCA_Mean: 2.89e+03  SCA_STD: 1.09e+03  SCA_AvgTime: 0.06秒
+以下为AOA的数据展示：
+AOA_Best: 3.18e+03  AOA_Mean: 1.77e+04  AOA_STD: 4.25e+03  AOA_AvgTime: 0.05秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.75e+03  SFOA_Mean: 8.08e+06  SFOA_STD: 4.02e+07  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.69e+03  BAEO_Mean: 3.63e+03  BAEO_STD: 2.49e+03  BAEO_AvgTime: 0.17秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.50e+03  AGDO_Mean: 1.51e+03  AGDO_STD: 7.64e+00  AGDO_AvgTime: 1.27秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.50e+03  PIMO_Mean: 1.50e+03  PIMO_STD: 1.99e+00  PIMO_AvgTime: 0.84秒
+以下为AOO的数据展示：
+AOO_Best: 1.65e+03  AOO_Mean: 2.66e+03  AOO_STD: 9.89e+02  AOO_AvgTime: 0.14秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.50e+03  AOO_Mean_v2: 1.51e+03  AOO_STD_v2: 1.84e+01  AOO_AvgTime_v2: 0.83秒
+
+以下为F16函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 1.60e+03  PSO_Mean: 1.85e+03  PSO_STD: 1.32e+02  PSO_AvgTime: 0.05秒
+以下为GWO的数据展示：
+GWO_Best: 1.61e+03  GWO_Mean: 1.71e+03  GWO_STD: 1.10e+02  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 1.63e+03  SCA_Mean: 1.77e+03  SCA_STD: 7.27e+01  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 1.75e+03  AOA_Mean: 2.01e+03  AOA_STD: 1.20e+02  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.75e+03  SFOA_Mean: 2.37e+03  SFOA_STD: 2.37e+02  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.60e+03  BAEO_Mean: 1.92e+03  BAEO_STD: 1.51e+02  BAEO_AvgTime: 0.19秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.60e+03  AGDO_Mean: 1.61e+03  AGDO_STD: 1.00e+01  AGDO_AvgTime: 1.30秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.60e+03  PIMO_Mean: 1.62e+03  PIMO_STD: 3.57e+01  PIMO_AvgTime: 0.99秒
+以下为AOO的数据展示：
+AOO_Best: 1.62e+03  AOO_Mean: 1.82e+03  AOO_STD: 1.28e+02  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.60e+03  AOO_Mean_v2: 1.62e+03  AOO_STD_v2: 3.70e+01  AOO_AvgTime_v2: 0.87秒
+
+以下为F17函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 1.72e+03  PSO_Mean: 1.76e+03  PSO_STD: 3.69e+01  PSO_AvgTime: 0.07秒
+以下为GWO的数据展示：
+GWO_Best: 1.73e+03  GWO_Mean: 1.76e+03  GWO_STD: 1.75e+01  GWO_AvgTime: 0.10秒
+以下为SCA的数据展示：
+SCA_Best: 1.76e+03  SCA_Mean: 1.78e+03  SCA_STD: 1.38e+01  SCA_AvgTime: 0.09秒
+以下为AOA的数据展示：
+AOA_Best: 1.76e+03  AOA_Mean: 1.91e+03  AOA_STD: 1.20e+02  AOA_AvgTime: 0.08秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.87e+03  SFOA_Mean: 2.13e+03  SFOA_STD: 1.79e+02  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.74e+03  BAEO_Mean: 1.81e+03  BAEO_STD: 7.13e+01  BAEO_AvgTime: 0.28秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.70e+03  AGDO_Mean: 1.71e+03  AGDO_STD: 1.21e+01  AGDO_AvgTime: 1.44秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.70e+03  PIMO_Mean: 1.71e+03  PIMO_STD: 9.10e+00  PIMO_AvgTime: 1.47秒
+以下为AOO的数据展示：
+AOO_Best: 1.72e+03  AOO_Mean: 1.77e+03  AOO_STD: 3.87e+01  AOO_AvgTime: 0.19秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.70e+03  AOO_Mean_v2: 1.71e+03  AOO_STD_v2: 7.70e+00  AOO_AvgTime_v2: 1.04秒
+
+以下为F18函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 2.29e+03  PSO_Mean: 1.36e+04  PSO_STD: 1.09e+04  PSO_AvgTime: 0.05秒
+以下为GWO的数据展示：
+GWO_Best: 2.97e+03  GWO_Mean: 2.88e+04  GWO_STD: 1.36e+04  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 1.95e+04  SCA_Mean: 1.89e+05  SCA_STD: 1.40e+05  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 3.84e+03  AOA_Mean: 1.80e+04  AOA_STD: 7.26e+03  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 7.43e+04  SFOA_Mean: 1.70e+08  SFOA_STD: 4.01e+08  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.11e+03  BAEO_Mean: 1.25e+04  BAEO_STD: 8.60e+03  BAEO_AvgTime: 0.20秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.85e+03  AGDO_Mean: 4.41e+03  AGDO_STD: 2.52e+03  AGDO_AvgTime: 1.31秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.80e+03  PIMO_Mean: 1.82e+03  PIMO_STD: 7.89e+00  PIMO_AvgTime: 0.96秒
+以下为AOO的数据展示：
+AOO_Best: 2.20e+03  AOO_Mean: 2.09e+04  AOO_STD: 1.43e+04  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.84e+03  AOO_Mean_v2: 4.25e+03  AOO_STD_v2: 1.84e+03  AOO_AvgTime_v2: 0.87秒
+
+以下为F19函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 1.91e+03  PSO_Mean: 4.33e+03  PSO_STD: 3.69e+03  PSO_AvgTime: 0.21秒
+以下为GWO的数据展示：
+GWO_Best: 1.95e+03  GWO_Mean: 1.14e+04  GWO_STD: 5.78e+03  GWO_AvgTime: 0.23秒
+以下为SCA的数据展示：
+SCA_Best: 2.03e+03  SCA_Mean: 6.16e+03  SCA_STD: 5.28e+03  SCA_AvgTime: 0.22秒
+以下为AOA的数据展示：
+AOA_Best: 1.95e+03  AOA_Mean: 4.50e+04  AOA_STD: 3.96e+04  AOA_AvgTime: 0.22秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.33e+04  SFOA_Mean: 5.02e+06  SFOA_STD: 1.24e+07  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.92e+03  BAEO_Mean: 5.53e+03  BAEO_STD: 4.93e+03  BAEO_AvgTime: 0.82秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.90e+03  AGDO_Mean: 1.91e+03  AGDO_STD: 2.96e+00  AGDO_AvgTime: 2.28秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.90e+03  PIMO_Mean: 1.90e+03  PIMO_STD: 6.24e-01  PIMO_AvgTime: 4.67秒
+以下为AOO的数据展示：
+AOO_Best: 1.91e+03  AOO_Mean: 2.56e+03  AOO_STD: 1.34e+03  AOO_AvgTime: 0.46秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.90e+03  AOO_Mean_v2: 1.92e+03  AOO_STD_v2: 2.50e+01  AOO_AvgTime_v2: 2.09秒
+
+以下为F20函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 2.00e+03  PSO_Mean: 2.07e+03  PSO_STD: 6.21e+01  PSO_AvgTime: 0.07秒
+以下为GWO的数据展示：
+GWO_Best: 2.02e+03  GWO_Mean: 2.09e+03  GWO_STD: 5.54e+01  GWO_AvgTime: 0.10秒
+以下为SCA的数据展示：
+SCA_Best: 2.06e+03  SCA_Mean: 2.10e+03  SCA_STD: 3.22e+01  SCA_AvgTime: 0.09秒
+以下为AOA的数据展示：
+AOA_Best: 2.04e+03  AOA_Mean: 2.15e+03  AOA_STD: 5.73e+01  AOA_AvgTime: 0.08秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.15e+03  SFOA_Mean: 2.41e+03  SFOA_STD: 1.59e+02  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.03e+03  BAEO_Mean: 2.18e+03  BAEO_STD: 9.30e+01  BAEO_AvgTime: 0.28秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.00e+03  AGDO_Mean: 2.00e+03  AGDO_STD: 2.16e+01  AGDO_AvgTime: 1.44秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.00e+03  PIMO_Mean: 2.02e+03  PIMO_STD: 1.10e+01  PIMO_AvgTime: 1.48秒
+以下为AOO的数据展示：
+AOO_Best: 2.03e+03  AOO_Mean: 2.13e+03  AOO_STD: 6.26e+01  AOO_AvgTime: 0.19秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.00e+03  AOO_Mean_v2: 2.00e+03  AOO_STD_v2: 1.52e+00  AOO_AvgTime_v2: 1.04秒
+
+以下为F21函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 2.20e+03  PSO_Mean: 2.30e+03  PSO_STD: 4.88e+01  PSO_AvgTime: 0.08秒
+以下为GWO的数据展示：
+GWO_Best: 2.20e+03  GWO_Mean: 2.31e+03  GWO_STD: 2.96e+01  GWO_AvgTime: 0.10秒
+以下为SCA的数据展示：
+SCA_Best: 2.21e+03  SCA_Mean: 2.27e+03  SCA_STD: 6.38e+01  SCA_AvgTime: 0.09秒
+以下为AOA的数据展示：
+AOA_Best: 2.28e+03  AOA_Mean: 2.33e+03  AOA_STD: 2.36e+01  AOA_AvgTime: 0.09秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.24e+03  SFOA_Mean: 2.36e+03  SFOA_STD: 6.77e+01  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.20e+03  BAEO_Mean: 2.32e+03  BAEO_STD: 6.30e+01  BAEO_AvgTime: 0.29秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.20e+03  AGDO_Mean: 2.30e+03  AGDO_STD: 2.73e+01  AGDO_AvgTime: 1.48秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.20e+03  PIMO_Mean: 2.22e+03  PIMO_STD: 3.58e+01  PIMO_AvgTime: 1.63秒
+以下为AOO的数据展示：
+AOO_Best: 2.20e+03  AOO_Mean: 2.28e+03  AOO_STD: 5.90e+01  AOO_AvgTime: 0.20秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.20e+03  AOO_Mean_v2: 2.22e+03  AOO_STD_v2: 3.89e+01  AOO_AvgTime_v2: 1.10秒
+
+以下为F22函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 2.30e+03  PSO_Mean: 2.31e+03  PSO_STD: 1.99e+01  PSO_AvgTime: 0.10秒
+以下为GWO的数据展示：
+GWO_Best: 2.30e+03  GWO_Mean: 2.34e+03  GWO_STD: 1.07e+02  GWO_AvgTime: 0.12秒
+以下为SCA的数据展示：
+SCA_Best: 2.29e+03  SCA_Mean: 2.38e+03  SCA_STD: 3.73e+01  SCA_AvgTime: 0.11秒
+以下为AOA的数据展示：
+AOA_Best: 2.56e+03  AOA_Mean: 2.96e+03  AOA_STD: 2.56e+02  AOA_AvgTime: 0.11秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.47e+03  SFOA_Mean: 3.52e+03  SFOA_STD: 7.22e+02  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.24e+03  BAEO_Mean: 2.35e+03  BAEO_STD: 2.80e+02  BAEO_AvgTime: 0.38秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.21e+03  AGDO_Mean: 2.30e+03  AGDO_STD: 1.82e+01  AGDO_AvgTime: 1.60秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.22e+03  PIMO_Mean: 2.28e+03  PIMO_STD: 3.07e+01  PIMO_AvgTime: 2.07秒
+以下为AOO的数据展示：
+AOO_Best: 2.30e+03  AOO_Mean: 2.32e+03  AOO_STD: 1.16e+02  AOO_AvgTime: 0.24秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.22e+03  AOO_Mean_v2: 2.28e+03  AOO_STD_v2: 3.29e+01  AOO_AvgTime_v2: 1.23秒
+
+以下为F23函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 2.61e+03  PSO_Mean: 2.63e+03  PSO_STD: 1.32e+01  PSO_AvgTime: 0.11秒
+以下为GWO的数据展示：
+GWO_Best: 2.61e+03  GWO_Mean: 2.62e+03  GWO_STD: 8.04e+00  GWO_AvgTime: 0.13秒
+以下为SCA的数据展示：
+SCA_Best: 2.65e+03  SCA_Mean: 2.66e+03  SCA_STD: 7.94e+00  SCA_AvgTime: 0.12秒
+以下为AOA的数据展示：
+AOA_Best: 2.67e+03  AOA_Mean: 2.74e+03  AOA_STD: 4.16e+01  AOA_AvgTime: 0.11秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.68e+03  SFOA_Mean: 2.71e+03  SFOA_STD: 3.02e+01  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.62e+03  BAEO_Mean: 2.67e+03  BAEO_STD: 3.00e+01  BAEO_AvgTime: 0.29秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.60e+03  AGDO_Mean: 2.61e+03  AGDO_STD: 4.27e+00  AGDO_AvgTime: 1.63秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.30e+03  PIMO_Mean: 2.61e+03  PIMO_STD: 5.90e+01  PIMO_AvgTime: 2.20秒
+以下为AOO的数据展示：
+AOO_Best: 2.61e+03  AOO_Mean: 2.63e+03  AOO_STD: 1.24e+01  AOO_AvgTime: 0.25秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.61e+03  AOO_Mean_v2: 2.61e+03  AOO_STD_v2: 4.50e+00  AOO_AvgTime_v2: 1.28秒
+
+以下为F24函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 2.50e+03  PSO_Mean: 2.75e+03  PSO_STD: 6.83e+01  PSO_AvgTime: 0.11秒
+以下为GWO的数据展示：
+GWO_Best: 2.73e+03  GWO_Mean: 2.75e+03  GWO_STD: 1.21e+01  GWO_AvgTime: 0.14秒
+以下为SCA的数据展示：
+SCA_Best: 2.62e+03  SCA_Mean: 2.78e+03  SCA_STD: 3.14e+01  SCA_AvgTime: 0.12秒
+以下为AOA的数据展示：
+AOA_Best: 2.63e+03  AOA_Mean: 2.83e+03  AOA_STD: 8.04e+01  AOA_AvgTime: 0.12秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.80e+03  SFOA_Mean: 2.86e+03  SFOA_STD: 4.50e+01  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.50e+03  BAEO_Mean: 2.78e+03  BAEO_STD: 6.08e+01  BAEO_AvgTime: 0.36秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.73e+03  AGDO_Mean: 2.74e+03  AGDO_STD: 3.44e+00  AGDO_AvgTime: 1.67秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.43e+03  PIMO_Mean: 2.55e+03  PIMO_STD: 9.22e+01  PIMO_AvgTime: 2.34秒
+以下为AOO的数据展示：
+AOO_Best: 2.50e+03  AOO_Mean: 2.70e+03  AOO_STD: 1.04e+02  AOO_AvgTime: 0.26秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.50e+03  AOO_Mean_v2: 2.53e+03  AOO_STD_v2: 4.85e+01  AOO_AvgTime_v2: 1.33秒
+
+以下为F25函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 2.90e+03  PSO_Mean: 2.93e+03  PSO_STD: 2.36e+01  PSO_AvgTime: 0.09秒
+以下为GWO的数据展示：
+GWO_Best: 2.90e+03  GWO_Mean: 2.94e+03  GWO_STD: 1.72e+01  GWO_AvgTime: 0.12秒
+以下为SCA的数据展示：
+SCA_Best: 2.92e+03  SCA_Mean: 2.96e+03  SCA_STD: 1.93e+01  SCA_AvgTime: 0.10秒
+以下为AOA的数据展示：
+AOA_Best: 2.94e+03  AOA_Mean: 3.32e+03  AOA_STD: 2.32e+02  AOA_AvgTime: 0.10秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.09e+03  SFOA_Mean: 3.67e+03  SFOA_STD: 4.36e+02  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.60e+03  BAEO_Mean: 2.90e+03  BAEO_STD: 8.57e+01  BAEO_AvgTime: 0.34秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.90e+03  AGDO_Mean: 2.94e+03  AGDO_STD: 1.90e+01  AGDO_AvgTime: 1.55秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.60e+03  PIMO_Mean: 2.73e+03  PIMO_STD: 1.28e+02  PIMO_AvgTime: 1.86秒
+以下为AOO的数据展示：
+AOO_Best: 2.90e+03  AOO_Mean: 2.93e+03  AOO_STD: 2.45e+01  AOO_AvgTime: 0.22秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.60e+03  AOO_Mean_v2: 2.90e+03  AOO_STD_v2: 5.97e+01  AOO_AvgTime_v2: 1.16秒
+
+以下为F26函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_10
+以下为PSO的数据展示：
+PSO_Best: 2.80e+03  PSO_Mean: 3.04e+03  PSO_STD: 2.18e+02  PSO_AvgTime: 0.12秒
+以下为GWO的数据展示：
+GWO_Best: 2.82e+03  GWO_Mean: 3.13e+03  GWO_STD: 3.75e+02  GWO_AvgTime: 0.14秒
+以下为SCA的数据展示：
+SCA_Best: 3.02e+03  SCA_Mean: 3.08e+03  SCA_STD: 3.07e+01  SCA_AvgTime: 0.13秒
+以下为AOA的数据展示：
+AOA_Best: 3.19e+03  AOA_Mean: 3.98e+03  AOA_STD: 2.97e+02  AOA_AvgTime: 0.13秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.42e+03  SFOA_Mean: 4.55e+03  SFOA_STD: 6.19e+02  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.80e+03  BAEO_Mean: 3.23e+03  BAEO_STD: 4.20e+02  BAEO_AvgTime: 0.44秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.80e+03  AGDO_Mean: 2.91e+03  AGDO_STD: 4.87e+01  AGDO_AvgTime: 1.71秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.60e+03  PIMO_Mean: 2.77e+03  PIMO_STD: 9.96e+01  PIMO_AvgTime: 2.54秒
+以下为AOO的数据展示：
+AOO_Best: 2.60e+03  AOO_Mean: 2.86e+03  AOO_STD: 9.08e+01  AOO_AvgTime: 0.28秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.60e+03  AOO_Mean_v2: 2.82e+03  AOO_STD_v2: 1.18e+02  AOO_AvgTime_v2: 1.39秒
+
+以下为F27函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 3.09e+03  PSO_Mean: 3.12e+03  PSO_STD: 2.85e+01  PSO_AvgTime: 0.12秒
+以下为GWO的数据展示：
+GWO_Best: 3.09e+03  GWO_Mean: 3.10e+03  GWO_STD: 1.56e+01  GWO_AvgTime: 0.15秒
+以下为SCA的数据展示：
+SCA_Best: 3.10e+03  SCA_Mean: 3.10e+03  SCA_STD: 3.09e+00  SCA_AvgTime: 0.14秒
+以下为AOA的数据展示：
+AOA_Best: 3.17e+03  AOA_Mean: 3.24e+03  AOA_STD: 5.19e+01  AOA_AvgTime: 0.13秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.10e+03  SFOA_Mean: 3.15e+03  SFOA_STD: 3.39e+01  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 3.09e+03  BAEO_Mean: 3.14e+03  BAEO_STD: 3.96e+01  BAEO_AvgTime: 0.34秒
+以下为AGDO的数据展示：
+AGDO_Best: 3.09e+03  AGDO_Mean: 3.09e+03  AGDO_STD: 5.25e-01  AGDO_AvgTime: 1.75秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.09e+03  PIMO_Mean: 3.09e+03  PIMO_STD: 2.31e+00  PIMO_AvgTime: 3.07秒
+以下为AOO的数据展示：
+AOO_Best: 3.09e+03  AOO_Mean: 3.11e+03  AOO_STD: 2.75e+01  AOO_AvgTime: 0.33秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.09e+03  AOO_Mean_v2: 3.09e+03  AOO_STD_v2: 2.79e+00  AOO_AvgTime_v2: 1.67秒
+
+以下为F28函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 3.10e+03  PSO_Mean: 3.32e+03  PSO_STD: 1.18e+02  PSO_AvgTime: 0.12秒
+以下为GWO的数据展示：
+GWO_Best: 3.22e+03  GWO_Mean: 3.40e+03  GWO_STD: 6.23e+01  GWO_AvgTime: 0.14秒
+以下为SCA的数据展示：
+SCA_Best: 3.19e+03  SCA_Mean: 3.31e+03  SCA_STD: 8.16e+01  SCA_AvgTime: 0.13秒
+以下为AOA的数据展示：
+AOA_Best: 3.45e+03  AOA_Mean: 3.76e+03  AOA_STD: 1.39e+02  AOA_AvgTime: 0.13秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.33e+03  SFOA_Mean: 3.67e+03  SFOA_STD: 1.44e+02  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 3.10e+03  BAEO_Mean: 3.31e+03  BAEO_STD: 1.32e+02  BAEO_AvgTime: 0.28秒
+以下为AGDO的数据展示：
+AGDO_Best: 3.10e+03  AGDO_Mean: 3.32e+03  AGDO_STD: 1.34e+02  AGDO_AvgTime: 1.80秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.10e+03  PIMO_Mean: 3.13e+03  PIMO_STD: 3.23e+01  PIMO_AvgTime: 2.48秒
+以下为AOO的数据展示：
+AOO_Best: 3.10e+03  AOO_Mean: 3.30e+03  AOO_STD: 1.32e+02  AOO_AvgTime: 0.28秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.80e+03  AOO_Mean_v2: 3.06e+03  AOO_STD_v2: 1.09e+02  AOO_AvgTime_v2: 1.44秒
+
+以下为F29函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 3.15e+03  PSO_Mean: 3.23e+03  PSO_STD: 5.69e+01  PSO_AvgTime: 0.11秒
+以下为GWO的数据展示：
+GWO_Best: 3.15e+03  GWO_Mean: 3.20e+03  GWO_STD: 4.76e+01  GWO_AvgTime: 0.14秒
+以下为SCA的数据展示：
+SCA_Best: 3.18e+03  SCA_Mean: 3.24e+03  SCA_STD: 4.57e+01  SCA_AvgTime: 0.12秒
+以下为AOA的数据展示：
+AOA_Best: 3.24e+03  AOA_Mean: 3.39e+03  AOA_STD: 1.28e+02  AOA_AvgTime: 0.12秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.19e+03  SFOA_Mean: 3.65e+03  SFOA_STD: 2.22e+02  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 3.18e+03  BAEO_Mean: 3.29e+03  BAEO_STD: 1.03e+02  BAEO_AvgTime: 0.40秒
+以下为AGDO的数据展示：
+AGDO_Best: 3.13e+03  AGDO_Mean: 3.15e+03  AGDO_STD: 1.36e+01  AGDO_AvgTime: 1.75秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.13e+03  PIMO_Mean: 3.16e+03  PIMO_STD: 1.85e+01  PIMO_AvgTime: 2.25秒
+以下为AOO的数据展示：
+AOO_Best: 3.16e+03  AOO_Mean: 3.21e+03  AOO_STD: 5.27e+01  AOO_AvgTime: 0.26秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.10e+03  AOO_Mean_v2: 3.15e+03  AOO_STD_v2: 1.41e+01  AOO_AvgTime_v2: 1.36秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 4.69e+03  PSO_Mean: 4.01e+05  PSO_STD: 8.48e+05  PSO_AvgTime: 0.25秒
+以下为GWO的数据展示：
+GWO_Best: 5.25e+03  GWO_Mean: 5.14e+05  GWO_STD: 6.84e+05  GWO_AvgTime: 0.28秒
+以下为SCA的数据展示：
+SCA_Best: 2.68e+05  SCA_Mean: 1.37e+06  SCA_STD: 8.51e+05  SCA_AvgTime: 0.26秒
+以下为AOA的数据展示：
+AOA_Best: 4.34e+05  AOA_Mean: 2.22e+07  AOA_STD: 2.11e+07  AOA_AvgTime: 0.26秒
+以下为SFOA的数据展示：
+SFOA_Best: 8.86e+05  SFOA_Mean: 9.64e+06  SFOA_STD: 1.75e+07  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 6.74e+03  BAEO_Mean: 5.48e+05  BAEO_STD: 1.22e+06  BAEO_AvgTime: 0.81秒
+以下为AGDO的数据展示：
+AGDO_Best: 3.85e+03  AGDO_Mean: 1.15e+05  AGDO_STD: 2.82e+05  AGDO_AvgTime: 2.60秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.51e+03  PIMO_Mean: 6.22e+03  PIMO_STD: 7.33e+03  PIMO_AvgTime: 5.64秒
+以下为AOO的数据展示：
+AOO_Best: 5.76e+03  AOO_Mean: 4.33e+05  AOO_STD: 6.86e+05  AOO_AvgTime: 0.54秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.70e+03  AOO_Mean_v2: 8.14e+03  AOO_STD_v2: 5.93e+03  AOO_AvgTime_v2: 2.35秒
+
+[11:19:47] [INFO] ===== 日志记录已停止 =====
+
+--- New Session Started: 2025-08-10 11:19:49 ---
+
+[11:19:49] [INFO] Diary started: logsЕ-08-10_log.txt
+[11:19:49] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+
+===== AOOv2 超参数 =====
+1. 物理参数初始化系数：
+   x的系数 = 3, m的系数 = 0.5, L的系数 = pop_size/dim = 3.0000, g的系数 = 9.8/dim = 0.9800
+
+2. Levy飞行参数：
+   levy_prob = 0.50, levy_beta = 1.50, levy_scale_factor = -0.0998
+
+3. 精英引导参数：
+   p_best_rate = 0.10
+
+4. 衰减与阈值参数：
+   c的衰减系数 = 1.0, threshold的tanh系数 = 0.0
+=========================
+
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 1.30e+02  PSO_Mean: 8.03e+07  PSO_STD: 2.87e+08  PSO_AvgTime: 0.04秒
+以下为GWO的数据展示：
+GWO_Best: 1.31e+04  GWO_Mean: 3.98e+07  GWO_STD: 1.08e+08  GWO_AvgTime: 0.07秒
+以下为SCA的数据展示：
+SCA_Best: 1.25e+08  SCA_Mean: 8.17e+08  SCA_STD: 3.15e+08  SCA_AvgTime: 0.06秒
+以下为AOA的数据展示：
+AOA_Best: 8.89e+08  AOA_Mean: 7.78e+09  AOA_STD: 2.95e+09  AOA_AvgTime: 0.05秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.57e+09  SFOA_Mean: 1.18e+10  SFOA_STD: 7.47e+09  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.00e+02  BAEO_Mean: 2.11e+03  BAEO_STD: 2.15e+03  BAEO_AvgTime: 0.17秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.05e+02  AGDO_Mean: 1.63e+03  AGDO_STD: 1.53e+03  AGDO_AvgTime: 1.30秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.00e+02  PIMO_Mean: 3.16e+02  PIMO_STD: 6.74e+02  PIMO_AvgTime: 0.76秒
+以下为AOO的数据展示：
+AOO_Best: 1.52e+02  AOO_Mean: 3.37e+03  AOO_STD: 3.19e+03  AOO_AvgTime: 0.13秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.00e+02  AOO_Mean_v2: 1.26e+03  AOO_STD_v2: 1.76e+03  AOO_AvgTime_v2: 0.83秒
+
+以下为F3函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 3.00e+02  PSO_Mean: 3.00e+02  PSO_STD: 1.10e-06  PSO_AvgTime: 0.04秒
+以下为GWO的数据展示：
+GWO_Best: 3.55e+02  GWO_Mean: 2.52e+03  GWO_STD: 3.10e+03  GWO_AvgTime: 0.07秒
+以下为SCA的数据展示：
+SCA_Best: 8.92e+02  SCA_Mean: 2.09e+03  SCA_STD: 1.23e+03  SCA_AvgTime: 0.06秒
+以下为AOA的数据展示：
+AOA_Best: 3.68e+03  AOA_Mean: 1.05e+04  AOA_STD: 2.69e+03  AOA_AvgTime: 0.05秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.12e+04  SFOA_Mean: 5.49e+04  SFOA_STD: 3.09e+04  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 3.00e+02  BAEO_Mean: 3.00e+02  BAEO_STD: 5.40e-09  BAEO_AvgTime: 0.17秒
+以下为AGDO的数据展示：
+AGDO_Best: 3.00e+02  AGDO_Mean: 3.00e+02  AGDO_STD: 4.62e-06  AGDO_AvgTime: 1.29秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.00e+02  PIMO_Mean: 3.00e+02  PIMO_STD: 9.16e-05  PIMO_AvgTime: 0.77秒
+以下为AOO的数据展示：
+AOO_Best: 3.00e+02  AOO_Mean: 3.00e+02  AOO_STD: 4.46e-04  AOO_AvgTime: 0.13秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.00e+02  AOO_Mean_v2: 3.00e+02  AOO_STD_v2: 2.14e-04  AOO_AvgTime_v2: 0.83秒
+
+以下为F4函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 4.01e+02  PSO_Mean: 4.13e+02  PSO_STD: 2.17e+01  PSO_AvgTime: 0.04秒
+以下为GWO的数据展示：
+GWO_Best: 4.03e+02  GWO_Mean: 4.14e+02  GWO_STD: 1.41e+01  GWO_AvgTime: 0.07秒
+以下为SCA的数据展示：
+SCA_Best: 4.26e+02  SCA_Mean: 4.56e+02  SCA_STD: 2.13e+01  SCA_AvgTime: 0.06秒
+以下为AOA的数据展示：
+AOA_Best: 4.78e+02  AOA_Mean: 9.65e+02  AOA_STD: 3.86e+02  AOA_AvgTime: 0.05秒
+以下为SFOA的数据展示：
+SFOA_Best: 6.72e+02  SFOA_Mean: 1.85e+03  SFOA_STD: 1.05e+03  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 4.00e+02  BAEO_Mean: 4.03e+02  BAEO_STD: 1.96e+00  BAEO_AvgTime: 0.17秒
+以下为AGDO的数据展示：
+AGDO_Best: 4.00e+02  AGDO_Mean: 4.01e+02  AGDO_STD: 2.86e-01  AGDO_AvgTime: 1.30秒
+以下为PIMO的数据展示：
+PIMO_Best: 4.00e+02  PIMO_Mean: 4.00e+02  PIMO_STD: 5.87e-01  PIMO_AvgTime: 0.76秒
+以下为AOO的数据展示：
+AOO_Best: 4.02e+02  AOO_Mean: 4.04e+02  AOO_STD: 8.36e-01  AOO_AvgTime: 0.13秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 4.00e+02  AOO_Mean_v2: 4.01e+02  AOO_STD_v2: 1.05e+00  AOO_AvgTime_v2: 0.83秒
+
+以下为F5函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 5.06e+02  PSO_Mean: 5.19e+02  PSO_STD: 8.26e+00  PSO_AvgTime: 0.06秒
+以下为GWO的数据展示：
+GWO_Best: 5.03e+02  GWO_Mean: 5.16e+02  GWO_STD: 6.76e+00  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 5.17e+02  SCA_Mean: 5.50e+02  SCA_STD: 1.02e+01  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 5.24e+02  AOA_Mean: 5.57e+02  AOA_STD: 1.95e+01  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 5.58e+02  SFOA_Mean: 6.27e+02  SFOA_STD: 2.71e+01  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 5.13e+02  BAEO_Mean: 5.42e+02  BAEO_STD: 2.05e+01  BAEO_AvgTime: 0.22秒
+以下为AGDO的数据展示：
+AGDO_Best: 5.03e+02  AGDO_Mean: 5.07e+02  AGDO_STD: 3.36e+00  AGDO_AvgTime: 1.37秒
+以下为PIMO的数据展示：
+PIMO_Best: 5.10e+02  PIMO_Mean: 5.20e+02  PIMO_STD: 5.49e+00  PIMO_AvgTime: 1.06秒
+以下为AOO的数据展示：
+AOO_Best: 5.11e+02  AOO_Mean: 5.35e+02  AOO_STD: 1.42e+01  AOO_AvgTime: 0.16秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 5.03e+02  AOO_Mean_v2: 5.09e+02  AOO_STD_v2: 3.29e+00  AOO_AvgTime_v2: 0.93秒
+
+以下为F6函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 6.00e+02  PSO_Mean: 6.01e+02  PSO_STD: 1.86e+00  PSO_AvgTime: 0.08秒
+以下为GWO的数据展示：
+GWO_Best: 6.00e+02  GWO_Mean: 6.01e+02  GWO_STD: 1.11e+00  GWO_AvgTime: 0.11秒
+以下为SCA的数据展示：
+SCA_Best: 6.11e+02  SCA_Mean: 6.19e+02  SCA_STD: 4.38e+00  SCA_AvgTime: 0.10秒
+以下为AOA的数据展示：
+AOA_Best: 6.29e+02  AOA_Mean: 6.39e+02  AOA_STD: 5.16e+00  AOA_AvgTime: 0.09秒
+以下为SFOA的数据展示：
+SFOA_Best: 6.34e+02  SFOA_Mean: 6.69e+02  SFOA_STD: 2.23e+01  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 6.00e+02  BAEO_Mean: 6.18e+02  BAEO_STD: 1.31e+01  BAEO_AvgTime: 0.32秒
+以下为AGDO的数据展示：
+AGDO_Best: 6.00e+02  AGDO_Mean: 6.00e+02  AGDO_STD: 9.39e-05  AGDO_AvgTime: 1.58秒
+以下为PIMO的数据展示：
+PIMO_Best: 6.00e+02  PIMO_Mean: 6.00e+02  PIMO_STD: 7.18e-01  PIMO_AvgTime: 1.75秒
+以下为AOO的数据展示：
+AOO_Best: 6.00e+02  AOO_Mean: 6.07e+02  AOO_STD: 8.22e+00  AOO_AvgTime: 0.22秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 6.00e+02  AOO_Mean_v2: 6.00e+02  AOO_STD_v2: 1.11e-03  AOO_AvgTime_v2: 1.17秒
+
+以下为F7函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 7.15e+02  PSO_Mean: 7.21e+02  PSO_STD: 3.28e+00  PSO_AvgTime: 0.06秒
+以下为GWO的数据展示：
+GWO_Best: 7.14e+02  GWO_Mean: 7.32e+02  GWO_STD: 1.08e+01  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 7.57e+02  SCA_Mean: 7.80e+02  SCA_STD: 1.13e+01  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 7.70e+02  AOA_Mean: 8.00e+02  AOA_STD: 1.53e+01  AOA_AvgTime: 0.07秒
+以下为SFOA的数据展示：
+SFOA_Best: 8.17e+02  SFOA_Mean: 9.76e+02  SFOA_STD: 1.07e+02  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 7.23e+02  BAEO_Mean: 7.39e+02  BAEO_STD: 1.01e+01  BAEO_AvgTime: 0.23秒
+以下为AGDO的数据展示：
+AGDO_Best: 7.12e+02  AGDO_Mean: 7.17e+02  AGDO_STD: 2.51e+00  AGDO_AvgTime: 1.41秒
+以下为PIMO的数据展示：
+PIMO_Best: 7.07e+02  PIMO_Mean: 7.22e+02  PIMO_STD: 5.56e+00  PIMO_AvgTime: 1.13秒
+以下为AOO的数据展示：
+AOO_Best: 7.18e+02  AOO_Mean: 7.32e+02  AOO_STD: 9.21e+00  AOO_AvgTime: 0.17秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 7.07e+02  AOO_Mean_v2: 7.19e+02  AOO_STD_v2: 3.32e+00  AOO_AvgTime_v2: 0.96秒
+
+以下为F8函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 8.05e+02  PSO_Mean: 8.14e+02  PSO_STD: 5.30e+00  PSO_AvgTime: 0.06秒
+以下为GWO的数据展示：
+GWO_Best: 8.06e+02  GWO_Mean: 8.17e+02  GWO_STD: 8.00e+00  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 8.27e+02  SCA_Mean: 8.44e+02  SCA_STD: 7.45e+00  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 8.13e+02  AOA_Mean: 8.30e+02  AOA_STD: 7.72e+00  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 8.54e+02  SFOA_Mean: 9.13e+02  SFOA_STD: 2.86e+01  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 8.11e+02  BAEO_Mean: 8.27e+02  BAEO_STD: 7.43e+00  BAEO_AvgTime: 0.22秒
+以下为AGDO的数据展示：
+AGDO_Best: 8.03e+02  AGDO_Mean: 8.07e+02  AGDO_STD: 3.51e+00  AGDO_AvgTime: 1.40秒
+以下为PIMO的数据展示：
+PIMO_Best: 8.05e+02  PIMO_Mean: 8.18e+02  PIMO_STD: 6.67e+00  PIMO_AvgTime: 1.09秒
+以下为AOO的数据展示：
+AOO_Best: 8.05e+02  AOO_Mean: 8.22e+02  AOO_STD: 1.04e+01  AOO_AvgTime: 0.16秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 8.03e+02  AOO_Mean_v2: 8.09e+02  AOO_STD_v2: 3.44e+00  AOO_AvgTime_v2: 0.95秒
+
+以下为F9函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 9.00e+02  PSO_Mean: 9.00e+02  PSO_STD: 1.63e-02  PSO_AvgTime: 0.06秒
+以下为GWO的数据展示：
+GWO_Best: 9.00e+02  GWO_Mean: 9.17e+02  GWO_STD: 2.00e+01  GWO_AvgTime: 0.09秒
+以下为SCA的数据展示：
+SCA_Best: 9.53e+02  SCA_Mean: 1.02e+03  SCA_STD: 3.60e+01  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 1.08e+03  AOA_Mean: 1.44e+03  AOA_STD: 1.96e+02  AOA_AvgTime: 0.07秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.60e+03  SFOA_Mean: 4.36e+03  SFOA_STD: 1.59e+03  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 9.00e+02  BAEO_Mean: 1.07e+03  BAEO_STD: 2.23e+02  BAEO_AvgTime: 0.23秒
+以下为AGDO的数据展示：
+AGDO_Best: 9.00e+02  AGDO_Mean: 9.00e+02  AGDO_STD: 6.78e-08  AGDO_AvgTime: 1.42秒
+以下为PIMO的数据展示：
+PIMO_Best: 9.00e+02  PIMO_Mean: 9.09e+02  PIMO_STD: 7.40e+00  PIMO_AvgTime: 1.14秒
+以下为AOO的数据展示：
+AOO_Best: 9.00e+02  AOO_Mean: 9.27e+02  AOO_STD: 6.31e+01  AOO_AvgTime: 0.17秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 9.00e+02  AOO_Mean_v2: 9.00e+02  AOO_STD_v2: 8.29e-02  AOO_AvgTime_v2: 0.97秒
+
+以下为F10函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 1.13e+03  PSO_Mean: 1.58e+03  PSO_STD: 2.57e+02  PSO_AvgTime: 0.06秒
+以下为GWO的数据展示：
+GWO_Best: 1.18e+03  GWO_Mean: 1.64e+03  GWO_STD: 2.78e+02  GWO_AvgTime: 0.09秒
+以下为SCA的数据展示：
+SCA_Best: 1.77e+03  SCA_Mean: 2.34e+03  SCA_STD: 2.46e+02  SCA_AvgTime: 0.08秒
+以下为AOA的数据展示：
+AOA_Best: 1.42e+03  AOA_Mean: 2.08e+03  AOA_STD: 3.36e+02  AOA_AvgTime: 0.07秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.35e+03  SFOA_Mean: 3.06e+03  SFOA_STD: 2.28e+02  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.50e+03  BAEO_Mean: 2.08e+03  BAEO_STD: 2.79e+02  BAEO_AvgTime: 0.21秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.02e+03  AGDO_Mean: 1.34e+03  AGDO_STD: 2.11e+02  AGDO_AvgTime: 1.45秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.25e+03  PIMO_Mean: 1.41e+03  PIMO_STD: 1.04e+02  PIMO_AvgTime: 1.26秒
+以下为AOO的数据展示：
+AOO_Best: 1.51e+03  AOO_Mean: 1.87e+03  AOO_STD: 2.17e+02  AOO_AvgTime: 0.17秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.13e+03  AOO_Mean_v2: 1.36e+03  AOO_STD_v2: 1.26e+02  AOO_AvgTime_v2: 1.03秒
+
+以下为F11函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 1.10e+03  PSO_Mean: 1.13e+03  PSO_STD: 5.08e+01  PSO_AvgTime: 0.05秒
+以下为GWO的数据展示：
+GWO_Best: 1.11e+03  GWO_Mean: 1.15e+03  GWO_STD: 4.39e+01  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 1.16e+03  SCA_Mean: 1.21e+03  SCA_STD: 4.00e+01  SCA_AvgTime: 0.06秒
+以下为AOA的数据展示：
+AOA_Best: 1.19e+03  AOA_Mean: 2.33e+03  AOA_STD: 1.55e+03  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.56e+03  SFOA_Mean: 8.36e+03  SFOA_STD: 8.15e+03  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.11e+03  BAEO_Mean: 1.15e+03  BAEO_STD: 3.47e+01  BAEO_AvgTime: 0.20秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.10e+03  AGDO_Mean: 1.10e+03  AGDO_STD: 1.13e+00  AGDO_AvgTime: 1.38秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.10e+03  PIMO_Mean: 1.11e+03  PIMO_STD: 2.29e+00  PIMO_AvgTime: 0.95秒
+以下为AOO的数据展示：
+AOO_Best: 1.11e+03  AOO_Mean: 1.15e+03  AOO_STD: 3.57e+01  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.10e+03  AOO_Mean_v2: 1.10e+03  AOO_STD_v2: 1.90e+00  AOO_AvgTime_v2: 0.93秒
+
+以下为F12函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 1.70e+03  PSO_Mean: 1.82e+04  PSO_STD: 1.46e+04  PSO_AvgTime: 0.05秒
+以下为GWO的数据展示：
+GWO_Best: 8.40e+03  GWO_Mean: 9.10e+05  GWO_STD: 1.05e+06  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 1.85e+06  SCA_Mean: 2.10e+07  SCA_STD: 2.07e+07  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 1.17e+04  AOA_Mean: 1.05e+08  AOA_STD: 2.29e+08  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.82e+07  SFOA_Mean: 8.25e+08  SFOA_STD: 6.19e+08  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.07e+04  BAEO_Mean: 3.29e+05  BAEO_STD: 5.84e+05  BAEO_AvgTime: 0.19秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.16e+03  AGDO_Mean: 1.29e+04  AGDO_STD: 1.28e+04  AGDO_AvgTime: 1.40秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.23e+03  PIMO_Mean: 1.50e+03  PIMO_STD: 1.71e+02  PIMO_AvgTime: 0.97秒
+以下为AOO的数据展示：
+AOO_Best: 8.30e+03  AOO_Mean: 8.80e+05  AOO_STD: 1.26e+06  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 5.62e+03  AOO_Mean_v2: 2.08e+04  AOO_STD_v2: 1.21e+04  AOO_AvgTime_v2: 0.92秒
+
+以下为F13函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 1.32e+03  PSO_Mean: 1.07e+04  PSO_STD: 8.27e+03  PSO_AvgTime: 0.05秒
+以下为GWO的数据展示：
+GWO_Best: 2.19e+03  GWO_Mean: 1.20e+04  GWO_STD: 6.95e+03  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 8.83e+03  SCA_Mean: 4.66e+04  SCA_STD: 3.01e+04  SCA_AvgTime: 0.06秒
+以下为AOA的数据展示：
+AOA_Best: 3.80e+03  AOA_Mean: 9.38e+03  AOA_STD: 6.18e+03  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.14e+04  SFOA_Mean: 1.07e+08  SFOA_STD: 1.84e+08  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.62e+03  BAEO_Mean: 1.64e+04  BAEO_STD: 9.95e+03  BAEO_AvgTime: 0.20秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.30e+03  AGDO_Mean: 2.25e+03  AGDO_STD: 1.31e+03  AGDO_AvgTime: 1.38秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.31e+03  PIMO_Mean: 1.31e+03  PIMO_STD: 3.51e+00  PIMO_AvgTime: 0.98秒
+以下为AOO的数据展示：
+AOO_Best: 2.26e+03  AOO_Mean: 1.48e+04  AOO_STD: 9.00e+03  AOO_AvgTime: 0.15秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.32e+03  AOO_Mean_v2: 3.31e+03  AOO_STD_v2: 2.35e+03  AOO_AvgTime_v2: 0.91秒
+
+以下为F14函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 1.43e+03  PSO_Mean: 1.56e+03  PSO_STD: 1.92e+02  PSO_AvgTime: 0.06秒
+以下为GWO的数据展示：
+GWO_Best: 1.46e+03  GWO_Mean: 3.32e+03  GWO_STD: 1.94e+03  GWO_AvgTime: 0.09秒
+以下为SCA的数据展示：
+SCA_Best: 1.48e+03  SCA_Mean: 1.75e+03  SCA_STD: 5.17e+02  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 1.50e+03  AOA_Mean: 6.74e+03  AOA_STD: 5.83e+03  AOA_AvgTime: 0.07秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.06e+03  SFOA_Mean: 2.76e+06  SFOA_STD: 1.05e+07  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.44e+03  BAEO_Mean: 2.74e+03  BAEO_STD: 1.23e+03  BAEO_AvgTime: 0.23秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.40e+03  AGDO_Mean: 1.42e+03  AGDO_STD: 8.03e+00  AGDO_AvgTime: 1.43秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.40e+03  PIMO_Mean: 1.42e+03  PIMO_STD: 7.80e+00  PIMO_AvgTime: 1.19秒
+以下为AOO的数据展示：
+AOO_Best: 1.45e+03  AOO_Mean: 1.53e+03  AOO_STD: 1.07e+02  AOO_AvgTime: 0.17秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.40e+03  AOO_Mean_v2: 1.42e+03  AOO_STD_v2: 1.37e+01  AOO_AvgTime_v2: 0.98秒
+
+以下为F15函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 1.51e+03  PSO_Mean: 2.20e+03  PSO_STD: 8.02e+02  PSO_AvgTime: 0.05秒
+以下为GWO的数据展示：
+GWO_Best: 1.65e+03  GWO_Mean: 3.94e+03  GWO_STD: 2.01e+03  GWO_AvgTime: 0.07秒
+以下为SCA的数据展示：
+SCA_Best: 1.70e+03  SCA_Mean: 2.70e+03  SCA_STD: 1.13e+03  SCA_AvgTime: 0.06秒
+以下为AOA的数据展示：
+AOA_Best: 2.71e+03  AOA_Mean: 1.77e+04  AOA_STD: 5.87e+03  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 6.96e+03  SFOA_Mean: 1.16e+06  SFOA_STD: 2.82e+06  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.61e+03  BAEO_Mean: 3.73e+03  BAEO_STD: 2.36e+03  BAEO_AvgTime: 0.19秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.50e+03  AGDO_Mean: 1.51e+03  AGDO_STD: 5.44e+00  AGDO_AvgTime: 1.37秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.50e+03  PIMO_Mean: 1.50e+03  PIMO_STD: 1.61e+00  PIMO_AvgTime: 0.88秒
+以下为AOO的数据展示：
+AOO_Best: 1.58e+03  AOO_Mean: 2.27e+03  AOO_STD: 5.62e+02  AOO_AvgTime: 0.14秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.50e+03  AOO_Mean_v2: 1.52e+03  AOO_STD_v2: 1.72e+01  AOO_AvgTime_v2: 0.88秒
+
+以下为F16函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 1.60e+03  PSO_Mean: 1.82e+03  PSO_STD: 1.24e+02  PSO_AvgTime: 0.06秒
+以下为GWO的数据展示：
+GWO_Best: 1.61e+03  GWO_Mean: 1.74e+03  GWO_STD: 1.36e+02  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 1.66e+03  SCA_Mean: 1.77e+03  SCA_STD: 8.64e+01  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 1.72e+03  AOA_Mean: 2.00e+03  AOA_STD: 1.57e+02  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.84e+03  SFOA_Mean: 2.35e+03  SFOA_STD: 2.65e+02  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.61e+03  BAEO_Mean: 1.87e+03  BAEO_STD: 1.45e+02  BAEO_AvgTime: 0.20秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.60e+03  AGDO_Mean: 1.61e+03  AGDO_STD: 2.26e+01  AGDO_AvgTime: 1.38秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.60e+03  PIMO_Mean: 1.62e+03  PIMO_STD: 2.39e+01  PIMO_AvgTime: 1.06秒
+以下为AOO的数据展示：
+AOO_Best: 1.60e+03  AOO_Mean: 1.85e+03  AOO_STD: 1.47e+02  AOO_AvgTime: 0.16秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.60e+03  AOO_Mean_v2: 1.62e+03  AOO_STD_v2: 3.91e+01  AOO_AvgTime_v2: 0.93秒
+
+以下为F17函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 1.72e+03  PSO_Mean: 1.78e+03  PSO_STD: 4.98e+01  PSO_AvgTime: 0.08秒
+以下为GWO的数据展示：
+GWO_Best: 1.72e+03  GWO_Mean: 1.76e+03  GWO_STD: 2.94e+01  GWO_AvgTime: 0.10秒
+以下为SCA的数据展示：
+SCA_Best: 1.77e+03  SCA_Mean: 1.79e+03  SCA_STD: 1.39e+01  SCA_AvgTime: 0.09秒
+以下为AOA的数据展示：
+AOA_Best: 1.75e+03  AOA_Mean: 1.86e+03  AOA_STD: 9.27e+01  AOA_AvgTime: 0.08秒
+以下为SFOA的数据展示：
+SFOA_Best: 1.90e+03  SFOA_Mean: 2.19e+03  SFOA_STD: 1.91e+02  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.74e+03  BAEO_Mean: 1.79e+03  BAEO_STD: 5.87e+01  BAEO_AvgTime: 0.29秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.70e+03  AGDO_Mean: 1.71e+03  AGDO_STD: 9.25e+00  AGDO_AvgTime: 1.55秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.70e+03  PIMO_Mean: 1.71e+03  PIMO_STD: 9.02e+00  PIMO_AvgTime: 1.57秒
+以下为AOO的数据展示：
+AOO_Best: 1.72e+03  AOO_Mean: 1.77e+03  AOO_STD: 4.30e+01  AOO_AvgTime: 0.20秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.70e+03  AOO_Mean_v2: 1.71e+03  AOO_STD_v2: 8.86e+00  AOO_AvgTime_v2: 1.10秒
+
+以下为F18函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 2.05e+03  PSO_Mean: 1.56e+04  PSO_STD: 1.41e+04  PSO_AvgTime: 0.05秒
+以下为GWO的数据展示：
+GWO_Best: 3.44e+03  GWO_Mean: 2.79e+04  GWO_STD: 1.29e+04  GWO_AvgTime: 0.08秒
+以下为SCA的数据展示：
+SCA_Best: 2.57e+04  SCA_Mean: 2.06e+05  SCA_STD: 1.85e+05  SCA_AvgTime: 0.07秒
+以下为AOA的数据展示：
+AOA_Best: 2.73e+03  AOA_Mean: 1.94e+04  AOA_STD: 1.04e+04  AOA_AvgTime: 0.06秒
+以下为SFOA的数据展示：
+SFOA_Best: 6.15e+04  SFOA_Mean: 1.31e+08  SFOA_STD: 2.74e+08  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.02e+03  BAEO_Mean: 1.20e+04  BAEO_STD: 9.49e+03  BAEO_AvgTime: 0.21秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.87e+03  AGDO_Mean: 6.00e+03  AGDO_STD: 5.79e+03  AGDO_AvgTime: 1.47秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.80e+03  PIMO_Mean: 1.81e+03  PIMO_STD: 7.35e+00  PIMO_AvgTime: 1.06秒
+以下为AOO的数据展示：
+AOO_Best: 2.06e+03  AOO_Mean: 1.92e+04  AOO_STD: 1.33e+04  AOO_AvgTime: 0.16秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.81e+03  AOO_Mean_v2: 4.68e+03  AOO_STD_v2: 2.49e+03  AOO_AvgTime_v2: 0.92秒
+
+以下为F19函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_11
+以下为PSO的数据展示：
+PSO_Best: 1.91e+03  PSO_Mean: 2.89e+03  PSO_STD: 1.42e+03  PSO_AvgTime: 0.22秒
+以下为GWO的数据展示：
+GWO_Best: 1.91e+03  GWO_Mean: 6.60e+03  GWO_STD: 5.94e+03  GWO_AvgTime: 0.24秒
+以下为SCA的数据展示：
+SCA_Best: 2.13e+03  SCA_Mean: 6.61e+03  SCA_STD: 5.15e+03  SCA_AvgTime: 0.23秒
+以下为AOA的数据展示：
+AOA_Best: 7.04e+03  AOA_Mean: 4.93e+04  AOA_STD: 3.10e+04  AOA_AvgTime: 0.22秒
+以下为SFOA的数据展示：
+SFOA_Best: 5.59e+03  SFOA_Mean: 1.27e+06  SFOA_STD: 2.62e+06  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 1.96e+03  BAEO_Mean: 5.25e+03  BAEO_STD: 3.35e+03  BAEO_AvgTime: 0.85秒
+以下为AGDO的数据展示：
+AGDO_Best: 1.90e+03  AGDO_Mean: 1.91e+03  AGDO_STD: 2.40e+00  AGDO_AvgTime: 2.37秒
+以下为PIMO的数据展示：
+PIMO_Best: 1.90e+03  PIMO_Mean: 1.90e+03  PIMO_STD: 6.09e-01  PIMO_AvgTime: 4.80秒
+以下为AOO的数据展示：
+AOO_Best: 1.93e+03  AOO_Mean: 2.41e+03  AOO_STD: 7.49e+02  AOO_AvgTime: 0.48秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 1.90e+03  AOO_Mean_v2: 1.92e+03  AOO_STD_v2: 4.00e+01  AOO_AvgTime_v2: 2.16秒
+
+以下为F20函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_12
+以下为PSO的数据展示：
+PSO_Best: 2.00e+03  PSO_Mean: 2.07e+03  PSO_STD: 5.89e+01  PSO_AvgTime: 0.08秒
+以下为GWO的数据展示：
+GWO_Best: 2.03e+03  GWO_Mean: 2.10e+03  GWO_STD: 6.25e+01  GWO_AvgTime: 0.10秒
+以下为SCA的数据展示：
+SCA_Best: 2.07e+03  SCA_Mean: 2.11e+03  SCA_STD: 3.12e+01  SCA_AvgTime: 0.09秒
+以下为AOA的数据展示：
+AOA_Best: 2.10e+03  AOA_Mean: 2.16e+03  AOA_STD: 5.42e+01  AOA_AvgTime: 0.08秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.13e+03  SFOA_Mean: 2.39e+03  SFOA_STD: 1.33e+02  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.05e+03  BAEO_Mean: 2.20e+03  BAEO_STD: 9.62e+01  BAEO_AvgTime: 0.28秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.00e+03  AGDO_Mean: 2.00e+03  AGDO_STD: 3.61e+00  AGDO_AvgTime: 1.51秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.00e+03  PIMO_Mean: 2.02e+03  PIMO_STD: 9.19e+00  PIMO_AvgTime: 1.54秒
+以下为AOO的数据展示：
+AOO_Best: 2.04e+03  AOO_Mean: 2.10e+03  AOO_STD: 6.37e+01  AOO_AvgTime: 0.20秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.00e+03  AOO_Mean_v2: 2.00e+03  AOO_STD_v2: 3.73e+00  AOO_AvgTime_v2: 1.09秒
+
+以下为F21函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_12
+以下为PSO的数据展示：
+PSO_Best: 2.20e+03  PSO_Mean: 2.29e+03  PSO_STD: 5.68e+01  PSO_AvgTime: 0.08秒
+以下为GWO的数据展示：
+GWO_Best: 2.31e+03  GWO_Mean: 2.32e+03  GWO_STD: 8.81e+00  GWO_AvgTime: 0.11秒
+以下为SCA的数据展示：
+SCA_Best: 2.21e+03  SCA_Mean: 2.26e+03  SCA_STD: 6.69e+01  SCA_AvgTime: 0.10秒
+以下为AOA的数据展示：
+AOA_Best: 2.26e+03  AOA_Mean: 2.34e+03  AOA_STD: 2.88e+01  AOA_AvgTime: 0.09秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.27e+03  SFOA_Mean: 2.40e+03  SFOA_STD: 5.53e+01  SFOA_AvgTime: 0.00秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.20e+03  BAEO_Mean: 2.33e+03  BAEO_STD: 3.76e+01  BAEO_AvgTime: 0.31秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.20e+03  AGDO_Mean: 2.29e+03  AGDO_STD: 3.80e+01  AGDO_AvgTime: 1.54秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.20e+03  PIMO_Mean: 2.21e+03  PIMO_STD: 3.30e+01  PIMO_AvgTime: 1.70秒
+以下为AOO的数据展示：
+AOO_Best: 2.20e+03  AOO_Mean: 2.28e+03  AOO_STD: 6.26e+01  AOO_AvgTime: 0.21秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.20e+03  AOO_Mean_v2: 2.20e+03  AOO_STD_v2: 1.98e+01  AOO_AvgTime_v2: 1.15秒
+
+以下为F22函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_12
+以下为PSO的数据展示：
+PSO_Best: 2.30e+03  PSO_Mean: 2.34e+03  PSO_STD: 1.47e+02  PSO_AvgTime: 0.10秒
+以下为GWO的数据展示：
+GWO_Best: 2.30e+03  GWO_Mean: 2.32e+03  GWO_STD: 6.74e+01  GWO_AvgTime: 0.13秒
+以下为SCA的数据展示：
+SCA_Best: 2.29e+03  SCA_Mean: 2.37e+03  SCA_STD: 4.15e+01  SCA_AvgTime: 0.12秒
+以下为AOA的数据展示：
+AOA_Best: 2.50e+03  AOA_Mean: 3.08e+03  AOA_STD: 3.38e+02  AOA_AvgTime: 0.11秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.42e+03  SFOA_Mean: 3.33e+03  SFOA_STD: 6.93e+02  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.30e+03  BAEO_Mean: 2.43e+03  BAEO_STD: 4.02e+02  BAEO_AvgTime: 0.38秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.30e+03  AGDO_Mean: 2.30e+03  AGDO_STD: 2.75e-01  AGDO_AvgTime: 1.69秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.22e+03  PIMO_Mean: 2.29e+03  PIMO_STD: 2.75e+01  PIMO_AvgTime: 2.17秒
+以下为AOO的数据展示：
+AOO_Best: 2.30e+03  AOO_Mean: 2.30e+03  AOO_STD: 1.04e+00  AOO_AvgTime: 0.26秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.22e+03  AOO_Mean_v2: 2.28e+03  AOO_STD_v2: 3.35e+01  AOO_AvgTime_v2: 1.36秒
+
+以下为F23函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_12
+以下为PSO的数据展示：
+PSO_Best: 2.61e+03  PSO_Mean: 2.64e+03  PSO_STD: 1.90e+01  PSO_AvgTime: 0.11秒
+以下为GWO的数据展示：
+GWO_Best: 2.60e+03  GWO_Mean: 2.62e+03  GWO_STD: 1.04e+01  GWO_AvgTime: 0.14秒
+以下为SCA的数据展示：
+SCA_Best: 2.65e+03  SCA_Mean: 2.66e+03  SCA_STD: 7.56e+00  SCA_AvgTime: 0.12秒
+以下为AOA的数据展示：
+AOA_Best: 2.67e+03  AOA_Mean: 2.72e+03  AOA_STD: 3.81e+01  AOA_AvgTime: 0.12秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.66e+03  SFOA_Mean: 2.71e+03  SFOA_STD: 3.33e+01  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.62e+03  BAEO_Mean: 2.66e+03  BAEO_STD: 3.21e+01  BAEO_AvgTime: 0.34秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.60e+03  AGDO_Mean: 2.61e+03  AGDO_STD: 3.06e+00  AGDO_AvgTime: 1.75秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.61e+03  PIMO_Mean: 2.62e+03  PIMO_STD: 7.32e+00  PIMO_AvgTime: 2.32秒
+以下为AOO的数据展示：
+AOO_Best: 2.61e+03  AOO_Mean: 2.63e+03  AOO_STD: 1.20e+01  AOO_AvgTime: 0.27秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.61e+03  AOO_Mean_v2: 2.61e+03  AOO_STD_v2: 3.78e+00  AOO_AvgTime_v2: 1.37秒
+
+以下为F24函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_12
+以下为PSO的数据展示：
+PSO_Best: 2.60e+03  PSO_Mean: 2.76e+03  PSO_STD: 3.30e+01  PSO_AvgTime: 0.12秒
+以下为GWO的数据展示：
+GWO_Best: 2.73e+03  GWO_Mean: 2.75e+03  GWO_STD: 1.48e+01  GWO_AvgTime: 0.14秒
+以下为SCA的数据展示：
+SCA_Best: 2.55e+03  SCA_Mean: 2.77e+03  SCA_STD: 6.02e+01  SCA_AvgTime: 0.13秒
+以下为AOA的数据展示：
+AOA_Best: 2.63e+03  AOA_Mean: 2.84e+03  AOA_STD: 6.74e+01  AOA_AvgTime: 0.13秒
+以下为SFOA的数据展示：
+SFOA_Best: 2.79e+03  SFOA_Mean: 2.84e+03  SFOA_STD: 3.16e+01  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.50e+03  BAEO_Mean: 2.78e+03  BAEO_STD: 7.07e+01  BAEO_AvgTime: 0.41秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.73e+03  AGDO_Mean: 2.74e+03  AGDO_STD: 4.39e+00  AGDO_AvgTime: 1.77秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.50e+03  PIMO_Mean: 2.55e+03  PIMO_STD: 8.87e+01  PIMO_AvgTime: 2.47秒
+以下为AOO的数据展示：
+AOO_Best: 2.50e+03  AOO_Mean: 2.71e+03  AOO_STD: 9.65e+01  AOO_AvgTime: 0.28秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.50e+03  AOO_Mean_v2: 2.52e+03  AOO_STD_v2: 4.13e+01  AOO_AvgTime_v2: 1.41秒
+
+以下为F25函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_12
+以下为PSO的数据展示：
+PSO_Best: 2.90e+03  PSO_Mean: 2.94e+03  PSO_STD: 2.11e+01  PSO_AvgTime: 0.09秒
+以下为GWO的数据展示：
+GWO_Best: 2.90e+03  GWO_Mean: 2.93e+03  GWO_STD: 1.70e+01  GWO_AvgTime: 0.12秒
+以下为SCA的数据展示：
+SCA_Best: 2.93e+03  SCA_Mean: 2.96e+03  SCA_STD: 1.26e+01  SCA_AvgTime: 0.11秒
+以下为AOA的数据展示：
+AOA_Best: 3.08e+03  AOA_Mean: 3.27e+03  AOA_STD: 1.66e+02  AOA_AvgTime: 0.10秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.05e+03  SFOA_Mean: 3.79e+03  SFOA_STD: 6.81e+02  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.90e+03  BAEO_Mean: 2.93e+03  BAEO_STD: 2.41e+01  BAEO_AvgTime: 0.36秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.90e+03  AGDO_Mean: 2.93e+03  AGDO_STD: 2.11e+01  AGDO_AvgTime: 1.64秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.50e+03  PIMO_Mean: 2.74e+03  PIMO_STD: 1.42e+02  PIMO_AvgTime: 1.95秒
+以下为AOO的数据展示：
+AOO_Best: 2.90e+03  AOO_Mean: 2.92e+03  AOO_STD: 2.36e+01  AOO_AvgTime: 0.23秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.60e+03  AOO_Mean_v2: 2.87e+03  AOO_STD_v2: 9.36e+01  AOO_AvgTime_v2: 1.23秒
+
+以下为F26函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_12
+以下为PSO的数据展示：
+PSO_Best: 2.60e+03  PSO_Mean: 3.04e+03  PSO_STD: 3.52e+02  PSO_AvgTime: 0.13秒
+以下为GWO的数据展示：
+GWO_Best: 2.82e+03  GWO_Mean: 3.07e+03  GWO_STD: 3.20e+02  GWO_AvgTime: 0.15秒
+以下为SCA的数据展示：
+SCA_Best: 3.04e+03  SCA_Mean: 3.09e+03  SCA_STD: 3.11e+01  SCA_AvgTime: 0.14秒
+以下为AOA的数据展示：
+AOA_Best: 3.34e+03  AOA_Mean: 3.94e+03  AOA_STD: 3.48e+02  AOA_AvgTime: 0.14秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.58e+03  SFOA_Mean: 4.42e+03  SFOA_STD: 5.48e+02  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 2.80e+03  BAEO_Mean: 3.18e+03  BAEO_STD: 4.03e+02  BAEO_AvgTime: 0.47秒
+以下为AGDO的数据展示：
+AGDO_Best: 2.80e+03  AGDO_Mean: 2.90e+03  AGDO_STD: 3.90e+01  AGDO_AvgTime: 1.84秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.60e+03  PIMO_Mean: 2.81e+03  PIMO_STD: 6.73e+01  PIMO_AvgTime: 2.68秒
+以下为AOO的数据展示：
+AOO_Best: 2.60e+03  AOO_Mean: 2.87e+03  AOO_STD: 8.32e+01  AOO_AvgTime: 0.30秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.60e+03  AOO_Mean_v2: 2.83e+03  AOO_STD_v2: 1.13e+02  AOO_AvgTime_v2: 1.48秒
+
+以下为F27函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_12
+以下为PSO的数据展示：
+PSO_Best: 3.10e+03  PSO_Mean: 3.11e+03  PSO_STD: 1.83e+01  PSO_AvgTime: 0.13秒
+以下为GWO的数据展示：
+GWO_Best: 3.09e+03  GWO_Mean: 3.10e+03  GWO_STD: 1.91e+01  GWO_AvgTime: 0.15秒
+以下为SCA的数据展示：
+SCA_Best: 3.10e+03  SCA_Mean: 3.10e+03  SCA_STD: 2.89e+00  SCA_AvgTime: 0.15秒
+以下为AOA的数据展示：
+AOA_Best: 3.15e+03  AOA_Mean: 3.26e+03  AOA_STD: 7.68e+01  AOA_AvgTime: 0.14秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.11e+03  SFOA_Mean: 3.14e+03  SFOA_STD: 1.80e+01  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 3.09e+03  BAEO_Mean: 3.15e+03  BAEO_STD: 4.30e+01  BAEO_AvgTime: 0.32秒
+以下为AGDO的数据展示：
+AGDO_Best: 3.09e+03  AGDO_Mean: 3.09e+03  AGDO_STD: 7.54e-01  AGDO_AvgTime: 1.84秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.09e+03  PIMO_Mean: 3.09e+03  PIMO_STD: 2.18e+00  PIMO_AvgTime: 2.74秒
+以下为AOO的数据展示：
+AOO_Best: 3.09e+03  AOO_Mean: 3.11e+03  AOO_STD: 2.47e+01  AOO_AvgTime: 0.30秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.09e+03  AOO_Mean_v2: 3.09e+03  AOO_STD_v2: 3.06e+00  AOO_AvgTime_v2: 1.51秒
+
+以下为F28函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_12
+以下为PSO的数据展示：
+PSO_Best: 2.80e+03  PSO_Mean: 3.33e+03  PSO_STD: 1.48e+02  PSO_AvgTime: 0.11秒
+以下为GWO的数据展示：
+GWO_Best: 3.17e+03  GWO_Mean: 3.35e+03  GWO_STD: 8.60e+01  GWO_AvgTime: 0.14秒
+以下为SCA的数据展示：
+SCA_Best: 3.22e+03  SCA_Mean: 3.31e+03  SCA_STD: 8.19e+01  SCA_AvgTime: 0.13秒
+以下为AOA的数据展示：
+AOA_Best: 3.47e+03  AOA_Mean: 3.74e+03  AOA_STD: 1.13e+02  AOA_AvgTime: 0.12秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.30e+03  SFOA_Mean: 3.68e+03  SFOA_STD: 1.41e+02  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 3.10e+03  BAEO_Mean: 3.36e+03  BAEO_STD: 1.39e+02  BAEO_AvgTime: 0.23秒
+以下为AGDO的数据展示：
+AGDO_Best: 3.10e+03  AGDO_Mean: 3.35e+03  AGDO_STD: 1.21e+02  AGDO_AvgTime: 1.82秒
+以下为PIMO的数据展示：
+PIMO_Best: 2.80e+03  PIMO_Mean: 3.10e+03  PIMO_STD: 9.83e+01  PIMO_AvgTime: 2.44秒
+以下为AOO的数据展示：
+AOO_Best: 3.10e+03  AOO_Mean: 3.30e+03  AOO_STD: 1.30e+02  AOO_AvgTime: 0.28秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 2.80e+03  AOO_Mean_v2: 3.06e+03  AOO_STD_v2: 1.09e+02  AOO_AvgTime_v2: 1.41秒
+
+以下为F29函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_12
+以下为PSO的数据展示：
+PSO_Best: 3.15e+03  PSO_Mean: 3.21e+03  PSO_STD: 5.41e+01  PSO_AvgTime: 0.10秒
+以下为GWO的数据展示：
+GWO_Best: 3.14e+03  GWO_Mean: 3.20e+03  GWO_STD: 4.68e+01  GWO_AvgTime: 0.14秒
+以下为SCA的数据展示：
+SCA_Best: 3.18e+03  SCA_Mean: 3.25e+03  SCA_STD: 3.65e+01  SCA_AvgTime: 0.12秒
+以下为AOA的数据展示：
+AOA_Best: 3.19e+03  AOA_Mean: 3.40e+03  AOA_STD: 1.29e+02  AOA_AvgTime: 0.11秒
+以下为SFOA的数据展示：
+SFOA_Best: 3.30e+03  SFOA_Mean: 3.58e+03  SFOA_STD: 1.62e+02  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 3.13e+03  BAEO_Mean: 3.27e+03  BAEO_STD: 1.07e+02  BAEO_AvgTime: 0.40秒
+以下为AGDO的数据展示：
+AGDO_Best: 3.13e+03  AGDO_Mean: 3.15e+03  AGDO_STD: 1.08e+01  AGDO_AvgTime: 1.74秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.08e+03  PIMO_Mean: 3.17e+03  PIMO_STD: 3.27e+01  PIMO_AvgTime: 2.17秒
+以下为AOO的数据展示：
+AOO_Best: 3.16e+03  AOO_Mean: 3.23e+03  AOO_STD: 4.99e+01  AOO_AvgTime: 0.25秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.13e+03  AOO_Mean_v2: 3.16e+03  AOO_STD_v2: 1.33e+01  AOO_AvgTime_v2: 1.31秒
+
+以下为F30函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\CEC2017\20250810_12
+以下为PSO的数据展示：
+PSO_Best: 4.72e+03  PSO_Mean: 3.88e+05  PSO_STD: 5.85e+05  PSO_AvgTime: 0.25秒
+以下为GWO的数据展示：
+GWO_Best: 6.77e+03  GWO_Mean: 7.02e+05  GWO_STD: 8.66e+05  GWO_AvgTime: 0.29秒
+以下为SCA的数据展示：
+SCA_Best: 1.19e+05  SCA_Mean: 1.30e+06  SCA_STD: 7.85e+05  SCA_AvgTime: 0.26秒
+以下为AOA的数据展示：
+AOA_Best: 3.09e+05  AOA_Mean: 2.70e+07  AOA_STD: 2.88e+07  AOA_AvgTime: 0.27秒
+以下为SFOA的数据展示：
+SFOA_Best: 8.86e+05  SFOA_Mean: 7.50e+06  SFOA_STD: 8.60e+06  SFOA_AvgTime: 0.01秒
+以下为BAEO的数据展示：
+BAEO_Best: 9.28e+03  BAEO_Mean: 7.80e+05  BAEO_STD: 1.10e+06  BAEO_AvgTime: 0.76秒
+以下为AGDO的数据展示：
+AGDO_Best: 3.85e+03  AGDO_Mean: 3.39e+04  AGDO_STD: 1.49e+05  AGDO_AvgTime: 2.59秒
+以下为PIMO的数据展示：
+PIMO_Best: 3.42e+03  PIMO_Mean: 4.54e+03  PIMO_STD: 3.53e+03  PIMO_AvgTime: 5.44秒
+以下为AOO的数据展示：
+AOO_Best: 7.87e+03  AOO_Mean: 4.75e+05  AOO_STD: 7.89e+05  AOO_AvgTime: 0.54秒
+以下为AOO_v2的数据展示：
+AOO_Best_v2: 3.69e+03  AOO_Mean_v2: 8.69e+03  AOO_STD_v2: 6.30e+03  AOO_AvgTime_v2: 2.39秒
+
+[12:41:53] [INFO] ===== 日志记录已停止 =====

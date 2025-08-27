@@ -1,0 +1,52 @@
+[22:35:49] [INFO] Diary started: logsЕ-08-27_log.txt
+[22:35:49] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+以下为BAEO的数据展示：
+BAEO_Best: 6.06e+04  BAEO_Mean: 7.48e+07  BAEO_STD: 2.87e+08  
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('TOC', 'E:\matlabProjects\demo\main\OptAlgo\models\TOC.m', 194)" style="font-weight:bold">TOC</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\TOC.m',194,0)">第 194 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('main', 'E:\matlabProjects\demo\main\OptAlgo\run\main.m', 133)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run\main.m',133,0)">第 133 行</a>)
+       [TOC_best_pos,TOC_best_score, TOC_cg_curve ] = TOC(PD_no,Max_iter,LB,UB,Dim,F_obj,Ntt,Nt); % Call SCSO
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec20_main
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-27 22:36:04 ---
+
+[22:36:04] [INFO] Diary started: logsЕ-08-27_log.txt
+[22:36:04] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\cec2017
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('TOC', 'E:\matlabProjects\demo\main\OptAlgo\models\TOC.m', 280)" style="font-weight:bold">TOC</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\TOC.m',280,0)">第 280 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec20_main', 'E:\matlabProjects\demo\main\OptAlgo\run\run_cec20_main.m', 132)" style="font-weight:bold">run_cec20_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run\run_cec20_main.m',132,0)">第 132 行</a>)
+        [BAEO_best_score, BAEO_best_pos, BAEO_cg_curve ] = TOC(PD_no,Max_iter,LB,UB,Dim,F_obj,Ntt,Nt); % Call BAEO
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec17_main
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-27 22:36:16 ---
+
+[22:36:16] [INFO] Diary started: logsЕ-08-27_log.txt
+[22:36:16] [INFO] ===== 日志记录已启动 =====
+以下为F1函数的数据展示效果：
+图像已保存至: E:\matlabProjects\demo\main\OptAlgo\result\cec2017\20250827_22
+{操作在以下过程中被用户终止 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('CEC2017>F1', 'E:\matlabProjects\demo\main\OptAlgo\CEC2017.m', 220)" style="font-weight:bold">CEC2017>F1</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\CEC2017.m',220,0)">第 220 行</a>)
+
+
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('TOC', 'E:\matlabProjects\demo\main\OptAlgo\models\TOC.m', 280)" style="font-weight:bold">TOC</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\models\TOC.m',280,0)">第 280 行</a>)
+            WindstormsCost((j+sum(nWT(1:i))))=fobj(Windstormsposition((j+sum(nWT(1:i))),:));
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+位置 <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('run_cec17_main', 'E:\matlabProjects\demo\main\OptAlgo\run\run_cec17_main.m', 136)" style="font-weight:bold">run_cec17_main</a> (<a href="matlab: opentoline('E:\matlabProjects\demo\main\OptAlgo\run\run_cec17_main.m',136,0)">第 136 行</a>)
+        [BAEO_best_score, BAEO_best_pos, BAEO_cg_curve ] = TOC(PD_no,Max_iter,LB,UB,Dim,F_obj,Ntt,Nt); % Call BAEO
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+} 
+run_cec05_main
+项目路径已加载完成: E:\matlabProjects\demo\main\OptAlgo
+
+--- New Session Started: 2025-08-27 22:36:28 ---
+
